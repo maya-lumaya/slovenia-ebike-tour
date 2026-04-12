@@ -6,19 +6,19 @@ document.addEventListener('DOMContentLoaded', function () {
     maxZoom: 17
   }).addTo(map);
 
-  // Route waypoints (same for all variants)
+  // Route waypoints
   var route = [
-    { name: 'Bled',          lat: 46.3683, lng: 14.1146 },
-    { name: 'Kranjska Gora',  lat: 46.4844, lng: 13.7856 },
-    { name: 'Vršič-Pass',    lat: 46.4333, lng: 13.7436 },
-    { name: 'Bovec',          lat: 46.3381, lng: 13.5519 },
-    { name: 'Kobarid',        lat: 46.2481, lng: 13.5794 },
-    { name: 'Tolmin',         lat: 46.1831, lng: 13.7331 },
-    { name: 'Nova Gorica',    lat: 45.9558, lng: 13.6422 },
-    { name: 'Ajdovščina',    lat: 45.8872, lng: 13.9094 },
-    { name: 'Predjama',       lat: 45.8153, lng: 14.1269 },
-    { name: 'Cerknica',       lat: 45.7953, lng: 14.3619 },
-    { name: 'Ljubljana',      lat: 46.0569, lng: 14.5058 }
+    { name: 'Bled',         lat: 46.3683, lng: 14.1146 },
+    { name: 'Kranjska Gora', lat: 46.4844, lng: 13.7856 },
+    { name: 'Vršič-Pass',   lat: 46.4333, lng: 13.7436 },
+    { name: 'Bovec',         lat: 46.3381, lng: 13.5519 },
+    { name: 'Kobarid',       lat: 46.2481, lng: 13.5794 },
+    { name: 'Tolmin',        lat: 46.1831, lng: 13.7331 },
+    { name: 'Nova Gorica',   lat: 45.9558, lng: 13.6422 },
+    { name: 'Ajdovscina',    lat: 45.8872, lng: 13.9094 },
+    { name: 'Predjama',      lat: 45.8153, lng: 14.1269 },
+    { name: 'Cerknica',      lat: 45.7953, lng: 14.3619 },
+    { name: 'Ljubljana',     lat: 46.0569, lng: 14.5058 }
   ];
 
   var colors = {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     'Tag 5': '#0d7a5f'
   };
 
-  // Route lines (same for all variants)
+  // Route segments per day
   var segments = [
     { pts: [route[0], route[1], route[2], route[3]], color: colors['Tag 1'] },
     { pts: [route[3], route[4], route[5]],           color: colors['Tag 2'] },
@@ -43,32 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     L.polyline(latlngs, { color: seg.color, weight: 4, opacity: 0.8 }).addTo(map);
   });
 
-  // Overnight stops per variant
-  var overnights = {
-    hotel: [
-      { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
-      { name: 'Hotel Alp, Bovec', lat: 46.3381, lng: 13.5519, label: 'Nacht 1: Hotel', color: colors['Tag 1'] },
-      { name: 'Penzion Kobala, Tolmin', lat: 46.1831, lng: 13.7331, label: 'Nacht 2: Pension', color: colors['Tag 2'] },
-      { name: 'Borea Rooms, Ajdovščina', lat: 45.8872, lng: 13.9094, label: 'Nacht 3: Gästehaus', color: colors['Tag 3'] },
-      { name: 'Miškar Rooms, Cerknica', lat: 45.7953, lng: 14.3619, label: 'Nacht 4: B&B', color: colors['Tag 4'] }
-    ],
-    camping: [
-      { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
-      { name: 'Kamp Soča', lat: 46.3290, lng: 13.5700, label: 'Nacht 1: Campingplatz', color: colors['Tag 1'] },
-      { name: 'Eco Kamp Koren, Kobarid', lat: 46.2510, lng: 13.5780, label: 'Nacht 2: 4-Sterne Camp', color: colors['Tag 2'] },
-      { name: 'Avtokamp Ajdovščina', lat: 45.8872, lng: 13.9094, label: 'Nacht 3: Campingplatz', color: colors['Tag 3'] },
-      { name: 'Speleo Camp Laze', lat: 45.8100, lng: 14.2300, label: 'Nacht 4: Campingplatz', color: colors['Tag 4'] }
-    ],
-    offgrid: [
-      { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
-      { name: 'Adrenaline-Check Eco Place', lat: 46.3743, lng: 13.5560, label: 'Nacht 1: Eco Glamping (Dorf Soča)', color: colors['Tag 1'] },
-      { name: 'Kamp Koren Eco Chalets', lat: 46.2510, lng: 13.5780, label: 'Nacht 2: Eco Chalets (Kobarid)', color: colors['Tag 2'] },
-      { name: 'Glamping Zarja', lat: 45.8820, lng: 14.0340, label: 'Nacht 3: Glamping Haus (Col)', color: colors['Tag 3'] },
-      { name: 'Bauernhof Žnidarjevi', lat: 45.8000, lng: 14.3200, label: 'Nacht 4: Bauernhof (Kožljek)', color: colors['Tag 4'] }
-    ]
-  };
-
-  // Small route-point markers (always visible)
+  // Small route-point markers
   route.forEach(function (r) {
     var icon = L.divIcon({
       className: 'custom-marker',
@@ -81,30 +56,49 @@ document.addEventListener('DOMContentLoaded', function () {
       .addTo(map);
   });
 
-  // Overnight markers layer
-  var overnightLayer = L.layerGroup().addTo(map);
+  // Overnight stops -- researched addresses
+  var overnights = [
+    {
+      name: 'Bled',
+      lat: 46.3683, lng: 14.1146,
+      label: 'Start / Ziel',
+      color: '#0d7a5f'
+    },
+    {
+      name: 'Kmetija Jelincic',
+      lat: 46.3745, lng: 13.5523,
+      label: 'Nacht 1 -- Dorf Soca<br>174 EUR gesamt, 4 Lagerfeuerstellen',
+      color: colors['Tag 1']
+    },
+    {
+      name: 'Katric House',
+      lat: 46.2100, lng: 13.6550,
+      label: 'Nacht 2 -- Kamno (Kobarid-Tolmin)<br>224 EUR gesamt, Steingrillplatz',
+      color: colors['Tag 2']
+    },
+    {
+      name: 'Arkade Cigoj / Kmetija Tomazic',
+      lat: 45.8910, lng: 13.8800,
+      label: 'Nacht 3 -- Vipava-Tal<br>~170-190 EUR gesamt, Weingut-Terrasse',
+      color: colors['Tag 3']
+    },
+    {
+      name: 'Bauernhof Znidarjevi',
+      lat: 45.8000, lng: 14.3200,
+      label: 'Nacht 4 -- Kozljek (Karst)<br>~140-180 EUR gesamt, Kaminplatz + Seeblick',
+      color: colors['Tag 4']
+    }
+  ];
 
-  function showOvernights(variant) {
-    overnightLayer.clearLayers();
-    var stops = overnights[variant] || overnights.hotel;
-
-    stops.forEach(function (s) {
-      var icon = L.divIcon({
-        className: 'custom-marker',
-        html: '<div style="background:' + s.color + ';width:18px;height:18px;border-radius:50%;border:3px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.35)"></div>',
-        iconSize: [18, 18],
-        iconAnchor: [9, 9]
-      });
-
-      L.marker([s.lat, s.lng], { icon: icon })
-        .bindPopup('<strong>' + s.name + '</strong><br>' + s.label)
-        .addTo(overnightLayer);
+  overnights.forEach(function (s) {
+    var icon = L.divIcon({
+      className: 'custom-marker',
+      html: '<div style="background:' + s.color + ';width:18px;height:18px;border-radius:50%;border:3px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.35)"></div>',
+      iconSize: [18, 18],
+      iconAnchor: [9, 9]
     });
-  }
-
-  // Initial display
-  showOvernights('hotel');
-
-  // Expose for tab switcher
-  window.updateMapVariant = showOvernights;
+    L.marker([s.lat, s.lng], { icon: icon })
+      .bindPopup('<strong>' + s.name + '</strong><br>' + s.label)
+      .addTo(map);
+  });
 });
