@@ -49,22 +49,22 @@ document.addEventListener('DOMContentLoaded', function () {
       { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
       { name: 'Hotel Alp, Bovec', lat: 46.3381, lng: 13.5519, label: 'Nacht 1: Hotel', color: colors['Tag 1'] },
       { name: 'Penzion Kobala, Tolmin', lat: 46.1831, lng: 13.7331, label: 'Nacht 2: Pension', color: colors['Tag 2'] },
-      { name: 'Hotel Grof, Ajdovščina', lat: 45.8872, lng: 13.9094, label: 'Nacht 3: Cycling Hotel', color: colors['Tag 3'] },
+      { name: 'Borea Rooms, Ajdovščina', lat: 45.8872, lng: 13.9094, label: 'Nacht 3: Gästehaus', color: colors['Tag 3'] },
       { name: 'Miškar Rooms, Cerknica', lat: 45.7953, lng: 14.3619, label: 'Nacht 4: B&B', color: colors['Tag 4'] }
     ],
     camping: [
       { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
       { name: 'Kamp Soča', lat: 46.3290, lng: 13.5700, label: 'Nacht 1: Campingplatz', color: colors['Tag 1'] },
-      { name: 'Eco Kamp Koren, Kobarid', lat: 46.2481, lng: 13.5794, label: 'Nacht 2: 4-Sterne Camp', color: colors['Tag 2'] },
+      { name: 'Eco Kamp Koren, Kobarid', lat: 46.2510, lng: 13.5780, label: 'Nacht 2: 4-Sterne Camp', color: colors['Tag 2'] },
       { name: 'Avtokamp Ajdovščina', lat: 45.8872, lng: 13.9094, label: 'Nacht 3: Campingplatz', color: colors['Tag 3'] },
       { name: 'Speleo Camp Laze', lat: 45.8100, lng: 14.2300, label: 'Nacht 4: Campingplatz', color: colors['Tag 4'] }
     ],
-    wild: [
+    offgrid: [
       { name: 'Bled',        lat: 46.3683, lng: 14.1146, label: 'Start / Ziel', color: '#0d7a5f' },
-      { name: 'Soča-Ufer bei Bovec', lat: 46.3200, lng: 13.5600, label: 'Nacht 1: Wild Spot', color: colors['Tag 1'] },
-      { name: 'Kiesbänke bei Tolmin', lat: 46.2000, lng: 13.7100, label: 'Nacht 2: Wild Spot', color: colors['Tag 2'] },
-      { name: 'Waldrand bei Ajdovščina', lat: 45.9000, lng: 13.9200, label: 'Nacht 3: Wild Spot', color: colors['Tag 3'] },
-      { name: 'Wald am Cerknitzer See', lat: 45.7800, lng: 14.3500, label: 'Nacht 4: Wild Spot', color: colors['Tag 4'] }
+      { name: 'Adrenaline-Check Eco Place', lat: 46.3743, lng: 13.5560, label: 'Nacht 1: Eco Glamping (Dorf Soča)', color: colors['Tag 1'] },
+      { name: 'Kamp Koren Eco Chalets', lat: 46.2510, lng: 13.5780, label: 'Nacht 2: Eco Chalets (Kobarid)', color: colors['Tag 2'] },
+      { name: 'Glamping Zarja', lat: 45.8820, lng: 14.0340, label: 'Nacht 3: Glamping Haus (Col)', color: colors['Tag 3'] },
+      { name: 'Bauernhof Žnidarjevi', lat: 45.8000, lng: 14.3200, label: 'Nacht 4: Bauernhof (Kožljek)', color: colors['Tag 4'] }
     ]
   };
 
