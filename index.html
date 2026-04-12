@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5-Tage E-Bike Rundtour — Westslowenien</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">5 Tage · ~385 km · ~6.700 Hm</p>
+      <h1>E-Bike Rundtour<br>Westslowenien</h1>
+      <p class="hero-sub">Bled → Vršič → Soča-Tal → Vipava → Cerknica → Ljubljana → Bled</p>
+      <a href="#etappen" class="cta">Route entdecken ↓</a>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div class="container">
+      <h2>Die kompakte Route</h2>
+      <p>~385 km und ~6.700 Höhenmeter, aufgeteilt auf 5 Tage. Mit E-Bikes sind die täglichen Distanzen von 65–90 km gut machbar, besonders da die Soča-Variante die zwei brutalsten Anstiege des Original-Loops umgeht.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num">385</span><span class="stat-label">Kilometer</span></div>
+        <div class="stat"><span class="stat-num">6.700</span><span class="stat-label">Höhenmeter</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Tage</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">E-Bikes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bled">
+    <div class="container">
+      <h2>Warum Start &amp; Ziel Bled?</h2>
+      <p>Bled hat reichlich Parkplätze, gute Infrastruktur, und ihr seid direkt an der Route. Von Berlin aus sind es ca. 8–9 h Fahrt über Österreich.</p>
+    </div>
+  </section>
+
+  <section id="etappen" class="etappen">
+    <div class="container">
+      <h2>Tagesübersicht</h2>
+
+      <div class="tag-card tag1">
+        <div class="tag-badge">Tag 1</div>
+        <h3>Bled → Vršič-Pass → Bovec</h3>
+        <div class="tag-meta">~80 km · ~1.600 Hm</div>
+        <p>Der königliche Auftakt. Radweg nach Kranjska Gora, dann der Vršič-Pass (1.611 m) — mit E-Bikes anspruchsvoll aber machbar. Belohnung: epische Abfahrt ins Soča-Tal.</p>
+        <div class="tag-highlight">Highlight: Vršič-Pass — höchste Passstraße Sloweniens</div>
+      </div>
+
+      <div class="tag-card tag2">
+        <div class="tag-badge">Tag 2</div>
+        <h3>Bovec → Kobarid → Tolmin</h3>
+        <div class="tag-meta">~45 km · ~500 Hm</div>
+        <p>Entspannter Tag entlang der smaragdgrünen Soča. WW1-Museum in Kobarid, Schwimmen im Fluss. Akkus schonen.</p>
+        <div class="tag-highlight">Highlight: Smaragdgrüne Soča — Schwimmen &amp; WW1-Museum Kobarid</div>
+      </div>
+
+      <div class="tag-card tag3">
+        <div class="tag-badge">Tag 3</div>
+        <h3>Tolmin → Nova Gorica → Ajdovščina</h3>
+        <div class="tag-meta">~75 km · ~800 Hm</div>
+        <p>Weinregion Goriška Brda, Nova Gorica an der italienischen Grenze, dann ins Vipava-Tal. Weinverkostung möglich.</p>
+        <div class="tag-highlight">Highlight: Weinregion Goriška Brda &amp; Vipava-Tal</div>
+      </div>
+
+      <div class="tag-card tag4">
+        <div class="tag-badge">Tag 4</div>
+        <h3>Ajdovščina → Cerknica</h3>
+        <div class="tag-meta">~75 km · ~1.400 Hm</div>
+        <p>Anstieg auf die Karst-Hochebene. Optional: Predjama Castle. Abend am Cerknitzer See (verschwindet manchmal komplett!).</p>
+        <div class="tag-highlight">Highlight: Predjama Castle &amp; der verschwindende See</div>
+      </div>
+
+      <div class="tag-card tag5">
+        <div class="tag-badge">Tag 5</div>
+        <h3>Cerknica → Ljubljana → Bled</h3>
+        <div class="tag-meta">~110 km · ~1.000 Hm</div>
+        <p>Längster Tag, aber viel Asphalt und Radwege. Kurzer Stopp in Ljubljana, dann zurück zum Auto.</p>
+        <div class="tag-highlight">Highlight: Ljubljana Altstadt &amp; Heimkehr nach Bled</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="karte">
+    <div class="container">
+      <h2>Routenverlauf</h2>
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <section class="laden">
+    <div class="container">
+      <h2>E-Bike Ladestrategie</h2>
+      <div class="laden-grid">
+        <div class="laden-item">
+          <div class="laden-icon">🔌</div>
+          <h3>Jede Nacht laden</h3>
+          <p>In Pensionen/Hotels übernachten und Akkus an der Steckdose laden. Slowenien nutzt EU-Standardstecker.</p>
+        </div>
+        <div class="laden-item">
+          <div class="laden-icon">🏪</div>
+          <h3>Unterwegs</h3>
+          <p>Im Soča-Tal ist die Ladeinfrastruktur dünn. Es gibt eine Ladestation am Spar-Parkplatz in Bovec.</p>
+        </div>
+        <div class="laden-item">
+          <div class="laden-icon">🎒</div>
+          <h3>Mitnehmen</h3>
+          <p>Ladegeräte für alle 5 Bikes, eine Mehrfachsteckdose, und idealerweise je einen Zweit-Akku für die Pass-Etappen (Tag 1 &amp; 4).</p>
+        </div>
+        <div class="laden-item">
+          <div class="laden-icon">🏠</div>
+          <h3>Unterkunft</h3>
+          <p>Die meisten Unterkünfte in Slowenien sind sehr fahrradfreundlich.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reisezeit">
+    <div class="container">
+      <h2>Beste Reisezeit</h2>
+      <p class="reisezeit-text">Ende Mai bis September. Spätes Frühjahr hat Wildblumen, der Sommer ist wärmer aber touristischer, und der Herbst bringt kühlere Temperaturen und goldene Landschaft.</p>
+      <div class="saisons">
+        <div class="saison"><strong>Mai–Juni</strong><br>Wildblumen, ruhig</div>
+        <div class="saison"><strong>Juli–Aug</strong><br>Warm, touristisch</div>
+        <div class="saison"><strong>Sept</strong><br>Goldener Herbst</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Erstellt mit ♥ für die Crew · Westslowenien 2026</p>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>

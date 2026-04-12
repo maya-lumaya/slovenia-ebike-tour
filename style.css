@@ -1,0 +1,342 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --emerald: #0d7a5f;
+  --emerald-light: #e8f5f0;
+  --slate: #1e293b;
+  --sand: #faf8f5;
+  --warm: #f5f0e8;
+  --accent: #d97706;
+  --radius: 12px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: var(--slate);
+  background: var(--sand);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0d4a3f 0%, #1a6b55 40%, #2d8a6e 100%);
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 80%, rgba(255,255,255,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30Z' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 40px 24px;
+}
+
+.hero-tag {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  max-width: 500px;
+  margin: 0 auto 32px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 14px 32px;
+  background: white;
+  color: var(--emerald);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* Sections */
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Intro */
+.intro {
+  background: white;
+  text-align: center;
+}
+
+.intro p {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #475569;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-num {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: var(--emerald);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+/* Bled */
+.bled {
+  background: var(--emerald-light);
+  text-align: center;
+}
+
+.bled p {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+/* Etappen */
+.etappen {
+  background: var(--sand);
+}
+
+.etappen h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tag-card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 32px;
+  margin-bottom: 24px;
+  border-left: 4px solid var(--emerald);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+.tag-card:hover {
+  transform: translateX(4px);
+}
+
+.tag-badge {
+  display: inline-block;
+  background: var(--emerald);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 12px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+}
+
+.tag-card h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.tag-meta {
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.tag-card p {
+  color: #475569;
+  margin-bottom: 12px;
+}
+
+.tag-highlight {
+  font-size: 0.85rem;
+  color: var(--emerald);
+  font-weight: 500;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.tag1 { border-left-color: #dc2626; }
+.tag2 { border-left-color: #0ea5e9; }
+.tag3 { border-left-color: #8b5cf6; }
+.tag4 { border-left-color: var(--accent); }
+.tag5 { border-left-color: var(--emerald); }
+
+/* Map */
+.karte {
+  background: white;
+}
+
+.karte h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#map {
+  height: 450px;
+  border-radius: var(--radius);
+  border: 1px solid #e2e8f0;
+}
+
+/* Laden */
+.laden {
+  background: var(--warm);
+}
+
+.laden h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.laden-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.laden-item {
+  background: white;
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.laden-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.laden-item h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.laden-item p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+/* Reisezeit */
+.reisezeit {
+  background: var(--sand);
+  text-align: center;
+}
+
+.reisezeit-text {
+  max-width: 600px;
+  margin: 0 auto 32px;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.saisons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.saison {
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  color: #475569;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.saison strong {
+  color: var(--emerald);
+  font-size: 1.05rem;
+}
+
+/* Footer */
+footer {
+  padding: 32px 0;
+  text-align: center;
+  background: var(--slate);
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .laden-grid { grid-template-columns: 1fr; }
+  .saisons { grid-template-columns: 1fr; }
+  section { padding: 56px 0; }
+  .tag-card { padding: 24px 20px; }
+}
