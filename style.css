@@ -608,15 +608,15 @@ section h2 {
 
 /* Sleep links in stage cards */
 .sleep-link {
-  color: inherit;
+  color: var(--emerald);
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.4);
+  text-decoration-color: rgba(13,122,95,0.3);
   text-underline-offset: 3px;
   font-weight: 600;
   transition: text-decoration-color 0.15s;
 }
 .sleep-link:hover {
-  text-decoration-color: rgba(255,255,255,0.9);
+  text-decoration-color: var(--emerald);
 }
 
 /* Footer */
