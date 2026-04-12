@@ -349,6 +349,87 @@ section h2 {
   font-size: 1.05rem;
 }
 
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 32px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #e2e8f0;
+  padding: 4px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  color: var(--slate);
+}
+
+.tab.active {
+  background: white;
+  color: var(--emerald);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Bikepacking Infobox */
+.bp-infobox {
+  margin-top: 32px;
+  background: var(--warm);
+  border-radius: var(--radius);
+  padding: 28px;
+  border: 1px solid #e2e8f0;
+}
+
+.bp-infobox h3 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.bp-rules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.bp-rule strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--slate);
+  margin-bottom: 4px;
+}
+
+.bp-rule p {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.4;
+}
+
 /* Unterkünfte */
 .unterkuenfte {
   background: white;
