@@ -227,7 +227,7 @@ section h2 {
 
 /* Variant content visibility */
 .vc.hidden {
-  display: none;
+  display: none !important;
 }
 
 /* Variant Banner */
