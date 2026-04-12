@@ -8,6 +8,8 @@
   --warm: #f5f0e8;
   --accent: #d97706;
   --radius: 12px;
+  --wild: #92400e;
+  --wild-light: #fef3c7;
 }
 
 html { scroll-behavior: smooth; }
@@ -83,6 +85,13 @@ body {
   margin: 0 auto 32px;
 }
 
+.hero-nav {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .cta {
   display: inline-block;
   padding: 14px 32px;
@@ -97,24 +106,6 @@ body {
 .cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-}
-
-.cta-outline {
-  background: transparent;
-  color: white;
-  border: 2px solid rgba(255,255,255,0.5);
-}
-
-.cta-outline:hover {
-  background: rgba(255,255,255,0.15);
-  border-color: white;
-}
-
-.hero-nav {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .section-intro {
@@ -189,6 +180,80 @@ section h2 {
   font-size: 1.05rem;
 }
 
+/* === GLOBAL TABS === */
+.global-tabs-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--slate);
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.global-tabs {
+  display: flex;
+  gap: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: rgba(255,255,255,0.1);
+  padding: 4px;
+}
+
+.gtab {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  background: transparent;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.6);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.gtab:hover {
+  color: white;
+  background: rgba(255,255,255,0.08);
+}
+
+.gtab.active {
+  background: white;
+  color: var(--emerald);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Variant content visibility */
+.vc.hidden {
+  display: none;
+}
+
+/* Variant Banner */
+.variant-banner {
+  padding: 24px 0;
+  background: var(--warm);
+}
+
+.variant-banner .vc {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1rem;
+  color: #475569;
+}
+
+.vb-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.legal-warn {
+  color: #dc2626;
+  font-weight: 600;
+}
+
 /* Etappen */
 .etappen {
   background: var(--sand);
@@ -253,6 +318,16 @@ section h2 {
   border-top: 1px solid #e2e8f0;
 }
 
+.tag-sleep {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--emerald-light);
+  color: #334155;
+  line-height: 1.5;
+}
+
 .tag1 { border-left-color: #dc2626; }
 .tag2 { border-left-color: #0ea5e9; }
 .tag3 { border-left-color: #8b5cf6; }
@@ -314,122 +389,6 @@ section h2 {
   color: #475569;
 }
 
-/* Reisezeit */
-.reisezeit {
-  background: var(--sand);
-  text-align: center;
-}
-
-.reisezeit-text {
-  max-width: 600px;
-  margin: 0 auto 32px;
-  color: #475569;
-  font-size: 1.05rem;
-}
-
-.saisons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.saison {
-  background: white;
-  padding: 20px;
-  border-radius: var(--radius);
-  font-size: 0.95rem;
-  color: #475569;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-}
-
-.saison strong {
-  color: var(--emerald);
-  font-size: 1.05rem;
-}
-
-/* Tabs */
-.tabs {
-  display: flex;
-  gap: 0;
-  margin-bottom: 32px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  background: #e2e8f0;
-  padding: 4px;
-  max-width: 420px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tab {
-  flex: 1;
-  padding: 12px 20px;
-  border: none;
-  background: transparent;
-  font-family: 'DM Sans', system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #64748b;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: all 0.2s;
-}
-
-.tab:hover {
-  color: var(--slate);
-}
-
-.tab.active {
-  background: white;
-  color: var(--emerald);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-/* Bikepacking Infobox */
-.bp-infobox {
-  margin-top: 32px;
-  background: var(--warm);
-  border-radius: var(--radius);
-  padding: 28px;
-  border: 1px solid #e2e8f0;
-}
-
-.bp-infobox h3 {
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-bottom: 16px;
-}
-
-.bp-rules {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-}
-
-.bp-rule strong {
-  display: block;
-  font-size: 0.9rem;
-  color: var(--slate);
-  margin-bottom: 4px;
-}
-
-.bp-rule p {
-  font-size: 0.85rem;
-  color: #475569;
-  line-height: 1.4;
-}
-
 /* Unterkünfte */
 .unterkuenfte {
   background: white;
@@ -475,6 +434,11 @@ section h2 {
   background: #fffbf5;
 }
 
+.uk-wild {
+  border-color: var(--wild);
+  background: var(--wild-light);
+}
+
 .uk-type {
   display: inline-block;
   font-size: 0.7rem;
@@ -493,6 +457,11 @@ section h2 {
   background: #fef3c7;
 }
 
+.uk-type-wild {
+  color: var(--wild);
+  background: #fed7aa;
+}
+
 .uk-card h4 {
   font-size: 1.05rem;
   margin-bottom: 4px;
@@ -509,6 +478,46 @@ section h2 {
   font-size: 0.9rem;
   color: #475569;
   line-height: 1.5;
+}
+
+/* Bikepacking Infobox */
+.bp-infobox {
+  margin-top: 32px;
+  background: var(--warm);
+  border-radius: var(--radius);
+  padding: 28px;
+  border: 1px solid #e2e8f0;
+}
+
+.bp-warn {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.bp-infobox h3 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.bp-rules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.bp-rule strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--slate);
+  margin-bottom: 4px;
+}
+
+.bp-rule p {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.4;
 }
 
 /* Packliste */
@@ -554,12 +563,47 @@ section h2 {
 }
 
 .pack-category li::before {
-  content: '✓';
+  content: '\2713';
   position: absolute;
   left: 0;
   color: var(--emerald);
   font-weight: 700;
   font-size: 0.8rem;
+}
+
+/* Reisezeit */
+.reisezeit {
+  background: var(--sand);
+  text-align: center;
+}
+
+.reisezeit-text {
+  max-width: 600px;
+  margin: 0 auto 32px;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.saisons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.saison {
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  color: #475569;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.saison strong {
+  color: var(--emerald);
+  font-size: 1.05rem;
 }
 
 /* Footer */
@@ -573,9 +617,12 @@ footer {
 
 /* Responsive */
 @media (max-width: 640px) {
-  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: repeat(3, 1fr); }
   .laden-grid { grid-template-columns: 1fr; }
   .saisons { grid-template-columns: 1fr; }
   section { padding: 56px 0; }
   .tag-card { padding: 24px 20px; }
+  .global-tabs { flex-direction: column; gap: 4px; }
+  .gtab { text-align: center; }
+  .variant-banner .vc { flex-direction: column; text-align: center; }
 }

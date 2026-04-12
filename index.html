@@ -10,6 +10,7 @@
 </head>
 <body>
 
+  <!-- Hero -->
   <header class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
@@ -17,13 +18,12 @@
       <h1>E-Bike Rundtour<br>Westslowenien</h1>
       <p class="hero-sub">Bled → Vršič → Soča-Tal → Vipava → Cerknica → Ljubljana → Bled</p>
       <div class="hero-nav">
-        <a href="#etappen" class="cta">Etappen</a>
-        <a href="#unterkuenfte" class="cta cta-outline">Unterkünfte</a>
-        <a href="#packliste" class="cta cta-outline">Packliste</a>
+        <a href="#variante" class="cta">Variante wählen ↓</a>
       </div>
     </div>
   </header>
 
+  <!-- Intro -->
   <section class="intro">
     <div class="container">
       <h2>Die kompakte Route</h2>
@@ -32,12 +32,13 @@
         <div class="stat"><span class="stat-num">385</span><span class="stat-label">Kilometer</span></div>
         <div class="stat"><span class="stat-num">6.700</span><span class="stat-label">Höhenmeter</span></div>
         <div class="stat"><span class="stat-num">5</span><span class="stat-label">Tage</span></div>
-        <div class="stat"><span class="stat-num">5</span><span class="stat-label">E-Bikes</span></div>
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">E-Bikes</span></div>
         <div class="stat"><span class="stat-num">6</span><span class="stat-label">Verrückte</span></div>
       </div>
     </div>
   </section>
 
+  <!-- Why Bled -->
   <section class="bled">
     <div class="container">
       <h2>Warum Start &amp; Ziel Bled?</h2>
@@ -45,6 +46,36 @@
     </div>
   </section>
 
+  <!-- === GLOBAL TAB BAR === -->
+  <div id="variante" class="global-tabs-wrapper">
+    <div class="container">
+      <div class="global-tabs">
+        <button class="gtab active" data-variant="hotel">Hotel / Pension</button>
+        <button class="gtab" data-variant="camping">Campingplatz</button>
+        <button class="gtab" data-variant="wild">Wild Camping</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Variant Intro Banner -->
+  <section class="variant-banner">
+    <div class="container">
+      <div class="vc" data-v="hotel">
+        <div class="vb-icon">🏨</div>
+        <div><strong>Hotel / Pension</strong> — Komfort-Variante. Nachts laden, morgens Frühstücksbuffet. Kein Camping-Gear nötig.</div>
+      </div>
+      <div class="vc hidden" data-v="camping">
+        <div class="vb-icon">⛺</div>
+        <div><strong>Campingplatz</strong> — Bikepacking mit Infrastruktur. Zelt auf dem Campingplatz, Strom zum Laden, Duschen. Wildcampen ist in Slowenien verboten.</div>
+      </div>
+      <div class="vc hidden" data-v="wild">
+        <div class="vb-icon">🌲</div>
+        <div><strong>Wild Camping</strong> — Maximale Freiheit, minimaler Komfort. Akkus tagsüber in Restaurants laden. <span class="legal-warn">Achtung: Wildcampen ist in Slowenien illegal — bis €500 Strafe, im Triglav-NP bis €1.000. Auf eigenes Risiko.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Etappen -->
   <section id="etappen" class="etappen">
     <div class="container">
       <h2>Tagesübersicht</h2>
@@ -55,6 +86,9 @@
         <div class="tag-meta">~80 km · ~1.600 Hm</div>
         <p>Der königliche Auftakt. Radweg nach Kranjska Gora, dann der Vršič-Pass (1.611 m) — mit E-Bikes anspruchsvoll aber machbar. Belohnung: epische Abfahrt ins Soča-Tal.</p>
         <div class="tag-highlight">Highlight: Vršič-Pass — höchste Passstraße Sloweniens</div>
+        <div class="tag-sleep vc" data-v="hotel">🏨 Hostel Soča Rocks (ab €25) · Hotel Alp (ab €70) · Hotel Dobra Vila (ab €140)</div>
+        <div class="tag-sleep vc hidden" data-v="camping">⛺ Kamp Soča am Fluss (€12–16/P.) · Camp Bovec zentral (€12–15/P.)</div>
+        <div class="tag-sleep vc hidden" data-v="wild">🌲 Versteckter Spot am Soča-Ufer südlich Bovec · Akkus beim Abendessen in Bovec laden</div>
       </div>
 
       <div class="tag-card tag2">
@@ -63,6 +97,9 @@
         <div class="tag-meta">~45 km · ~500 Hm</div>
         <p>Entspannter Tag entlang der smaragdgrünen Soča. WW1-Museum in Kobarid, Schwimmen im Fluss. Akkus schonen.</p>
         <div class="tag-highlight">Highlight: Smaragdgrüne Soča — Schwimmen &amp; WW1-Museum Kobarid</div>
+        <div class="tag-sleep vc" data-v="hotel">🏨 Penzion Kobala (ab €80, 9.4/10) · Hotel Dvorec (ab €95) · Hiša Brdo (ab €60)</div>
+        <div class="tag-sleep vc hidden" data-v="camping">⛺ Eco Kamp Koren, Kobarid (€13–18/P., EV-Ladestation!) · Camp Labrca, Tolmin (€10–14/P.)</div>
+        <div class="tag-sleep vc hidden" data-v="wild">🌲 Kiesbänke an der Soča südlich Kobarid (außerhalb Triglav-NP) · Mittags laden in Kobarid</div>
       </div>
 
       <div class="tag-card tag3">
@@ -71,6 +108,9 @@
         <div class="tag-meta">~75 km · ~800 Hm</div>
         <p>Weinregion Goriška Brda, Nova Gorica an der italienischen Grenze, dann ins Vipava-Tal. Weinverkostung möglich.</p>
         <div class="tag-highlight">Highlight: Weinregion Goriška Brda &amp; Vipava-Tal</div>
+        <div class="tag-sleep vc" data-v="hotel">🏨 Borea Rooms (ab €70) · Hotel Grof Cycling Hotel (ab €90) · Youth Hostel (ab €30)</div>
+        <div class="tag-sleep vc hidden" data-v="camping">⛺ Avtokamp Ajdovščina (€10–14/P., Gratis-Freibad!) · Camp David in den Weinbergen (€12–18/P.)</div>
+        <div class="tag-sleep vc hidden" data-v="wild">🌲 Waldrand bei Ajdovščina, abseits der Hauptstraße · Vipava-Tal ist offen und windig (Burja!) — Windschutz suchen</div>
       </div>
 
       <div class="tag-card tag4">
@@ -79,6 +119,9 @@
         <div class="tag-meta">~75 km · ~1.400 Hm</div>
         <p>Anstieg auf die Karst-Hochebene. Optional: Predjama Castle. Abend am Cerknitzer See (verschwindet manchmal komplett!).</p>
         <div class="tag-highlight">Highlight: Predjama Castle &amp; der verschwindende See</div>
+        <div class="tag-sleep vc" data-v="hotel">🏨 Miškar Rooms (ab €50, nur bar) · Tourist Farm Strle (ab €65, Bauernhof-Küche)</div>
+        <div class="tag-sleep vc hidden" data-v="camping">⛺ Speleo Camp Laze (€12/P., nur bar) — Karst-Höhlen-Erlebnis, Holzhütten verfügbar</div>
+        <div class="tag-sleep vc hidden" data-v="wild">🌲 Waldstück nahe Cerknitzer See · Karst-Plateau bietet wenig natürlichen Windschutz — Baumgruppen suchen</div>
       </div>
 
       <div class="tag-card tag5">
@@ -87,11 +130,14 @@
         <div class="tag-meta">~110 km · ~1.000 Hm</div>
         <p>Längster Tag, aber viel Asphalt und Radwege. Kurzer Stopp in Ljubljana, dann zurück zum Auto.</p>
         <div class="tag-highlight">Highlight: Ljubljana Altstadt &amp; Heimkehr nach Bled</div>
+        <div class="tag-sleep vc" data-v="hotel">🏨 Zurück am Auto in Bled — oder Feier-Nacht im Hotel Triglav (ab €100)</div>
+        <div class="tag-sleep vc hidden" data-v="camping">⛺ Camping Bled am See (ab €38) · River Camping Bled (ab €25, 4 km vom See)</div>
+        <div class="tag-sleep vc hidden" data-v="wild">🌲 Zurück am Auto — geschafft! Oder letzte Nacht am Waldrand bei Bled</div>
       </div>
-
     </div>
   </section>
 
+  <!-- Map -->
   <section class="karte">
     <div class="container">
       <h2>Routenverlauf</h2>
@@ -99,262 +145,220 @@
     </div>
   </section>
 
+  <!-- Ladestrategie -->
   <section class="laden">
     <div class="container">
       <h2>E-Bike Ladestrategie</h2>
-      <div class="laden-grid">
-        <div class="laden-item">
-          <div class="laden-icon">🔌</div>
-          <h3>Jede Nacht laden</h3>
-          <p>In Pensionen/Hotels übernachten und Akkus an der Steckdose laden. Slowenien nutzt EU-Standardstecker.</p>
+
+      <!-- Hotel -->
+      <div class="vc" data-v="hotel">
+        <div class="laden-grid">
+          <div class="laden-item">
+            <div class="laden-icon">🔌</div>
+            <h3>Jede Nacht laden</h3>
+            <p>Akkus in der Unterkunft an der Steckdose laden. Slowenien nutzt EU-Standardstecker (Typ F/Schuko).</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">🔋</div>
+            <h3>Zweit-Akkus</h3>
+            <p>Idealerweise je einen Zweit-Akku für die Pass-Etappen (Tag 1: Vršič, Tag 4: Karst-Hochebene).</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">🔌</div>
+            <h3>Mitnehmen</h3>
+            <p>6 Ladegeräte (beschriften!), 2 Mehrfachsteckdosen. Die meisten Unterkünfte sind fahrradfreundlich.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">🏪</div>
+            <h3>Unterwegs</h3>
+            <p>Ladestation am Spar-Parkplatz in Bovec. Ansonsten überall in den Unterkünften.</p>
+          </div>
         </div>
-        <div class="laden-item">
-          <div class="laden-icon">🏪</div>
-          <h3>Unterwegs</h3>
-          <p>Im Soča-Tal ist die Ladeinfrastruktur dünn. Es gibt eine Ladestation am Spar-Parkplatz in Bovec.</p>
+      </div>
+
+      <!-- Camping -->
+      <div class="vc hidden" data-v="camping">
+        <div class="laden-grid">
+          <div class="laden-item">
+            <div class="laden-icon">⚡</div>
+            <h3>Stromanschluss buchen</h3>
+            <p>Alle empfohlenen Campingplätze haben Schuko-Steckdosen (€3–6/Tag extra). Bei Buchung Stromanschluss angeben!</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">📏</div>
+            <h3>Verlängerungskabel</h3>
+            <p>5 m Verlängerungskabel + Mehrfachsteckdose mitnehmen — Abstand zur Stromsäule variiert stark.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">🔋</div>
+            <h3>Zweit-Akkus</h3>
+            <p>Zweit-Akku für Tag 1 (Vršič) und Tag 4 (Karst). Eco Kamp Koren hat sogar eine EV-Ladestation.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">⏰</div>
+            <h3>Ladezeit</h3>
+            <p>E-Bike-Akkus brauchen 3–6 h für Vollladung. Abends anstecken, morgens voll. 6 Ladegeräte beschriften!</p>
+          </div>
         </div>
-        <div class="laden-item">
-          <div class="laden-icon">🎒</div>
-          <h3>Mitnehmen</h3>
-          <p>Ladegeräte für alle 5 Bikes, eine Mehrfachsteckdose, und idealerweise je einen Zweit-Akku für die Pass-Etappen (Tag 1 &amp; 4).</p>
-        </div>
-        <div class="laden-item">
-          <div class="laden-icon">🏠</div>
-          <h3>Unterkunft</h3>
-          <p>Die meisten Unterkünfte in Slowenien sind sehr fahrradfreundlich.</p>
+      </div>
+
+      <!-- Wild -->
+      <div class="vc hidden" data-v="wild">
+        <div class="laden-grid">
+          <div class="laden-item">
+            <div class="laden-icon">🍽️</div>
+            <h3>Beim Essen laden</h3>
+            <p>Akkus beim Mittag- oder Abendessen im Restaurant anstecken. Freundlich fragen — Slowenen sind gastfreundlich. 1–2 h bringt 30–50%.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">🔋</div>
+            <h3>Zweit-Akkus Pflicht</h3>
+            <p>Ohne garantierte Nachtladung sind Zweit-Akkus für jeden nicht verhandelbar. Eco-Modus konsequent nutzen.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">☕</div>
+            <h3>Café-Stopps planen</h3>
+            <p>Lange Kaffeepausen = Ladezeit. Supermärkte (Mercator, Spar) haben oft Außensteckdosen. Bäckereien (Pekarna) ebenso.</p>
+          </div>
+          <div class="laden-item">
+            <div class="laden-icon">📊</div>
+            <h3>Akku-Management</h3>
+            <p>Eco-Modus auf Flachstücken, Boost nur am Berg. Tagesreichweite sinkt ohne Nachtladung auf ~60 km effektiv — plant Ladestopps ein.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Unterkünfte & Bikepacking -->
+  <!-- Übernachtung Details -->
   <section id="unterkuenfte" class="unterkuenfte">
     <div class="container">
-      <h2>Übernachtung pro Etappe</h2>
+      <h2>Übernachtung im Detail</h2>
 
-      <div class="tabs" data-tabs="uebernachtung">
-        <button class="tab active" data-target="hotel">Hotel / Pension</button>
-        <button class="tab" data-target="bikepacking">Bikepacking / Camping</button>
-      </div>
-
-      <!-- Tab: Hotel / Pension -->
-      <div class="tab-content active" data-tab="hotel">
+      <!-- Hotel -->
+      <div class="vc" data-v="hotel">
         <p class="section-intro">Fahrradfreundliche Unterkünfte mit Lademöglichkeit, sicherem Bike-Abstellplatz und guter Lage.</p>
 
-        <div class="uk-stage">
-          <h3>Nacht 1 — Bovec</h3>
+        <div class="uk-stage"><h3>Nacht 1 — Bovec</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Hostel</div>
-              <h4>Hostel Soča Rocks</h4>
-              <div class="uk-price">ab ~€25 (Dorm) / ~€70 (DZ)</div>
-              <p>Bike Storage, Sport-Fokus, Bar mit Küche. Aktives Publikum, Staff kennt sich mit Radtouren aus.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Hotel</div>
-              <h4>Hotel Alp</h4>
-              <div class="uk-price">ab ~€70/Nacht</div>
-              <p>Sicherer Bike-Abstellraum (von TCR-Fahrern gelobt), zentral am Hauptplatz, Frühstück inklusive.</p>
-            </div>
-            <div class="uk-card uk-splurge">
-              <div class="uk-type">Boutique</div>
-              <h4>Hotel Dobra Vila</h4>
-              <div class="uk-price">ab ~€140/Nacht</div>
-              <p>Im historischen Telefonamt, Wein-Boutique, exzellentes Frühstück. Die Belohnung nach dem Vršič-Pass.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Hostel</div><h4>Hostel Soča Rocks</h4><div class="uk-price">ab ~€25 (Dorm) / ~€70 (DZ)</div><p>Bike Storage, Sport-Fokus, Bar mit Küche. Aktives Publikum, Staff kennt sich mit Radtouren aus.</p></div>
+            <div class="uk-card"><div class="uk-type">Hotel</div><h4>Hotel Alp</h4><div class="uk-price">ab ~€70/Nacht</div><p>Sicherer Bike-Abstellraum (von TCR-Fahrern gelobt), zentral am Hauptplatz, Frühstück inklusive.</p></div>
+            <div class="uk-card uk-splurge"><div class="uk-type">Boutique</div><h4>Hotel Dobra Vila</h4><div class="uk-price">ab ~€140/Nacht</div><p>Im historischen Telefonamt, Wein-Boutique, exzellentes Frühstück. Die Belohnung nach dem Vršič-Pass.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 2 — Tolmin</h3>
+        <div class="uk-stage"><h3>Nacht 2 — Tolmin</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Pension</div>
-              <h4>Penzion Kobala</h4>
-              <div class="uk-price">ab ~€80/Nacht</div>
-              <p>Offiziell bike-friendly zertifiziert, eigenes Restaurant, Pool (saisonal). 9.4/10 auf Booking.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Hotel</div>
-              <h4>Hotel Dvorec</h4>
-              <div class="uk-price">ab ~€95/Nacht</div>
-              <p>Einziges Hotel im Zentrum von Tolmin. Bike-Verleih, Shuttle-Service, moderne Zimmer.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Gästehaus</div>
-              <h4>Hiša Brdo</h4>
-              <div class="uk-price">ab ~€60/Nacht</div>
-              <p>Historisches Gebäude mit Garten, Gemeinschaftsküche, Terrasse. Budget-Option mit Charme.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Pension</div><h4>Penzion Kobala</h4><div class="uk-price">ab ~€80/Nacht</div><p>Offiziell bike-friendly zertifiziert, eigenes Restaurant, Pool (saisonal). 9.4/10 auf Booking.</p></div>
+            <div class="uk-card"><div class="uk-type">Hotel</div><h4>Hotel Dvorec</h4><div class="uk-price">ab ~€95/Nacht</div><p>Einziges Hotel im Zentrum von Tolmin. Bike-Verleih, Shuttle-Service, moderne Zimmer.</p></div>
+            <div class="uk-card"><div class="uk-type">Gästehaus</div><h4>Hiša Brdo</h4><div class="uk-price">ab ~€60/Nacht</div><p>Historisches Gebäude mit Garten, Gemeinschaftsküche, Terrasse. Budget mit Charme.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 3 — Ajdovščina</h3>
+        <div class="uk-stage"><h3>Nacht 3 — Ajdovščina</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Gästehaus</div>
-              <h4>Borea Rooms</h4>
-              <div class="uk-price">ab ~€70/Nacht</div>
-              <p>4 Gratis-Mountainbikes, E-Bike-Verleih, im Weindorf Budanje. Hosts kennen jede Nebenstraße.</p>
-            </div>
-            <div class="uk-card uk-splurge">
-              <div class="uk-type">Cycling Hotel</div>
-              <h4>Hotel Grof</h4>
-              <div class="uk-price">ab ~€90/Nacht</div>
-              <p>Videoüberwachte Bike-Garage, 50+ GPX-Touren gratis, Wäscheservice für Radkleidung.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Hostel</div>
-              <h4>Youth Hostel Ajdovščina</h4>
-              <div class="uk-price">ab ~€30/Nacht</div>
-              <p>Sauber, zentral, Küchenzugang. Spart Geld für ein gutes Abendessen in der Weinregion.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Gästehaus</div><h4>Borea Rooms</h4><div class="uk-price">ab ~€70/Nacht</div><p>4 Gratis-Mountainbikes, E-Bike-Verleih, im Weindorf Budanje. Hosts kennen jede Nebenstraße.</p></div>
+            <div class="uk-card uk-splurge"><div class="uk-type">Cycling Hotel</div><h4>Hotel Grof</h4><div class="uk-price">ab ~€90/Nacht</div><p>Videoüberwachte Bike-Garage, 50+ GPX-Touren gratis, Wäscheservice für Radkleidung.</p></div>
+            <div class="uk-card"><div class="uk-type">Hostel</div><h4>Youth Hostel Ajdovščina</h4><div class="uk-price">ab ~€30/Nacht</div><p>Sauber, zentral, Küchenzugang. Spart Geld für ein gutes Abendessen in der Weinregion.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 4 — Cerknica</h3>
+        <div class="uk-stage"><h3>Nacht 4 — Cerknica</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">B&amp;B</div>
-              <h4>Miškar Rooms</h4>
-              <div class="uk-price">ab ~€50/Nacht (bar)</div>
-              <p>Direkt am See, Fahrradverleih, Terrasse mit Gartenblick. Achtung: nur Barzahlung.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Bauernhof</div>
-              <h4>Tourist Farm Strle</h4>
-              <div class="uk-price">ab ~€65/Nacht</div>
-              <p>Hausgemachtes Essen, Küchenzeile, Bergblick. Authentisch slowenisch.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">B&amp;B</div><h4>Miškar Rooms</h4><div class="uk-price">ab ~€50/Nacht (nur bar)</div><p>Direkt am See, Fahrradverleih, Terrasse mit Gartenblick. Beste Lage.</p></div>
+            <div class="uk-card"><div class="uk-type">Bauernhof</div><h4>Tourist Farm Strle</h4><div class="uk-price">ab ~€65/Nacht</div><p>Hausgemachtes Essen, Küchenzeile, Bergblick. Authentisch slowenisch.</p></div>
           </div>
         </div>
       </div>
 
-      <!-- Tab: Bikepacking / Camping -->
-      <div class="tab-content" data-tab="bikepacking">
-        <p class="section-intro">Campingplätze mit Stromanschluss zum E-Bike-Laden, Duschen und Wasser. Wildcampen ist in Slowenien verboten (bis €500 Strafe, im Triglav-Nationalpark bis €1.000).</p>
+      <!-- Camping -->
+      <div class="vc hidden" data-v="camping">
+        <p class="section-intro">Campingplätze mit Stromanschluss, Duschen und Wasser. Wildcampen ist in Slowenien verboten.</p>
 
-        <div class="uk-stage">
-          <h3>Nacht 1 — Bovec</h3>
+        <div class="uk-stage"><h3>Nacht 1 — Bovec</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Kamp Soča</h4>
-              <div class="uk-price">~€12–16/Person</div>
-              <p>Direkt am Fluss im Triglav-Nationalpark. 200+ Plätze, Duschen, Stromanschluss (Schuko), WLAN, Bar. Im Sommer vorbuchen!</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Camp Bovec</h4>
-              <div class="uk-price">~€12–15/Person</div>
-              <p>Zentral in Bovec, Gemeinschaftsküche, Grillplatz, Strom (€5/Tag extra), Waschmaschine. Fußläufig zum Supermarkt.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Berghütte</div>
-              <h4>Erjavčeva Koča (Vršič)</h4>
-              <div class="uk-price">~€25–35/Nacht</div>
-              <p>Bewirtschaftete Hütte auf 1.525 m, ganzjährig offen. Notfall-Option wenn der Pass zu lang wird.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Kamp Soča</h4><div class="uk-price">~€12–16/Person</div><p>Direkt am Fluss im Triglav-NP. 200+ Plätze, Duschen, Strom (Schuko), WLAN, Bar. Im Sommer vorbuchen!</p></div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Camp Bovec</h4><div class="uk-price">~€12–15/Person</div><p>Zentral in Bovec, Gemeinschaftsküche, Grillplatz, Strom (€5/Tag), Waschmaschine. Fußläufig zum Supermarkt.</p></div>
+            <div class="uk-card"><div class="uk-type">Berghütte</div><h4>Erjavčeva Koča</h4><div class="uk-price">~€25–35/Nacht</div><p>Bewirtschaftete Hütte auf 1.525 m am Vršič. Ganzjährig offen. Notfall-Option wenn der Pass zu lang wird.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 2 — Tolmin</h3>
+        <div class="uk-stage"><h3>Nacht 2 — Tolmin / Kobarid</h3>
           <div class="uk-grid">
-            <div class="uk-card uk-splurge">
-              <div class="uk-type">4-Sterne Camp</div>
-              <h4>Eco Kamp Koren</h4>
-              <div class="uk-price">~€13–18/Person</div>
-              <p>Kobarid, direkt an der Soča. EV-Ladestation (ideal für E-Bikes!), Sauna, Fitness, Shop, Waschküche. Bester Camp der Region.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Camp Labrca</h4>
-              <div class="uk-price">~€10–14/Person</div>
-              <p>10 Min. zu Fuß vom Zentrum Tolmin. Zone 1 mit Strom, Zone 2 direkt am Fluss. Restaurant vor Ort, E-Bike-Verleih.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Camp Gabrje</h4>
-              <div class="uk-price">~€8–10/Person</div>
-              <p>Budget-Option an der Soča, 3 km vom Zentrum. Bar/Restaurant, Beachvolleyball. Stromanschluss begrenzt — früh kommen.</p>
-            </div>
+            <div class="uk-card uk-splurge"><div class="uk-type">4-Sterne Camp</div><h4>Eco Kamp Koren</h4><div class="uk-price">~€13–18/Person</div><p>Kobarid, direkt an der Soča. EV-Ladestation ideal für E-Bikes! Sauna, Fitness, Shop, Waschküche.</p></div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Camp Labrca</h4><div class="uk-price">~€10–14/Person</div><p>10 Min. zu Fuß vom Zentrum Tolmin. Zone 1 mit Strom, Zone 2 direkt am Fluss. Restaurant, E-Bike-Verleih.</p></div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Camp Gabrje</h4><div class="uk-price">~€8–10/Person</div><p>Budget-Option an der Soča. Bar/Restaurant, Beachvolleyball. Stromanschluss begrenzt — früh kommen.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 3 — Ajdovščina</h3>
+        <div class="uk-stage"><h3>Nacht 3 — Ajdovščina</h3>
           <div class="uk-grid">
-            <div class="uk-card uk-splurge">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Avtokamp Ajdovščina</h4>
-              <div class="uk-price">~€10–14/Person</div>
-              <p>Im Pinienwald, 55 Plätze, Strom, WLAN, Waschküche. Gratis-Zugang zum Freibad &amp; Sportzentrum (Sauna, Kletterwand!). Fahrradfreundlich zertifiziert.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Boutique Camp</div>
-              <h4>Camp David</h4>
-              <div class="uk-price">~€12–18/Person</div>
-              <p>Zwischen Weinbergen und alten Eichen im Vipava-Tal. Glamping-Vibe, aber auch Zeltplätze. Weinregion-Atmosphäre.</p>
-            </div>
+            <div class="uk-card uk-splurge"><div class="uk-type">Campingplatz</div><h4>Avtokamp Ajdovščina</h4><div class="uk-price">~€10–14/Person</div><p>Im Pinienwald, 55 Plätze, Strom, WLAN. Gratis-Zugang zum Freibad &amp; Sportzentrum (Sauna, Kletterwand!). Fahrradfreundlich zertifiziert.</p></div>
+            <div class="uk-card"><div class="uk-type">Boutique Camp</div><h4>Camp David</h4><div class="uk-price">~€12–18/Person</div><p>Zwischen Weinbergen und alten Eichen. Zeltplätze + Glamping. Vipava-Weinregion-Atmosphäre pur.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 4 — Cerknica</h3>
+        <div class="uk-stage"><h3>Nacht 4 — Cerknica</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Speleo Camp Laze</h4>
-              <div class="uk-price">~€12/Person (bar)</div>
-              <p>Karst-Gebiet, Duschen, WLAN, Shop, Waschküche, Stromanschluss. Auch Holzhütten verfügbar. Höhlen-Erkundung möglich. Nur Barzahlung!</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Speleo Camp Laze</h4><div class="uk-price">~€12/Person (nur bar)</div><p>Karst-Gebiet, Duschen, WLAN, Shop, Waschküche, Strom. Holzhütten verfügbar. Höhlen-Erkundung möglich.</p></div>
           </div>
         </div>
 
-        <div class="uk-stage">
-          <h3>Nacht 5 — Bled (optional)</h3>
+        <div class="uk-stage"><h3>Nacht 5 — Bled (optional)</h3>
           <div class="uk-grid">
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>Camping Bled</h4>
-              <div class="uk-price">ab ~€38/Nacht</div>
-              <p>Direkt am Bleder See. 16A-Stromanschluss (Schuko + CEE), 5 Sanitärblöcke, beheizt. Premium-Preis, aber perfekte Lage zum Feiern.</p>
-            </div>
-            <div class="uk-card">
-              <div class="uk-type">Campingplatz</div>
-              <h4>River Camping Bled</h4>
-              <div class="uk-price">ab ~€25/Nacht</div>
-              <p>An der Sava, 4 km von Bled, Radweg zum See. E-Bike-Verleih vor Ort, günstiger als Camping Bled.</p>
-            </div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>Camping Bled</h4><div class="uk-price">ab ~€38/Nacht</div><p>Direkt am Bleder See. 16A-Strom (Schuko + CEE), 5 Sanitärblöcke. Premium-Preis, aber perfekt zum Feiern.</p></div>
+            <div class="uk-card"><div class="uk-type">Campingplatz</div><h4>River Camping Bled</h4><div class="uk-price">ab ~€25/Nacht</div><p>An der Sava, 4 km von Bled, Radweg zum See. E-Bike-Verleih, günstiger als Camping Bled.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wild Camping -->
+      <div class="vc hidden" data-v="wild">
+        <p class="section-intro">Wildcampen ist in Slowenien illegal. Trotzdem wird es von Bikepackern praktiziert — spät ankommen, früh los, keine Spuren hinterlassen. Auf eigenes Risiko.</p>
+
+        <div class="uk-stage"><h3>Nacht 1 — bei Bovec</h3>
+          <div class="uk-grid">
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Soča-Ufer südlich Bovec</h4><div class="uk-price">€0 · Risiko: hoch (Triglav-NP)</div><p>Kiesbänke entlang der Soča südlich von Bovec. Achtung: Im Triglav-Nationalpark — Strafe bis €1.000. Besser: Akkus beim Abendessen in Bovec laden und erst im Dunkeln Spot aufsuchen.</p></div>
+            <div class="uk-card"><div class="uk-type">Alternative</div><h4>Südlich der NP-Grenze</h4><div class="uk-price">€0 · Risiko: mittel</div><p>Wer kein Risiko will: 5 km weiter südlich Richtung Kobarid, außerhalb des Nationalparks. Weniger Kontrollen, trotzdem technisch illegal.</p></div>
           </div>
         </div>
 
-        <!-- Bikepacking Info Box -->
-        <div class="bp-infobox">
-          <h3>Bikepacking-Regeln Slowenien</h3>
+        <div class="uk-stage"><h3>Nacht 2 — bei Tolmin</h3>
+          <div class="uk-grid">
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Soča-Kiesbänke bei Tolmin</h4><div class="uk-price">€0 · Risiko: niedrig</div><p>Südlich von Kobarid, außerhalb des Triglav-NP. Kiesbänke am Fluss, von Kajakfahrern und Bikepackern genutzt. Wenig Kontrollen. Mittags in Kobarid laden.</p></div>
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Tolminka-Schlucht Umgebung</h4><div class="uk-price">€0 · Risiko: niedrig</div><p>Bewaldete Ufer entlang der Tolminka, abseits der Straße. Ruhig, gute Deckung, Flusswasser zum Waschen.</p></div>
+          </div>
+        </div>
+
+        <div class="uk-stage"><h3>Nacht 3 — Vipava-Tal</h3>
+          <div class="uk-grid">
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Waldrand bei Ajdovščina</h4><div class="uk-price">€0 · Risiko: niedrig</div><p>Hügel östlich von Ajdovščina, Waldrand mit Blick ins Tal. Achtung: Die Burja (Bora-Wind) kann im Vipava-Tal extrem sein — Windschutz suchen, Zelt gut abspannen.</p></div>
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Weinberge Goriška Brda</h4><div class="uk-price">€0 · Risiko: mittel</div><p>Zwischen den Weinbergen, abseits der Wege. Schön, aber Privatland — Bauern können ungehalten reagieren. Am besten vorher fragen.</p></div>
+          </div>
+        </div>
+
+        <div class="uk-stage"><h3>Nacht 4 — bei Cerknica</h3>
+          <div class="uk-grid">
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Wald am Cerknitzer See</h4><div class="uk-price">€0 · Risiko: mittel</div><p>Bewaldete Ufer am Süd-/Westufer. Der See ist Ramsar-Feuchtgebiet — besonders sensibel. Keine Spuren hinterlassen. Karst-Plateau bietet wenig Windschutz — Baumgruppen suchen.</p></div>
+            <div class="uk-card uk-wild"><div class="uk-type uk-type-wild">Wild Spot</div><h4>Rakov Škocjan</h4><div class="uk-price">€0 · Risiko: niedrig</div><p>Eindrucksvolle Karst-Schlucht, 5 km westlich. Dichter Wald, natürliche Höhlen für Regenschutz. Wenig besucht abends.</p></div>
+          </div>
+        </div>
+
+        <div class="uk-stage"><h3>Nacht 5 — Bled</h3>
+          <div class="uk-grid">
+            <div class="uk-card"><div class="uk-type">Ziel</div><h4>Zurück am Auto</h4><div class="uk-price">Geschafft!</div><p>Letzte Etappe endet am Parkplatz in Bled. Feier-Bier am See, dann ab nach Hause.</p></div>
+          </div>
+        </div>
+
+        <div class="bp-infobox bp-warn">
+          <h3>Wild Camping Regeln</h3>
           <div class="bp-rules">
-            <div class="bp-rule">
-              <strong>Wildcampen verboten</strong>
-              <p>Auf öffentlichem und privatem Land. Im Triglav-NP bis €1.000 Strafe.</p>
-            </div>
-            <div class="bp-rule">
-              <strong>Kein offenes Feuer</strong>
-              <p>Nur an ausgewiesenen Feuerstellen auf Campingplätzen.</p>
-            </div>
-            <div class="bp-rule">
-              <strong>Wasser</strong>
-              <p>Jedes Dorf hat einen Trinkwasserbrunnen ("pitna voda"). Bergquellen auf dem Vršič sind sauber.</p>
-            </div>
-            <div class="bp-rule">
-              <strong>Strom-Tipp</strong>
-              <p>5 m Verlängerungskabel mitnehmen — Abstand zur Stromsäule variiert stark auf Campingplätzen.</p>
-            </div>
+            <div class="bp-rule"><strong>Spät kommen, früh gehen</strong><p>Spot nach Einbruch der Dunkelheit beziehen, bei Sonnenaufgang wieder weg. Kein Zelt tagsüber stehen lassen.</p></div>
+            <div class="bp-rule"><strong>Kein Feuer, kein Müll</strong><p>Kocher nur in windgeschützter Umgebung. Alles mitnehmen. Kein Lärm nach 22 Uhr.</p></div>
+            <div class="bp-rule"><strong>Triglav-NP meiden</strong><p>Am höchsten kontrolliert. Tag 1 ist die riskanteste Nacht — Alternative: Berghütte Erjavčeva Koča (€25–35).</p></div>
+            <div class="bp-rule"><strong>Bauern fragen</strong><p>Auf Privatland vorher den Besitzer fragen. "Lahko tukaj spimo?" = Können wir hier schlafen?</p></div>
           </div>
         </div>
-
       </div>
 
     </div>
@@ -365,36 +369,27 @@
     <div class="container">
       <h2>Packliste</h2>
 
-      <div class="tabs" data-tabs="packliste">
-        <button class="tab active" data-target="pack-hotel">Hotel / Pension</button>
-        <button class="tab" data-target="pack-bikepacking">Bikepacking / Camping</button>
-      </div>
-
-      <!-- Packliste: Hotel -->
-      <div class="tab-content active" data-tab="pack-hotel">
-        <p class="section-intro">Alles was 6 Verrückte für 5 Tage in den Julischen Alpen brauchen. Pässe bis 1.600 m, heiße Täler, Gewitterrisiko.</p>
-
+      <!-- Hotel -->
+      <div class="vc" data-v="hotel">
+        <p class="section-intro">Leichteste Variante — kein Camping-Gear, kein Kochzeug. Alles was 6 Verrückte für 5 Tage brauchen.</p>
         <div class="pack-grid">
-          <div class="pack-category">
-            <h3>🔧 E-Bike Essentials</h3>
+          <div class="pack-category"><h3>🔧 E-Bike</h3>
             <ul>
-              <li>1x Ladegerät pro Bike (beschriften!)</li>
+              <li>6x Ladegerät (beschriften!)</li>
               <li>2x Mehrfachsteckdosen (EU Typ F)</li>
               <li>Zweit-Akku für Pass-Etappen (Tag 1 &amp; 4)</li>
               <li>Multi-Tool mit Kettennieter</li>
               <li>3x Kettenschloss-Glieder</li>
-              <li>10x Ersatzschläuche (2 pro Bike)</li>
+              <li>12x Ersatzschläuche (2 pro Bike)</li>
               <li>Reifenheber, Flickzeug</li>
               <li>Mini-Pumpe pro Bike + CO2-Patronen</li>
               <li>Kabelbinder, Panzertape, Einweghandschuhe</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>👕 Kleidung</h3>
+          <div class="pack-category"><h3>👕 Kleidung</h3>
             <ul>
               <li>2x Merino-Radtrikot (kurz)</li>
-              <li>1x Merino-Langarm (Pässe, Morgens)</li>
+              <li>1x Merino-Langarm (Pässe, morgens)</li>
               <li>3x Radhose mit Polster</li>
               <li>1x Beinlinge oder lange Radhose</li>
               <li>1x Leichtes Fleece / Midlayer</li>
@@ -406,211 +401,246 @@
               <li>1x Camp-Sandalen</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>📱 Navigation &amp; Elektronik</h3>
+          <div class="pack-category"><h3>📱 Elektronik</h3>
             <ul>
-              <li>GPS-Radcomputer (Garmin Edge / Wahoo)</li>
+              <li>GPS-Radcomputer (Garmin / Wahoo)</li>
               <li>GPX-Routen vorher laden (Komoot)</li>
               <li>Wasserdichte Handyhalterung</li>
-              <li>Offline-Karten (Google Maps / Maps.me)</li>
+              <li>Offline-Karten herunterladen</li>
               <li>20.000 mAh Powerbank pro 2 Fahrer</li>
-              <li>USB-C Multi-Ladegerät (65W GaN)</li>
-              <li>WhatsApp-Gruppe mit Live-Standort</li>
+              <li>USB-C Ladegerät (65W GaN)</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>⛑️ Sicherheit</h3>
+          <div class="pack-category"><h3>⛑️ Sicherheit</h3>
             <ul>
-              <li>Helm (Pflicht!)</li>
+              <li>Helm</li>
               <li>Front-Licht 600+ Lumen (Tunnel!)</li>
               <li>Rücklicht rot (Blinkfunktion)</li>
               <li>Warnweste / Reflektoren</li>
               <li>Erste-Hilfe-Set (1x für Gruppe)</li>
-              <li>Zeckenzange (Mai–Sept wichtig!)</li>
-              <li>Notfallkarte DE/EN laminiert</li>
+              <li>Zeckenzange (Mai–Sept!)</li>
               <li>EHIC-Karte + Reiseversicherung</li>
-              <li>Notruf: 112</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🧴 Persönliches</h3>
+          <div class="pack-category"><h3>🧴 Persönliches</h3>
             <ul>
               <li>Ausweis / Reisepass</li>
-              <li>Bargeld € (ländliche Gebiete oft nur bar)</li>
-              <li>Sitzcreme (5 Tage = Pflicht!)</li>
-              <li>Sonnencreme SPF 50+ (UV auf 1.600 m!)</li>
-              <li>Lippenbalsam mit LSF</li>
+              <li>Bargeld € (ländlich oft nur bar)</li>
+              <li>Sitzcreme (5 Tage = Pflicht)</li>
+              <li>Sonnencreme SPF 50+</li>
               <li>Radbrille (Wechselgläser)</li>
               <li>Mikrofaser-Handtuch</li>
-              <li>Waschmittel-Sachets (Merino abends waschen)</li>
-              <li>Faltschloss / Kabelschloss</li>
+              <li>Waschmittel-Sachets</li>
+              <li>Faltschloss</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🍌 Verpflegung</h3>
+          <div class="pack-category"><h3>🍌 Verpflegung</h3>
             <ul>
               <li>2x 750 ml Flaschen pro Bike</li>
               <li>Trinksystem 1,5 L für Pässe</li>
-              <li>Elektrolyt-Tabletten (Nuun / High5)</li>
+              <li>Elektrolyt-Tabletten</li>
               <li>2–3x Energieriegel pro Tag</li>
-              <li>1x Gel pro großem Anstieg</li>
               <li>Nüsse &amp; Trockenfrüchte</li>
-              <li>1x Notration 500 kcal (unangetastet)</li>
-              <li>Tipp: Lokale Bäckereien (Pekarna) in jedem Dorf!</li>
+              <li>Pekarna (Bäckerei) in jedem Dorf!</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Packliste: Bikepacking -->
-      <div class="tab-content" data-tab="pack-bikepacking">
-        <p class="section-intro">Alles von der Hotel-Liste plus Camping-Ausrüstung. Ziel: unter 4 kg Zusatzgewicht. Soča-Nächte können auf 8°C fallen.</p>
-
+      <!-- Camping -->
+      <div class="vc hidden" data-v="camping">
+        <p class="section-intro">Hotel-Packliste plus Camping-Gear. Ziel: unter 4 kg Zusatzgewicht. Soča-Nächte können auf 8°C fallen.</p>
         <div class="pack-grid">
-          <div class="pack-category">
-            <h3>⛺ Shelter &amp; Schlafen</h3>
+          <div class="pack-category"><h3>⛺ Shelter &amp; Schlafen</h3>
             <ul>
               <li>Ultralight-Zelt freistehend (~1,1 kg)</li>
               <li>Daunenschlafsack Komfort ~5°C</li>
               <li>Aufblasbare Isomatte (~350 g)</li>
               <li>Leichtes Kissen (aufblasbar)</li>
-              <li>Zelt-Footprint / Groundsheet</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🍳 Kochen</h3>
+          <div class="pack-category"><h3>🍳 Kochen (optional)</h3>
             <ul>
-              <li>Ultralight-Gaskocher (BRS-3000T ~25 g)</li>
+              <li>Gaskocher (BRS-3000T ~25 g)</li>
               <li>Titan-Topf 750 ml</li>
-              <li>Gaskartusche (erhältlich in Bovec, Tolmin, Bled)</li>
+              <li>Gaskartusche (Bovec, Tolmin, Bled)</li>
               <li>Spork + Taschenmesser</li>
-              <li>Feuerzeug / Sturmstreichhölzer</li>
-              <li>Optional: Stoveless — Campingplätze haben Küchen</li>
+              <li>Alternative: Campingplatz-Küchen nutzen</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🔧 E-Bike Essentials</h3>
+          <div class="pack-category"><h3>🎒 Bikepacking-Taschen</h3>
             <ul>
-              <li>1x Ladegerät pro Bike (beschriften!)</li>
-              <li>5 m Verlängerungskabel + Mehrfachsteckdose</li>
-              <li>Zweit-Akku für Pass-Etappen (Tag 1 &amp; 4)</li>
-              <li>Multi-Tool mit Kettennieter</li>
-              <li>3x Kettenschloss-Glieder</li>
-              <li>10x Ersatzschläuche (2 pro Bike)</li>
-              <li>Reifenheber, Flickzeug</li>
-              <li>Mini-Pumpe pro Bike + CO2-Patronen</li>
-              <li>Kabelbinder, Panzertape, Einweghandschuhe</li>
-            </ul>
-          </div>
-
-          <div class="pack-category">
-            <h3>🎒 Bikepacking-Taschen</h3>
-            <ul>
-              <li>Rahmentasche (Tools, Snacks)</li>
               <li>Lenkertasche mit Rolle (Zelt, Kleidung)</li>
               <li>Satteltasche (Schlafsack, Isomatte)</li>
+              <li>Rahmentasche (Tools, Snacks)</li>
               <li>Oberrohrtasche (Handy, Riegel)</li>
-              <li>Gesamt-Volumen: 10–15 L</li>
-              <li>Packsäcke wasserdicht (Dry Bags)</li>
+              <li>Packsäcke wasserdicht</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>👕 Kleidung</h3>
+          <div class="pack-category"><h3>🔧 E-Bike</h3>
+            <ul>
+              <li>6x Ladegerät (beschriften!)</li>
+              <li>5 m Verlängerungskabel + Mehrfachsteckdose</li>
+              <li>Zweit-Akku für Tag 1 &amp; 4</li>
+              <li>Multi-Tool mit Kettennieter</li>
+              <li>12x Ersatzschläuche (2 pro Bike)</li>
+              <li>Mini-Pumpe + CO2-Patronen</li>
+              <li>Kabelbinder, Panzertape</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>👕 Kleidung</h3>
             <ul>
               <li>2x Merino-Radtrikot (kurz)</li>
-              <li>1x Merino-Langarm (Pässe, Morgens, Camp)</li>
+              <li>1x Merino-Langarm (Pässe, Camp)</li>
               <li>3x Radhose mit Polster</li>
-              <li>1x Beinlinge oder lange Radhose</li>
-              <li>1x Leichtes Fleece / Midlayer</li>
-              <li>1x Hardshell-Regenjacke (20.000 mm+)</li>
+              <li>1x Beinlinge</li>
+              <li>1x Fleece / Midlayer</li>
+              <li>1x Hardshell-Regenjacke</li>
               <li>1x Regenhose</li>
-              <li>1x Überschuhe (Neopren)</li>
               <li>Helmunterzieher, Buff, Handschuhe</li>
               <li>4x Merino-Socken</li>
               <li>1x Camp-Sandalen</li>
-              <li>1x Leichte lange Hose (Camp-Abende)</li>
+              <li>1x Leichte Hose (Camp-Abende)</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>📱 Navigation &amp; Elektronik</h3>
+          <div class="pack-category"><h3>📱 Elektronik</h3>
             <ul>
-              <li>GPS-Radcomputer (Garmin Edge / Wahoo)</li>
-              <li>GPX-Routen vorher laden (Komoot)</li>
+              <li>GPS-Radcomputer</li>
               <li>Wasserdichte Handyhalterung</li>
-              <li>Offline-Karten (Google Maps / Maps.me)</li>
-              <li>20.000 mAh Powerbank pro Fahrer (!)</li>
-              <li>USB-C Multi-Ladegerät (65W GaN)</li>
+              <li>Offline-Karten herunterladen</li>
+              <li>20.000 mAh Powerbank pro Fahrer</li>
+              <li>USB-C Ladegerät (65W GaN)</li>
               <li>Stirnlampe (Camp-Abende)</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>⛑️ Sicherheit</h3>
+          <div class="pack-category"><h3>⛑️ Sicherheit</h3>
             <ul>
-              <li>Helm (Pflicht!)</li>
-              <li>Front-Licht 600+ Lumen (Tunnel!)</li>
-              <li>Rücklicht rot (Blinkfunktion)</li>
-              <li>Warnweste / Reflektoren</li>
-              <li>Erste-Hilfe-Set (1x für Gruppe)</li>
-              <li>Zeckenzange (Mai–Sept wichtig!)</li>
-              <li>Notfallkarte DE/EN laminiert</li>
-              <li>EHIC-Karte + Reiseversicherung</li>
-              <li>Notruf: 112</li>
+              <li>Helm</li>
+              <li>Front-Licht 600+ Lumen</li>
+              <li>Rücklicht rot</li>
+              <li>Warnweste</li>
+              <li>Erste-Hilfe-Set (Gruppe)</li>
+              <li>Zeckenzange</li>
+              <li>EHIC + Reiseversicherung</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🧴 Persönliches</h3>
+          <div class="pack-category"><h3>🧴 Persönliches</h3>
             <ul>
-              <li>Ausweis / Reisepass</li>
-              <li>Bargeld € (Speleo Camp + Miškar nur bar!)</li>
-              <li>Sitzcreme (5 Tage = Pflicht!)</li>
+              <li>Ausweis, Bargeld €</li>
+              <li>Sitzcreme</li>
               <li>Sonnencreme SPF 50+</li>
-              <li>Lippenbalsam mit LSF</li>
-              <li>Radbrille (Wechselgläser)</li>
-              <li>Mikrofaser-Handtuch (schnelltrocknend)</li>
+              <li>Mikrofaser-Handtuch</li>
               <li>Waschmittel-Sachets</li>
-              <li>Faltschloss / Kabelschloss</li>
-              <li>Oropax (Campingplatz-Nachbarn...)</li>
+              <li>Faltschloss</li>
+              <li>Oropax</li>
             </ul>
           </div>
-
-          <div class="pack-category">
-            <h3>🍌 Verpflegung</h3>
+          <div class="pack-category"><h3>🍌 Verpflegung</h3>
             <ul>
               <li>2x 750 ml Flaschen pro Bike</li>
-              <li>Trinksystem 1,5 L für Pässe</li>
-              <li>Elektrolyt-Tabletten (Nuun / High5)</li>
-              <li>2–3x Energieriegel pro Tag</li>
-              <li>1x Gel pro großem Anstieg</li>
-              <li>Nüsse &amp; Trockenfrüchte</li>
-              <li>Instant-Kaffee / Teebeutel</li>
-              <li>Haferflocken + Trockenmilch (Frühstück)</li>
-              <li>1x Notration 500 kcal (unangetastet)</li>
-              <li>Dorf-Brunnen: "pitna voda" = Trinkwasser</li>
+              <li>Trinksystem 1,5 L</li>
+              <li>Elektrolyt-Tabletten</li>
+              <li>Energieriegel + Gels</li>
+              <li>Instant-Kaffee, Haferflocken</li>
+              <li>Notration 500 kcal</li>
+              <li>Brunnen: "pitna voda" = Trinkwasser</li>
             </ul>
           </div>
         </div>
+      </div>
 
-        <div class="bp-infobox">
-          <h3>Gewichtsvergleich</h3>
-          <div class="bp-rules">
-            <div class="bp-rule">
-              <strong>Ultralight Setup</strong>
-              <p>Zelt 1,1 kg + Schlafsack 0,9 kg + Kocher 0,3 kg = ~2,5 kg extra</p>
-            </div>
-            <div class="bp-rule">
-              <strong>Standard Setup</strong>
-              <p>Zelt 1,8 kg + Schlafsack 1,4 kg + Kocher 0,5 kg = ~4 kg extra</p>
-            </div>
+      <!-- Wild Camping -->
+      <div class="vc hidden" data-v="wild">
+        <p class="section-intro">Camping-Packliste plus Extra-Akkus und mehr Autarkie. Ohne garantierte Nachtladung braucht ihr Reserven.</p>
+        <div class="pack-grid">
+          <div class="pack-category"><h3>⛺ Shelter &amp; Schlafen</h3>
+            <ul>
+              <li>Ultralight-Zelt oder Tarp + Bivy</li>
+              <li>Daunenschlafsack Komfort ~3°C (kälter ohne Campingplatz-Windschutz)</li>
+              <li>Aufblasbare Isomatte (~350 g)</li>
+              <li>Leichtes Kissen</li>
+              <li>Groundsheet / Footprint</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>🍳 Kochen (Pflicht)</h3>
+            <ul>
+              <li>Gaskocher (BRS-3000T ~25 g)</li>
+              <li>Titan-Topf 750 ml</li>
+              <li>2x Gaskartuschen</li>
+              <li>Spork + Taschenmesser</li>
+              <li>Feuerzeug</li>
+              <li>Frühstück: Haferflocken + Trockenmilch</li>
+              <li>Instant-Kaffee / Teebeutel</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>🔋 E-Bike &amp; Laden</h3>
+            <ul>
+              <li>6x Ladegerät (beschriften!)</li>
+              <li>Zweit-Akku pro Bike (Pflicht!)</li>
+              <li>Mehrfachsteckdose (für Restaurant-Laden)</li>
+              <li>Eco-Modus konsequent nutzen</li>
+              <li>Multi-Tool, Kettenschloss-Glieder</li>
+              <li>12x Ersatzschläuche</li>
+              <li>Mini-Pumpe + CO2-Patronen</li>
+              <li>Kabelbinder, Panzertape</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>🎒 Bikepacking-Taschen</h3>
+            <ul>
+              <li>Lenkertasche (Zelt/Tarp)</li>
+              <li>Satteltasche (Schlafsack, Isomatte)</li>
+              <li>Rahmentasche (Tools, Akku)</li>
+              <li>Oberrohrtasche (Handy, Snacks)</li>
+              <li>Packsäcke wasserdicht</li>
+              <li>Gesamt: 10–15 L Volumen</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>👕 Kleidung</h3>
+            <ul>
+              <li>2x Merino-Radtrikot</li>
+              <li>1x Merino-Langarm</li>
+              <li>3x Radhose mit Polster</li>
+              <li>1x Fleece / Midlayer</li>
+              <li>1x Hardshell-Regenjacke</li>
+              <li>1x Regenhose</li>
+              <li>Buff, Handschuhe</li>
+              <li>3x Merino-Socken</li>
+              <li>1x Camp-Sandalen</li>
+              <li>1x Leichte Hose (Abende)</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>📱 Elektronik</h3>
+            <ul>
+              <li>GPS-Radcomputer</li>
+              <li>Wasserdichte Handyhalterung</li>
+              <li>Offline-Karten (Pflicht!)</li>
+              <li>20.000 mAh Powerbank pro Fahrer</li>
+              <li>USB-C Ladegerät (65W GaN)</li>
+              <li>Stirnlampe (Pflicht ohne Campingplatz)</li>
+              <li>Handy im Flugmodus = Akku sparen</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>💧 Wasser &amp; Verpflegung</h3>
+            <ul>
+              <li>2x 750 ml + 1x Trinksystem 2 L</li>
+              <li>Wasserentkeimungstabletten (Backup)</li>
+              <li>Elektrolyt-Tabletten</li>
+              <li>3x Energieriegel pro Tag</li>
+              <li>Nüsse, Trockenfrüchte, Müsliriegel</li>
+              <li>Notration 500 kcal</li>
+              <li>Brunnen: "pitna voda" = Trinkwasser</li>
+            </ul>
+          </div>
+          <div class="pack-category"><h3>⛑️ Sicherheit</h3>
+            <ul>
+              <li>Helm, Front-Licht, Rücklicht</li>
+              <li>Warnweste</li>
+              <li>Erste-Hilfe-Set (Gruppe)</li>
+              <li>Zeckenzange (Pflicht Mai–Sept)</li>
+              <li>EHIC + Reiseversicherung</li>
+              <li>Bargeld € (kein Campingplatz = kein Kartenleser)</li>
+              <li>Notfallkarte: "Lahko tukaj spimo?" = Können wir hier schlafen?</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -618,6 +648,7 @@
     </div>
   </section>
 
+  <!-- Reisezeit -->
   <section class="reisezeit">
     <div class="container">
       <h2>Beste Reisezeit</h2>
