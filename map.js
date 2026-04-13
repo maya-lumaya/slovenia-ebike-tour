@@ -71,9 +71,9 @@ document.addEventListener('DOMContentLoaded', function () {
       color: colors['Tag 1']
     },
     {
-      name: 'Katric House',
-      lat: 46.2100, lng: 13.6550,
-      label: 'Nacht 2 -- Kamno (Kobarid-Tolmin)<br>224 EUR gesamt, Steingrillplatz',
+      name: 'Turisticna kmetija Pri Kafolu',
+      lat: 46.1810, lng: 13.7350,
+      label: 'Nacht 2 -- Prapetno/Tolmin<br>ab 125 EUR gesamt, Biohof direkt an der Soca',
       color: colors['Tag 2']
     },
     {
