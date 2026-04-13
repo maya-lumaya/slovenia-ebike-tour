@@ -83,9 +83,9 @@ document.addEventListener('DOMContentLoaded', function () {
       color: colors['Tag 3']
     },
     {
-      name: 'Bauernhof Znidarjevi',
-      lat: 45.8000, lng: 14.3200,
-      label: 'Nacht 4 -- Kozljek (Karst)<br>~140-180 EUR gesamt, Kaminplatz + Seeblick',
+      name: 'Tekavca Ograda',
+      lat: 45.7770, lng: 14.3780,
+      label: 'Nacht 4 -- Lipsenj (Cerknisko jezero)<br>~120-180 EUR gesamt, Grillplatz, direkt am See',
       color: colors['Tag 4']
     }
   ];
