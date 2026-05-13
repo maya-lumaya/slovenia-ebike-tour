@@ -22,14 +22,14 @@ window.ROUTES = {
     id: 'v1',
     label: 'Triglav Nord',
     tagline: 'Mehr Zeit im Nationalpark — Vršič genießen, nicht hetzen',
-    heroTag: '6 Tage · ~385 km · ~5.700 Hm',
+    heroTag: '6 Tage · ~456 km · ~5.700 Hm',
     breadcrumb: 'Bled → Vršič → Trenta → Soča → Goriška Brda → Vipava → Cerknica → Bled',
-    days: 6, km: 385, hm: '5.700',
-    introText: '~385 km und ~5.700 Höhenmeter auf 6 Tage. Tag 1 endet im Triglav-Nationalpark — zwei volle Tage im NP. Kein Tag über 75 km (außer dem Rückweg Tag 6, für den ein optionaler Shuttle ab Grahovo möglich ist).',
+    days: 6, km: 456, hm: '5.700',
+    introText: '~456 km und ~5.700 Höhenmeter auf 6 Tage (verifiziert via Google Maps). Tag 1 endet im Triglav-Nationalpark — zwei volle Tage im NP. Achtung: Tag 6 (Rückweg) ist 139 km — optionaler Shuttle ab Grahovo empfohlen.',
     stages: [
       {
         day: 1, title: 'Bled → Vršič-Pass → Trenta (Na Logu)',
-        km: 57, hm: 1350,
+        km: 68, hm: 1350,
         desc: 'Radweg entlang der Sava bis Kranjska Gora, dann der Vršič-Pass mit seinen 50 Kehren. Belohnung: erste Sicht auf die smaragdgrüne Soča und Abstieg ins stille Trenta-Tal — Übernachtung mitten im Nationalpark.',
         highlight: 'Vršič-Pass (1.611 m) · Quelle der Soča (Detour 500 m) · Übernachtung im Triglav-NP',
         waypoints: [
@@ -42,7 +42,7 @@ window.ROUTES = {
       },
       {
         day: 2, title: 'Trenta → Bovec → Kobarid',
-        km: 52, hm: 480,
+        km: 43, hm: 480,
         desc: 'Fast ausschließlich bergab oder flach entlang der Soča. Boka-Wasserfall (106 m), Velika Korita-Schlucht bei Bovec, Napoleon-Brücke kurz vor Kobarid. Perfekter Erholungstag nach dem Pass.',
         highlight: 'Boka-Wasserfall (Sloweniens höchster) · Velika Korita-Schlucht · Napoleon-Brücke',
         waypoints: [
@@ -56,7 +56,7 @@ window.ROUTES = {
       },
       {
         day: 3, title: 'Kobarid → Tolmin → Goriška Brda',
-        km: 58, hm: 950,
+        km: 64, hm: 950,
         desc: 'Flach bis Tolmin, dann Aufstieg in die Weinregion Goriška Brda. Mittelalterliches Šmartno, Rebula-Weinproben, Meerblick. Sloweniens Toskana.',
         highlight: 'Tolminer Schluchten · Šmartno (mittelalterliches Weindorf) · Goriška Brda Weinberge',
         waypoints: [
@@ -69,7 +69,7 @@ window.ROUTES = {
       },
       {
         day: 4, title: 'Goriška Brda → Vipava-Tal',
-        km: 55, hm: 620,
+        km: 59, hm: 620,
         desc: 'Abstieg aus den Weinbergen in die Vipava-Ebene, Radweg entlang des Flusses. Kurzer Grenzübertritt nach Gorizia möglich (Kaffee in Italien). Ankunft beim Weingut-Agriturismus.',
         highlight: 'Nova Gorica / Gorizia Grenze · Karstquelle der Vipava · Weingut-Übernachtung',
         waypoints: [
@@ -81,7 +81,7 @@ window.ROUTES = {
       },
       {
         day: 5, title: 'Vipava → Predjama-Burg → Cerknisko jezero',
-        km: 72, hm: 1050,
+        km: 82, hm: 1050,
         desc: 'Aufstieg auf das Karstplateau, Predjama Castle direkt in einen 123-m-Felsen gebaut. Rakov Škocjan Naturbögen als verstecktes Highlight vor dem Ziel. Abend am größten intermittierenden See Europas.',
         highlight: 'Predjama Castle · Rakov Škocjan Naturbögen · Cerknisko jezero',
         waypoints: [
@@ -94,7 +94,7 @@ window.ROUTES = {
       },
       {
         day: 6, title: 'Cerknisko jezero → Bloška planota → Škofja Loka → Bled',
-        km: 91, hm: 1250,
+        km: 139, hm: 1250,
         desc: 'Rückweg über das einsame Bloke-Plateau und ins Selška-Tal. Kein Ljubljana. Tipp: Shuttle ab Grahovo bis Žiri (≈35 km sparen) → dann nur 56 km nach Bled. Škofja Loka als letzter Kulturstopp.',
         highlight: 'Bloška planota · Škofja Loka Altstadt · Sava-Radweg · Shuttle-Option ab Grahovo',
         waypoints: [
@@ -246,14 +246,14 @@ window.ROUTES = {
     id: 'v2',
     label: 'Kürzere Etappen',
     tagline: 'Gleiche Highlights, halbe Qual — kein Tag über 75 km',
-    heroTag: '5 Tage · ~315 km · ~4.930 Hm',
+    heroTag: '5 Tage · ~440 km · ~4.930 Hm',
     breadcrumb: 'Bled → Vršič → Bovec → Tolmin → Vipava → Predjama → Cerknica → Bled',
-    days: 5, km: 315, hm: '4.930',
-    introText: '~315 km auf 5 gleichmäßige Tage — kein Tag über 75 km. Der aktuelle 110-km-Finaltag entfällt; der Rückweg führt ohne Ljubljana über Bloška planota und Škofja Loka direkt zurück nach Bled.',
+    days: 5, km: 440, hm: '4.930',
+    introText: '~440 km auf 5 Tage (verifiziert via Google Maps). Achtung: Tag 5 (Rückweg Cerknisko jezero → Bled) ist 140 km — der längste Tag dieser Variante. Shuttle-Option ab Žiri prüfen.',
     stages: [
       {
         day: 1, title: 'Bled → Vršič-Pass → Bovec',
-        km: 73, hm: 1500,
+        km: 85, hm: 1500,
         desc: 'Radweg entlang der Sava bis Kranjska Gora, dann der legendäre Vršič-Pass (900 Hm in 12 km). Im Eco-Modus gut machbar. Grandiose Abfahrt durchs Trenta-Tal nach Bovec.',
         highlight: 'Vršič-Pass (1.611 m) · Russische Kapelle · Erste Sicht auf die Soča',
         waypoints: [
@@ -267,7 +267,7 @@ window.ROUTES = {
       },
       {
         day: 2, title: 'Bovec → Kobarid → Tolmin',
-        km: 42, hm: 530,
+        km: 41, hm: 530,
         desc: 'Perfekter Erholungstag. Fast ausschließlich flach entlang der smaragdgrünen Soča. Napoleon-Brücke, WWI-Museum Kobarid (30 Min. Pflicht), Sotočje-Badestelle bei Tolmin.',
         highlight: 'Smaragdgrüne Soča · WWI-Museum Kobarid · Napoleon-Brücke · Sotočje-Badestelle',
         waypoints: [
@@ -280,7 +280,7 @@ window.ROUTES = {
       },
       {
         day: 3, title: 'Tolmin → Goriška Brda → Vipava-Tal',
-        km: 62, hm: 900,
+        km: 85, hm: 900,
         desc: 'Soča-Radweg bis Kanal ob Soči, dann hinauf in die Weinberge von Goriška Brda. Šmartno-Weindorf, Dobrovo-Schloss. Abstieg ins Vipava-Tal mit Weingut-Übernachtung.',
         highlight: 'Solkan-Brücke · Šmartno (mittelalterliches Weindorf) · Goriška Brda · Vipava-Tal',
         waypoints: [
@@ -294,7 +294,7 @@ window.ROUTES = {
       },
       {
         day: 4, title: 'Vipava-Tal → Predjama-Burg → Cerknisko jezero',
-        km: 68, hm: 1100,
+        km: 90, hm: 1100,
         desc: 'Vipava-Radweg bis Ajdovščina, Aufstieg aufs Karstplateau. Predjama Castle — Burg direkt in einen 123-m-Felsen gebaut. Rakov Škocjan Naturbögen als verstecktes Highlight. Abend am Cerknisco jezero.',
         highlight: 'Predjama Castle · Rakov Škocjan · Cerknisco jezero',
         waypoints: [
@@ -309,7 +309,7 @@ window.ROUTES = {
       },
       {
         day: 5, title: 'Cerknisko jezero → Bloška planota → Škofja Loka → Bled',
-        km: 70, hm: 900,
+        km: 140, hm: 900,
         desc: 'Rückweg über das einsame Bloke-Plateau — stille Hochlandfarmen, null Autos. Žiri, Škofja Loka (perfekt erhaltene Altstadt), dann Sava-Radweg flach zurück nach Bled. Kein Ljubljana. Mission accomplished.',
         highlight: 'Bloška planota · Škofja Loka Altstadt · Sava-Radweg nach Bled',
         waypoints: [
@@ -437,14 +437,14 @@ window.ROUTES = {
     id: 'v3',
     label: 'Triglav Bohinj',
     tagline: 'Bohinj zuerst — zwei Gesichter des Nationalparks',
-    heroTag: '6 Tage · ~388 km · ~6.380 Hm',
+    heroTag: '6 Tage · ~559 km · ~6.380 Hm',
     breadcrumb: 'Bled → Pokljuka → Bohinj → Vršič → Trenta → Kobarid → Brda → Vipava → Crknica → Bled',
-    days: 6, km: 388, hm: '6.380',
-    introText: '~388 km auf 6 Tage — zwei komplett unterschiedliche Gesichter des Triglav-NP: Tag 1 über Pokljuka und Bohinj (östlicher NP), Tag 2 über den Vršič in den Westen. Die sportlich anspruchsvollste der drei Varianten.',
+    days: 6, km: 559, hm: '6.380',
+    introText: '~559 km auf 6 Tage (verifiziert via Google Maps) — zwei Gesichter des Triglav-NP: Tag 1 über Pokljuka/Bohinj, Tag 2 über den Vršič. Achtung: Tag 5 (133 km) und Tag 6 (139 km) sind sehr lang — die anspruchsvollste der drei Varianten.',
     stages: [
       {
         day: 1, title: 'Bled → Pokljuka-Plateau → Bohinj-See',
-        km: 52, hm: 1100,
+        km: 66, hm: 1100,
         desc: 'Sanfter Einstieg hinauf aufs Pokljuka-Plateau (1.300 m). Biathlon-Stadion Rudno Polje, dann Zajamniki-Alm — eine der fotogensten Almwiesen Sloweniens mit Triglav-Panorama. Abstieg zum smaragdgrünen Bohinj-See.',
         highlight: 'Pokljuka-Plateau · Zajamniki-Alm · Bohinj-See (touristisch ruhiger als Bled)',
         waypoints: [
@@ -458,7 +458,7 @@ window.ROUTES = {
       },
       {
         day: 2, title: 'Bohinj → Vršič-Pass (1.611 m) → Trenta',
-        km: 65, hm: 1380,
+        km: 92, hm: 1380,
         desc: 'Der epischste Tag. Von Bohinj über Goreljek nach Kranjska Gora, dann der legendäre Vršič. Quelle der Soča (kurzer Fußweg), Abstieg ins stille Trenta-Tal. Zwei Berge in einem Tag.',
         highlight: 'Vršič-Pass (1.611 m) · Russische Kapelle · Quelle der Soča · Trenta-Tal',
         waypoints: [
@@ -472,7 +472,7 @@ window.ROUTES = {
       },
       {
         day: 3, title: 'Trenta → Bovec → Kobarid',
-        km: 50, hm: 650,
+        km: 45, hm: 650,
         desc: 'Flussdag entlang der smaragdgrünen Soča. Boka-Wasserfall (106 m, Sloweniens höchster), Velika Korita-Schlucht, Napoleon-Brücke. WWI-Museum Kobarid kurz vor der Unterkunft.',
         highlight: 'Boka-Wasserfall · Bovec Adventure-Hub · Napoleon-Brücke · WWI-Museum',
         waypoints: [
@@ -486,7 +486,7 @@ window.ROUTES = {
       },
       {
         day: 4, title: 'Kobarid → Tolmin → Goriška Brda',
-        km: 68, hm: 850,
+        km: 86, hm: 850,
         desc: 'Tolminer Schluchten als Detour (absolut empfohlen), flach bis Most na Soči. Aufstieg in die Brda-Weinberge: Dobrovo-Schloss, Rebula-Weinproben. Übernachtung auf preisgekröntem Weingut.',
         highlight: 'Tolminer Schluchten · Most na Soči-Stausee · Goriška Brda Weingüter',
         waypoints: [
@@ -500,7 +500,7 @@ window.ROUTES = {
       },
       {
         day: 5, title: 'Goriška Brda → Vipava → Predjama → Cerknisco jezero',
-        km: 78, hm: 1200,
+        km: 133, hm: 1200,
         desc: 'Längster und vielfältigster Tag. Vipava-Radweg, Aufstieg aufs Nanos-Plateau, Predjama Castle. Rakov Škocjan Naturbögen als verstecktes Highlight. Abend am Cerknisco jezero.',
         highlight: 'Vipava-Tal · Predjama Castle · Rakov Škocjan · Cerknisco jezero',
         waypoints: [
@@ -516,7 +516,7 @@ window.ROUTES = {
       },
       {
         day: 6, title: 'Cerknisco jezero → Bloška planota → Rakitna → Bled',
-        km: 75, hm: 1200,
+        km: 139, hm: 1200,
         desc: 'Abschlusstag über das einsame Bloke-Plateau und Rakitna — Forststraßen, null Touristen. Škofja Loka als letzter Kulturstopp, dann Sava-Radweg flach nach Bled. Kein Ljubljana.',
         highlight: 'Bloška planota · Rakitna-Aussicht · Škofja Loka · Heimkehr nach Bled',
         waypoints: [
@@ -658,6 +658,834 @@ window.ROUTES = {
             price: '~€130–180 gesamt · 5 Pers.',
             desc: 'Nachbardorf Žerovnica (3 km). Geschlossene Gruppen bis 15 Pers., Forum-Apartment für 5, traditionelle Hausküche.',
             contact: 'Žerovnica 16 · info@tk-logar.com · +386 31 784 232'
+          }
+        ]
+      }
+    ]
+  },
+
+  // ─── V4: NP EXTENDED + BOHINJSKA BAHN (6 Tage) ────────────────────────────
+  v4: {
+    id: 'v4',
+    label: 'NP Extended + Bahn',
+    tagline: 'Zwei NP-Tage, Wandertag Trenta, Goriška Brda — Heimreise per Bohinjska Bahn',
+    heroTag: '6 Tage · ~305 km · ~4.800 Hm · 🚂 Bahn zurück',
+    breadcrumb: 'Bled → Pokljuka → Bohinj → Vršič → Trenta (2×) → Kobarid → Brda → 🚂 Bled',
+    days: 6, km: 305, hm: '4.800',
+    introText: '~305 km und ~4.800 Hm auf 5 Radtage — kein 139-km-Rückweg. Stattdessen Bohinjska Bahn von Nova Gorica pittoresk zurück nach Bled (~2 Std.). Tag 3 ist ein Wandertag im Triglav-NP: Soča-Quellsee, Almpfade, kein Gepäck. E-Bike-Policy Bahn: vor Fahrt bei SŽ klären (Akku-Regelung).',
+    stages: [
+      {
+        day: 1, title: 'Bled → Pokljuka-Plateau → Bohinj-See',
+        km: 66, hm: 1100,
+        desc: 'Hinauf aufs Pokljuka-Plateau (1.300 m): Biathlon-Stadion Rudno Polje, Zajamniki-Alm mit Triglav-Panorama. Abstieg zum touristisch ruhigeren Bohinj-See — erster NP-Tag ohne Hetze.',
+        highlight: 'Pokljuka-Plateau · Zajamniki-Alm · Bohinj-See',
+        waypoints: [
+          {name:'Bled',lat:46.3683,lng:14.1146},
+          {name:'Rudno Polje (Biathlon)',lat:46.3470,lng:13.9730},
+          {name:'Zajamniki-Alm',lat:46.3180,lng:13.9100},
+          {name:'Uskovnica-Hütte (1.154 m)',lat:46.3205,lng:13.9094},
+          {name:'Bohinjska Bistrica',lat:46.2713,lng:13.9549},
+          {name:'Bohinj-See / Studor',lat:46.2930,lng:13.9800}
+        ]
+      },
+      {
+        day: 2, title: 'Bohinj → Vršič-Pass (1.611 m) → Trenta',
+        km: 92, hm: 1380,
+        desc: 'Der epischste Tag — und jetzt habt ihr die Zeit, die er verdient. Von Bohinj über Goreljek nach Kranjska Gora, dann die 50 Kehren des Vršič. Quelle der Soča (kurzer Fußweg), Abstieg ins stille Trenta-Tal. Zweiter NP-Tag.',
+        highlight: 'Vršič-Pass (1.611 m) · Russische Kapelle · Quelle der Soča · Trenta-Tal',
+        waypoints: [
+          {name:'Bohinjska Bistrica',lat:46.2713,lng:13.9549},
+          {name:'Goreljek-Sattel',lat:46.3620,lng:13.9820},
+          {name:'Kranjska Gora',lat:46.4836,lng:13.7869},
+          {name:'Vršič-Pass (1.611 m)',lat:46.4356,lng:13.7445},
+          {name:'Izvir Soče',lat:46.3949,lng:13.7433},
+          {name:'Trenta / Na Logu',lat:46.3773,lng:13.6931}
+        ]
+      },
+      {
+        day: 3, title: 'Wandertag — Triglav-NP, Soča-Quellsee & Almpfade',
+        km: 20, hm: 500,
+        desc: 'Kein Gepäck, kein Ziel. Wanderung zum Soča-Quellsee (9 km Rundweg ab Trenta), Almpfade Richtung Vršič, oder Füße in die Soča. Wer radeln will: Soča-Flussweg bis Bovec und zurück (~40 km, flach). Zweite Nacht im Nationalpark.',
+        highlight: 'Soča-Quellsee (Wanderziel) · Triglav-NP Almpfade · Soča-Flussweg optional',
+        waypoints: [
+          {name:'Trenta / Na Logu',lat:46.3773,lng:13.6931},
+          {name:'Izvir Soče (Wanderziel)',lat:46.3949,lng:13.7433},
+          {name:'Bovec (optional per Rad)',lat:46.3367,lng:13.5527}
+        ]
+      },
+      {
+        day: 4, title: 'Trenta → Bovec → Kobarid',
+        km: 45, hm: 650,
+        desc: 'Entspannter Flusslauf entlang der smaragdgrünen Soča. Boka-Wasserfall (106 m, Sloweniens höchster), Velika Korita-Schlucht, Napoleon-Brücke. WWI-Museum Kobarid direkt auf der Route.',
+        highlight: 'Boka-Wasserfall · Velika Korita-Schlucht · Napoleon-Brücke · WWI-Museum',
+        waypoints: [
+          {name:'Trenta / Na Logu',lat:46.3773,lng:13.6931},
+          {name:'Bovec',lat:46.3367,lng:13.5527},
+          {name:'Boka-Wasserfall',lat:46.3149,lng:13.5601},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Kobarid',lat:46.2486,lng:13.5820}
+        ]
+      },
+      {
+        day: 5, title: 'Kobarid → Tolmin → Goriška Brda',
+        km: 64, hm: 950,
+        desc: 'Flach bis Tolmin, Most na Soči-Stausee, dann Aufstieg in die Brda-Weinberge. Šmartno (mittelalterliches Weindorf), Dobrovo-Schloss, Rebula-Weinproben. Letzte Nacht — morgen früh Bahn.',
+        highlight: 'Most na Soči-Stausee · Šmartno · Dobrovo-Schloss · Goriška Brda',
+        waypoints: [
+          {name:'Kobarid',lat:46.2486,lng:13.5820},
+          {name:'Tolmin',lat:46.1863,lng:13.7313},
+          {name:'Most na Soči',lat:46.1556,lng:13.7249},
+          {name:'Šmartno (Brda)',lat:45.9997,lng:13.5505},
+          {name:'Dobrovo',lat:45.9958,lng:13.5284}
+        ]
+      },
+      {
+        day: 6, title: 'Goriška Brda → Nova Gorica → 🚂 Bohinjska Bahn → Bled',
+        km: 18, hm: 200,
+        desc: 'Kurzer Morgenritt durch die Brda-Hügel nach Nova Gorica Bahnhof (~18 km). Räder in den Zug, Bohinjska Bahn (SŽ): historische Alpenbahnstrecke durch Podbrdo-Tunnel → Most na Soči → Bohinjska Bistrica → Bled Jezero → Lesce-Bled (~2 Std.). Fahrplan: potniski.sz.si · Fahrrad-Supplement: ~€3–5 · E-Bikes: Akku-Policy mit SŽ vorab klären.',
+        highlight: '🚂 Bohinjska Bahn (historische Alpenbahn) · Podbrdo-Tunnel · Bled Jezero',
+        waypoints: [
+          {name:'Dobrovo (Brda)',lat:45.9958,lng:13.5284},
+          {name:'Šmartno',lat:45.9997,lng:13.5505},
+          {name:'Nova Gorica Bahnhof → 🚂',lat:45.9571,lng:13.6399}
+        ]
+      }
+    ],
+    nights: [
+      {
+        title: 'Nacht 1 — Bohinj-Tal, Triglav-Nationalpark',
+        lat: 46.293, lng: 13.980,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija · Bohinj-Tal',
+            name: "Turistična kmetija Gartner – Pr' Odolneku",
+            website: 'https://bohinjgartner.com/',
+            booking: 'https://www.booking.com/hotel/si/turisticna-kmetija-gartner.html',
+            price: '~€120–160 gesamt · 5 Pers. · Apartment 4+1',
+            desc: 'Arbeitender Milchbauernhof mitten im Bohinj-Tal, 1,5 km vom See. Dorf Studor mit traditionellen Heuaufzügen — eines der meist fotografierten Dörfer Sloweniens.',
+            contact: 'Studor v Bohinju 3A · info@bohinjgartner.com · +386 41 205 182'
+          },
+          {
+            primary: false,
+            type: 'Berghütte · Pokljuka (1.154 m)',
+            name: 'Koča na Uskovnici',
+            website: 'https://tdbohinj.si/en/td-accomodation/uskovnica-mountain-hut/',
+            booking: null,
+            price: '~€110–130 gesamt · 5 Pers. · Halbpension',
+            desc: 'Renovierte Berghütte direkt auf dem Pokljuka-Plateau im NP. Rustikales Ambien, ausgezeichnetes Hüttenessen. Auf der Tagesroute.',
+            contact: 'Über TD Bohinj: td.bohinj@siol.net · +386 4 574 60 10'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 2 — Trenta-Tal, Triglav-Nationalpark',
+        lat: 46.372, lng: 13.694,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Bergcamp · Triglav NP',
+            name: 'Kamp Triglav – Apartments',
+            website: 'https://kamp-triglav.si/en/',
+            booking: 'https://booking.kamp-triglav.si/en/book',
+            price: '~€120–180 gesamt · 4–6 Pers. · Apartment',
+            desc: 'Direkt am Soča-Fluss im Nationalpark. Apartments für 4–6 Personen. Min. 2 Nächte Juli–Aug. — frühzeitig buchen. Ideal für Wandertag.',
+            contact: 'Trenta 18a, 5232 Soča · booking.kamp-triglav.si'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Triglav NP',
+            name: 'Ekološka turistična kmetija Pri Plajerju',
+            website: 'https://www.eko-plajer.com/en',
+            booking: null,
+            price: '~€225–250 gesamt · 5 Pers. · 2 Apartments',
+            desc: 'Bester Öko-Bauernhof Westsloweniens — direkt am Soča-Quellfluss. 5 Apartments, Infrarotsauna, Biokost. 2 Nächte buchen für Wandertag möglich.',
+            contact: 'Trenta 16a · info@eko-plajer.com · +386 41 873 884'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 3 — Soča-Tal / Bovec (2. NP-Nacht)',
+        lat: 46.360, lng: 13.677,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija · Soča-Fluss',
+            name: 'Kmetija & Kamp Jelinčič',
+            website: 'https://kmetijakampjelincic.si/index_en.html',
+            booking: null,
+            price: '~€135–250 gesamt · 5 Pers. · Apt. oder Kamra',
+            desc: 'Arbeitender Schafbauernhof direkt an der Soča, 4 km von Bovec — auf der Wandertag-Optimalroute. Großes Apartment (4+2), Hausschafskäse. Nur Direktbuchung.',
+            contact: 'Soča 50, 5232 Soča · kmetija.kamp.jelincic@gmail.com · +386 31 753 162'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Triglav NP',
+            name: 'Ekološka turistična kmetija Pri Plajerju',
+            website: 'https://www.eko-plajer.com/en',
+            booking: null,
+            price: '~€225–250 gesamt · 5 Pers.',
+            desc: '2. Nacht am selben Ort — ideal wenn der Wandertag in Trenta bleibt und keine Umsiedlung gewünscht.',
+            contact: 'Trenta 16a · info@eko-plajer.com · +386 41 873 884'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 4 — Soča-Tal, Kobarid',
+        lat: 46.238, lng: 13.592,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija #1 Kobarid · Booking 9.3',
+            name: 'Turistična kmetija Kranjc',
+            website: 'https://www.turizem-kranjc.si/en/',
+            booking: 'https://www.booking.com/hotel/si/farm-stay-kranjc.html',
+            price: '~€195–260 gesamt · 5 Pers.',
+            desc: '#1 Unterkunft Kobarid (9.3/10). Restaurant, Bergblick, Dorf Drežnica oberhalb der Soča.',
+            contact: 'Drežnica 22, 5222 Kobarid · über Booking.com'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Kobarid',
+            name: 'Ekološka turistična kmetija Žvanč',
+            website: 'https://www.ekokmetija-zvanc.si',
+            booking: 'https://www.booking.com/hotel/si/turisticna-kmetija-zvanc.html',
+            price: '~€100–140 gesamt · 5 Pers.',
+            desc: 'Ruhiger Bergbauernhof oberhalb Kobarid, Grill-Terrasse, Panoramablick. Öko-zertifiziert, hauseigener Käse.',
+            contact: 'Drežniške Ravne 30a · kmetija.zvanc@gmail.com · +386 5 384 86 56'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 5 — Goriška Brda, Weinregion',
+        lat: 45.996, lng: 13.528,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Preisgekröntes Weingut · Brda',
+            name: 'Kmetija Štekar (Hiša Štekar)',
+            website: 'https://www.stekar.si/index-eng.html',
+            booking: 'https://www.booking.com/hotel/si/kmetija-stekar.html',
+            price: '~€250–350 gesamt · 5 Pers.',
+            desc: 'Preisgekröntes Weingut im Herz der Brda-Hügel. Pool, Weinkeller-Touren (€30/Pers.). Morgen früh 18 km nach Nova Gorica Bahnhof.',
+            contact: 'Snežatno 26a, 5211 Kojsko · hisastekar@gmail.com · +38641335320'
+          },
+          {
+            primary: false,
+            type: 'Weingut · E-Bike Laden ✓',
+            name: 'Turistična kmetija Štanfel',
+            website: 'https://stanfel.si/en/',
+            booking: 'https://stanfel.si/en/',
+            price: '~€250–300 gesamt · 5 Pers.',
+            desc: '9.2/10. E-Bike-Lagerung und Laden explizit möglich — ideal vor dem Bahntag. 125 m² Gemeinschaftsraum, Weinberge ringsum.',
+            contact: 'Kojsko · stefan@stanfel.si · +386 31 680 297'
+          }
+        ]
+      }
+    ]
+  },
+
+  // ─── V5: SOČA + BOHINJSKA BAHN (5 Tage) ───────────────────────────────────
+  v5: {
+    id: 'v5',
+    label: 'Soča + Bahn',
+    tagline: 'Vršič, Soča-Tal, Goriška Brda — direkter Einstieg, Bahn zurück',
+    heroTag: '5 Tage · ~215 km · ~3.700 Hm · 🚂 Bahn zurück',
+    breadcrumb: 'Bled → Vršič → Trenta (2×) → Kobarid → Brda → 🚂 Bled',
+    days: 5, km: 215, hm: '3.700',
+    introText: '~215 km und ~3.700 Hm auf 4 Radtage — kompakter Einstieg direkt über den Vršič. Tag 2 ist ein Wandertag im Triglav-NP (Soča-Quellsee, Almpfade). Rückreise per Bohinjska Bahn von Nova Gorica nach Bled (~2 Std.). Kürzeste Variante — ideal als Ersttoure oder Kurztrip.',
+    stages: [
+      {
+        day: 1, title: 'Bled → Vršič-Pass → Trenta (Na Logu)',
+        km: 68, hm: 1350,
+        desc: 'Radweg entlang der Sava bis Kranjska Gora, dann der Vršič-Pass mit seinen 50 Kehren. Belohnung: erste Sicht auf die smaragdgrüne Soča und Abstieg ins stille Trenta-Tal — Übernachtung mitten im Nationalpark.',
+        highlight: 'Vršič-Pass (1.611 m) · Russische Kapelle · Quelle der Soča · Triglav-NP',
+        waypoints: [
+          {name:'Bled',lat:46.3683,lng:14.1146},
+          {name:'Kranjska Gora',lat:46.4836,lng:13.7869},
+          {name:'Vršič-Pass (1.611 m)',lat:46.4356,lng:13.7445},
+          {name:'Izvir Soče',lat:46.3949,lng:13.7433},
+          {name:'Na Logu v Trenti',lat:46.3773,lng:13.6931}
+        ]
+      },
+      {
+        day: 2, title: 'Wandertag — Triglav-NP, Soča-Quellsee & Almpfade',
+        km: 20, hm: 500,
+        desc: 'Kein Gepäck, kein Ziel. Wanderung zum Soča-Quellsee (9 km Rundweg), Almpfade Richtung Vršič, oder Füße in die Soča. Wer radeln will: Soča-Flussweg bis Bovec und zurück (~40 km, flach). Zweite Nacht im Nationalpark.',
+        highlight: 'Soča-Quellsee · Triglav-NP Wanderpfade · Soča-Flussweg optional',
+        waypoints: [
+          {name:'Trenta / Na Logu',lat:46.3773,lng:13.6931},
+          {name:'Izvir Soče (Wanderziel)',lat:46.3949,lng:13.7433},
+          {name:'Bovec (optional per Rad)',lat:46.3367,lng:13.5527}
+        ]
+      },
+      {
+        day: 3, title: 'Trenta → Bovec → Kobarid',
+        km: 45, hm: 650,
+        desc: 'Entspannter Flusslauf entlang der smaragdgrünen Soča. Boka-Wasserfall (106 m), Velika Korita-Schlucht, Napoleon-Brücke. WWI-Museum Kobarid kurz vor der Unterkunft.',
+        highlight: 'Boka-Wasserfall · Velika Korita-Schlucht · Napoleon-Brücke · WWI-Museum',
+        waypoints: [
+          {name:'Na Logu v Trenti',lat:46.3773,lng:13.6931},
+          {name:'Bovec',lat:46.3367,lng:13.5527},
+          {name:'Boka-Wasserfall',lat:46.3149,lng:13.5601},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Kobarid',lat:46.2486,lng:13.5820}
+        ]
+      },
+      {
+        day: 4, title: 'Kobarid → Tolmin → Goriška Brda',
+        km: 64, hm: 950,
+        desc: 'Flach bis Tolmin, Most na Soči-Stausee, dann Aufstieg in die Weinberge. Šmartno (mittelalterliches Weindorf), Dobrovo-Schloss, Rebula-Weinproben. Letzte Nacht — morgen früh Bahn nach Hause.',
+        highlight: 'Most na Soči-Stausee · Šmartno · Dobrovo-Schloss · Goriška Brda',
+        waypoints: [
+          {name:'Kobarid',lat:46.2486,lng:13.5820},
+          {name:'Tolmin',lat:46.1863,lng:13.7313},
+          {name:'Most na Soči',lat:46.1556,lng:13.7249},
+          {name:'Šmartno (Brda)',lat:45.9997,lng:13.5505},
+          {name:'Dobrovo',lat:45.9958,lng:13.5284}
+        ]
+      },
+      {
+        day: 5, title: 'Goriška Brda → Nova Gorica → 🚂 Bohinjska Bahn → Bled',
+        km: 18, hm: 200,
+        desc: 'Kurzer Morgenritt durch die Brda-Hügel nach Nova Gorica Bahnhof (~18 km). Räder in den Zug, Bohinjska Bahn (SŽ): Podbrdo-Tunnel → Most na Soči → Bohinjska Bistrica → Bled Jezero → Lesce-Bled (~2 Std.). Fahrplan: potniski.sz.si · Supplement: ~€3–5 · E-Bikes: Akku-Policy mit SŽ vorab klären.',
+        highlight: '🚂 Bohinjska Bahn · Podbrdo-Tunnel · Bohinjska Bistrica · Bled Jezero',
+        waypoints: [
+          {name:'Dobrovo (Brda)',lat:45.9958,lng:13.5284},
+          {name:'Šmartno',lat:45.9997,lng:13.5505},
+          {name:'Nova Gorica Bahnhof → 🚂',lat:45.9571,lng:13.6399}
+        ]
+      }
+    ],
+    nights: [
+      {
+        title: 'Nacht 1 — Trenta-Tal, Triglav-Nationalpark',
+        lat: 46.372, lng: 13.694,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Bergcamp · Triglav NP',
+            name: 'Kamp Triglav – Apartments',
+            website: 'https://kamp-triglav.si/en/',
+            booking: 'https://booking.kamp-triglav.si/en/book',
+            price: '~€120–180 gesamt · 4–6 Pers. · Apartment',
+            desc: 'Direkt am Soča-Fluss im Nationalpark. Apartments für 4–6 Personen. Min. 2 Nächte Juli–Aug. frühzeitig buchen — ideal für Wandertag.',
+            contact: 'Trenta 18a, 5232 Soča · booking.kamp-triglav.si'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Triglav NP',
+            name: 'Ekološka turistična kmetija Pri Plajerju',
+            website: 'https://www.eko-plajer.com/en',
+            booking: null,
+            price: '~€225–250 gesamt · 5 Pers. · 2 Apartments',
+            desc: 'Bester Öko-Bauernhof Westsloweniens — direkt am Soča-Quellfluss. 5 Apartments, Infrarotsauna, Biokost. 2 Nächte buchbar.',
+            contact: 'Trenta 16a · info@eko-plajer.com · +386 41 873 884'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 2 — Soča-Tal / Bovec (2. NP-Nacht)',
+        lat: 46.360, lng: 13.677,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija · Soča-Fluss',
+            name: 'Kmetija & Kamp Jelinčič',
+            website: 'https://kmetijakampjelincic.si/index_en.html',
+            booking: null,
+            price: '~€135–250 gesamt · 5 Pers. · Apt. oder Kamra',
+            desc: 'Schafbauernhof direkt an der Soča, 4 km von Bovec. Großes Apartment (4+2), Hausschafskäse. Auf der Wandertag-Route. Nur Direktbuchung.',
+            contact: 'Soča 50, 5232 Soča · kmetija.kamp.jelincic@gmail.com · +386 31 753 162'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Triglav NP',
+            name: 'Ekološka turistična kmetija Pri Plajerju',
+            website: 'https://www.eko-plajer.com/en',
+            booking: null,
+            price: '~€225–250 gesamt · 5 Pers.',
+            desc: '2. Nacht am selben Ort — kein Umziehen, ideal wenn Wandertag in Trenta bleibt.',
+            contact: 'Trenta 16a · info@eko-plajer.com · +386 41 873 884'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 3 — Soča-Tal, Kobarid',
+        lat: 46.238, lng: 13.592,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija #1 Kobarid · Booking 9.3',
+            name: 'Turistična kmetija Kranjc',
+            website: 'https://www.turizem-kranjc.si/en/',
+            booking: 'https://www.booking.com/hotel/si/farm-stay-kranjc.html',
+            price: '~€195–260 gesamt · 5 Pers.',
+            desc: '#1 Unterkunft Kobarid (9.3/10). Restaurant, Bergblick, ruhiges Dorf Drežnica.',
+            contact: 'Drežnica 22, 5222 Kobarid · über Booking.com'
+          },
+          {
+            primary: false,
+            type: 'Öko-Kmetija · Kobarid',
+            name: 'Ekološka turistična kmetija Žvanč',
+            website: 'https://www.ekokmetija-zvanc.si',
+            booking: 'https://www.booking.com/hotel/si/turisticna-kmetija-zvanc.html',
+            price: '~€100–140 gesamt · 5 Pers.',
+            desc: 'Ruhiger Bergbauernhof oberhalb Kobarid. Grill-Terrasse, Panoramablick, hauseigener Käse.',
+            contact: 'Drežniške Ravne 30a · kmetija.zvanc@gmail.com · +386 5 384 86 56'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 4 — Goriška Brda, Weinregion',
+        lat: 45.996, lng: 13.528,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Preisgekröntes Weingut · Brda',
+            name: 'Kmetija Štekar (Hiša Štekar)',
+            website: 'https://www.stekar.si/index-eng.html',
+            booking: 'https://www.booking.com/hotel/si/kmetija-stekar.html',
+            price: '~€250–350 gesamt · 5 Pers.',
+            desc: 'Preisgekröntes Weingut im Herz der Brda-Hügel. Pool, Weinkeller-Touren. Morgen früh 18 km nach Nova Gorica Bahnhof.',
+            contact: 'Snežatno 26a, 5211 Kojsko · hisastekar@gmail.com · +38641335320'
+          },
+          {
+            primary: false,
+            type: 'Weingut · E-Bike Laden ✓',
+            name: 'Turistična kmetija Štanfel',
+            website: 'https://stanfel.si/en/',
+            booking: 'https://stanfel.si/en/',
+            price: '~€250–300 gesamt · 5 Pers.',
+            desc: '9.2/10. E-Bike-Laden explizit möglich — ideal vor Bahntag. 125 m² Gemeinschaftsraum.',
+            contact: 'Kojsko · stefan@stanfel.si · +386 31 680 297'
+          }
+        ]
+      }
+    ]
+  },
+
+  v6: {
+    id: 'v6',
+    label: 'MTB Traverse',
+    tagline: 'Julijska Alpe Querung — Kranjska Gora, Vršič, Trenta, Soča, Kobarid',
+    heroTag: '4 Tage · ~82 km · ~2.150 Hm · 🚵 Reines MTB',
+    breadcrumb: 'Kranjska Gora → Tamar → Vršič (1.611 m) → Trenta → Bovec → 🚵 Soča-Trail → Kobarid',
+    days: 4, km: 82, hm: '2.150',
+    introText: 'Kein E-Bike — reines MTB auf dem wildesten Korridor Sloweniens. Von Kranjska Gora über den Vršič-Pass (1.611 m) ins stille Trenta-Tal, dann entlang der smaragdgrünen Soča bis Kobarid. Nacht 1 auf dem Pass — Sonnenuntergang über den Julischen Alpen. Tag 2 führt am Ursprung der Soča vorbei (1.388 m). Routing: ORS cycling-mountain-Profil (OpenStreetMap MTB-Daten).',
+    stages: [
+      {
+        day: 1, title: 'Kranjska Gora → Tamar-Tal → Vršič-Pass (1.611 m)',
+        km: 16, hm: 1200,
+        desc: 'Start in Kranjska Gora, sofort ins Tamar-Tal: 10 km Forststraßen und MTB-Trails unter Jalovec (2.645 m) und Mojstrovka. Ab Planinski dom Tamar (1.108 m) beginnt die Kopfsteinpflaster-Rampe des Vršič — 24 Kehren Nordseite. Schub erlaubt und empfohlen. Oben: Erjavčeva koča (1.525 m), Tičarjev dom (1.620 m), Russische Kapelle, Panorama auf Triglav.',
+        highlight: 'Tamar-Tal · Jalovec-Nordwand · Vršič-Kopfsteinpflaster · Russische Kapelle · 1.611 m',
+        waypoints: [
+          {name:'Kranjska Gora',lat:46.4866,lng:13.7879},
+          {name:'Planica / Skisprung',lat:46.4799,lng:13.7292},
+          {name:'Planinski dom Tamar (1.108 m)',lat:46.4461,lng:13.7134},
+          {name:'Russische Kapelle',lat:46.4431,lng:13.7416},
+          {name:'Prelaz Vršič (1.611 m)',lat:46.4348,lng:13.7437},
+          {name:'Erjavčeva koča (1.525 m)',lat:46.4355,lng:13.7480},
+          {name:'Tičarjev dom (1.620 m)',lat:46.4328,lng:13.7446}
+        ]
+      },
+      {
+        day: 2, title: 'Vršič → Izvir Soče (1.388 m) → Dom Trenta',
+        km: 18, hm: 220,
+        desc: 'Vršič-Südseite: 25 Kehren Schotterpiste, teils MTB-Trail, hinab ins Trenta-Tal. Kurzer Abstecher (1 km Fußweg) zur Soča-Quelle im Fels — Wasser eiskalt, Stille absolut. Weiter talabwärts auf der Soška pot bis Na Logu / Dom Trenta. Nachmittag: Füße in die Soča, Trenta-Schlucht erkunden.',
+        highlight: 'Vršič-Südseite Schotter · Izvir Soče (1.388 m) · Soška pot · Stilles Trenta-Tal',
+        waypoints: [
+          {name:'Tičarjev dom (1.620 m)',lat:46.4328,lng:13.7446},
+          {name:'Prelaz Vršič Südseite',lat:46.4348,lng:13.7437},
+          {name:'Izvir Soče (1.388 m)',lat:46.4119,lng:13.7241},
+          {name:'Koča pri izviru Soče',lat:46.4096,lng:13.7255},
+          {name:'Na Logu / Dom Trenta',lat:46.3805,lng:13.7525}
+        ]
+      },
+      {
+        day: 3, title: 'Trenta → Soča-Tal → Bovec',
+        km: 25, hm: 380,
+        desc: 'Soška pot und R-206 durch den Canyon des jungen Flusses — türkisfarbenes Wasser, Kalksteinwände, kein Lärm. Dorf Soča, Srpenica, dann Bovec-Ebene. Nachmittag optional: Bovec Bike Park oder Kanin-Seilbahn auf 2.202 m (MTB-Abstieg). Essen: Martinov Hram oder Restaurant Letni Vrt.',
+        highlight: 'Soška pot · Soča-Canyon · Soča-Dorf · Bovec · Kanin 2.202 m (optional)',
+        waypoints: [
+          {name:'Na Logu / Dom Trenta',lat:46.3805,lng:13.7525},
+          {name:'Soča (Dorf)',lat:46.3433,lng:13.6564},
+          {name:'Srpenica',lat:46.3210,lng:13.6052},
+          {name:'Bovec',lat:46.3364,lng:13.5516},
+          {name:'Kanin-Seilbahn (optional, 2.202 m)',lat:46.3580,lng:13.4745}
+        ]
+      },
+      {
+        day: 4, title: 'Bovec → Pot ob Soči → Kobarid',
+        km: 23, hm: 280,
+        desc: 'Der legendäre Soča-Trail: 23 km auf dem "Pot ob Soči" — teils Singletrack direkt am Fluss, teils Schotter, komplett MTB-geeignet. Boka-Wasserfall (106 m, Sloweniens höchster), Velika Korita-Schlucht, Napoleon-Brücke (1750). Endpunkt: Kobarid mit WWI-Museum und Restaurant Hiša Franko (4 km außerhalb, Weltklasse).',
+        highlight: 'Soča-Singletrack · Boka-Wasserfall · Napoleon-Brücke · WWI-Museum Kobarid',
+        waypoints: [
+          {name:'Bovec',lat:46.3364,lng:13.5516},
+          {name:'Boka-Wasserfall (106 m)',lat:46.3149,lng:13.5601},
+          {name:'Velika Korita-Schlucht',lat:46.2810,lng:13.5650},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Kobarid',lat:46.2451,lng:13.5798}
+        ]
+      }
+    ],
+    nights: [
+      {
+        title: 'Nacht 1 — Vršič-Pass (1.525–1.620 m), Triglav-NP',
+        lat: 46.4355, lng: 13.7480,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Berghütte · Vršič (1.525 m)',
+            name: 'Erjavčeva koča na Vršiču',
+            website: 'https://www.erjavcevakoca.com/',
+            booking: 'https://www.booking.com/hotel/si/erjavceva-koca-vrsic-pass.html',
+            price: '~€35–55 p.P. · Halbpension',
+            desc: 'Renovierte historische Bergstation direkt am Vršič-Pass (2023 restauriert), auf der Route. Zimmer + Matratzenlager, Hüttenessen, Sonnenuntergang über den Julischen Alpen. Jun–Sep offen. Frühzeitig buchen.',
+            contact: 'Vršič · info@erjavcevakoca.com · +386 41 620 015'
+          },
+          {
+            primary: false,
+            type: 'Berghütte · Vršič (1.620 m)',
+            name: 'Tičarjev dom na Vršiču',
+            website: 'https://kraji.eu/slovenija/vrsic_ticarjev_dom/eng',
+            booking: 'https://www.booking.com/hotel/si/ticarjev-dom.html',
+            price: '~€30–45 p.P.',
+            desc: 'Höherliegende Vršič-Hütte direkt am Pass (1.620 m), betrieben von PD Jesenice. Einfacher als Erjavčeva, aber unschlagbare Passlage.',
+            contact: 'Vršič · +386 51 327 730'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 2 — Trenta-Tal (618 m), Triglav-NP',
+        lat: 46.3805, lng: 13.7525,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Berghütte / Lodge · Trenta-Tal',
+            name: 'Dom Trenta — Trenta Lodge Na Logu',
+            website: 'https://kraji.eu/slovenija/dom_trenta_na_logu/eng',
+            booking: 'https://www.tnp.si/en/visiting-park/information-for-visitors/accommodation/mountain-huts/',
+            price: '~€30–50 p.P.',
+            desc: 'Berghaus im stillen Trenta-Tal, zugleich TNP-Informationszentrum. Wanderung zur Soča-Quelle (1 km Fußweg) direkt ab Haus. Authentisch, einfach, mitten im Nationalpark. Buchen per Telefon.',
+            contact: 'Na Logu v Trenti · +386 5 388 93 30'
+          },
+          {
+            primary: false,
+            type: 'Wanderhütte · Soča-Quelle (1.388 m)',
+            name: 'Koča pri izviru Soče',
+            website: 'https://www.tnp.si/en/visiting-park/information-for-visitors/accommodation/',
+            booking: null,
+            price: '~€20–30 p.P. · sehr einfach',
+            desc: 'Kleine Schutzhütte an der Soča-Quelle (1.388 m) — für Puristen, die auf 1.400 m schlafen wollen. Keine Dusche, Grundversorgung. Telefonische Voranmeldung.',
+            contact: 'TNP-Büro: +386 4 578 02 00'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 3 — Bovec (430 m)',
+        lat: 46.3364, lng: 13.5516,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Boutique Hotel · MTB-freundlich ✓',
+            name: 'Boutique Hotel Dobra Vila Bovec',
+            website: 'https://dobra-vila.slovenia-hotel.com/en/',
+            booking: 'https://www.booking.com/hotel/si/vila-dobra-vila.html',
+            price: '~€120–180 DZ · inkl. Frühstück',
+            desc: '#1 Hotel Bovec (TripAdvisor). Historisches Telefonamt, Bike-Lagerraum, Weinkeller, Restaurant mit lokalen Zutaten. Direktbuchung oft günstiger.',
+            contact: 'Mala vas 112, 5320 Bovec · welcome@dobra-vila-bovec.si · +386 5 389 64 00'
+          },
+          {
+            primary: false,
+            type: 'Apartments · Bovec',
+            name: 'Bovec Apartments & Guesthouses',
+            website: 'https://www.bovec.org/en/apartments-rooms',
+            booking: 'https://www.booking.com/city/si/bovec.en-gb.html',
+            price: '~€40–80 p.P.',
+            desc: 'Bovec hat viele MTB-freundliche Unterkünfte: Gostišče Sovdat, Apartmaji Prton, Kamp Liza. Übersicht auf bovec.org.',
+            contact: 'www.bovec.org/en'
+          }
+        ]
+      }
+    ]
+  },
+
+  v7: {
+    id: 'v7',
+    label: 'MTB Soča Loop',
+    tagline: 'Wild Loop ab Bovec — Trenta, Vršič, Tamar, Koritnica-Canyon, Kanin',
+    heroTag: '4 Tage · ~129 km · ~3.450 Hm · 🚵 Wild Loop',
+    breadcrumb: 'Bovec → Trenta → Vršič (1.611 m) → Tamar → Log pod Mangartom → Bovec → 🚵 Kanin → Kobarid',
+    days: 4, km: 129, hm: '3.450',
+    introText: 'Der härteste der drei MTB-Loops: ab Bovec, mit Nächten auf Passhöhe und im Tamar-Tal. Highlights: Aufstieg Trenta→Vršič (1.200 Hm an einem Tag), Talnacht in Tamar unter Jalovec (2.645 m), Rückweg über Koritnica-Canyon, Abschluss mit Kanin (2.202 m) per Seilbahn. ~3.450 Hm gesamt — vergleichbar einer Alpentour.',
+    stages: [
+      {
+        day: 1, title: 'Bovec → Soča-Tal aufwärts → Na Logu (Trenta)',
+        km: 25, hm: 450,
+        desc: 'Gemächlicher Einstieg flussaufwärts: Soška pot und R-206 wechseln sich ab. Die Soča wird enger, das Tal stiller. Dorf Soča, Srpenica, dann Na Logu. Nachmittag: Soča-Quelle (1 km Fußweg) oder Kühlung im Fluss. Energiereserven sammeln für den Vršič-Aufstieg morgen.',
+        highlight: 'Soča-Tal aufwärts · Soča-Dorf · Srpenica · Na Logu / Dom Trenta',
+        waypoints: [
+          {name:'Bovec',lat:46.3364,lng:13.5516},
+          {name:'Srpenica',lat:46.3210,lng:13.6052},
+          {name:'Soča (Dorf)',lat:46.3433,lng:13.6564},
+          {name:'Na Logu / Dom Trenta',lat:46.3805,lng:13.7525}
+        ]
+      },
+      {
+        day: 2, title: 'Trenta → Vršič-Pass (1.611 m) → Kranjska Gora → Dom Tamar',
+        km: 38, hm: 1350,
+        desc: 'Der Schlüsseltag: Aufstieg von Na Logu (618 m) auf den Vršič (1.611 m) — Kopfsteinpflaster, Schotter, Schieben. 25 Kehren Nordseite nach Kranjska Gora. Kurze Rast, dann Planica → Tamar-Tal auf Forststraßen. Dom v Tamarju liegt am Talende unter Jalovec (2.645 m). Früh starten!',
+        highlight: 'Vršič-Aufstieg (993 Hm) · Russische Kapelle · KG-Abstieg · Tamar-Tal',
+        waypoints: [
+          {name:'Na Logu / Dom Trenta',lat:46.3805,lng:13.7525},
+          {name:'Prelaz Vršič (1.611 m)',lat:46.4348,lng:13.7437},
+          {name:'Russische Kapelle',lat:46.4431,lng:13.7416},
+          {name:'Kranjska Gora',lat:46.4866,lng:13.7879},
+          {name:'Planica / Skisprung',lat:46.4799,lng:13.7292},
+          {name:'Dom v Tamarju (1.108 m)',lat:46.4461,lng:13.7134}
+        ]
+      },
+      {
+        day: 3, title: 'Dom Tamar → Log pod Mangartom → Koritnica-Canyon → Bovec',
+        km: 42, hm: 850,
+        desc: 'Loop-Schließung: Tamar → Planica → Rateče, dann Strmec-Sattel nach Log pod Mangartom (820 m) — Ausgangspunkt Mangart-Straße (Sloweniens höchste Fahrstraße, optional). Koritnica-Canyon hinunter nach Bovec: technisch, steinig, beeindruckend. Letzte Nacht in Bovec.',
+        highlight: 'Planica · Rateče · Log pod Mangartom · Koritnica-Canyon · Bovec',
+        waypoints: [
+          {name:'Dom v Tamarju (1.108 m)',lat:46.4461,lng:13.7134},
+          {name:'Planica / Skisprung',lat:46.4799,lng:13.7292},
+          {name:'Rateče',lat:46.4947,lng:13.7136},
+          {name:'Log pod Mangartom (820 m)',lat:46.4020,lng:13.5920},
+          {name:'Koritnica-Tal',lat:46.3710,lng:13.5680},
+          {name:'Bovec',lat:46.3364,lng:13.5516}
+        ]
+      },
+      {
+        day: 4, title: 'Bovec → Kanin (2.202 m) → Pot ob Soči → Kobarid',
+        km: 24, hm: 800,
+        desc: 'Kanin-Seilbahn auf 2.202 m (Jul–Aug täglich). Oben: Karstplateau, Schneefeldquerung, Adria-Blick. MTB-Abstieg via Loška Koritnica oder Seilbahn zurück. Ab Bovec: Pot ob Soči 23 km nach Kobarid — Singletrack, Boka-Wasserfall, Napoleon-Brücke. Finale bei Hiša Franko (4 km außerhalb Kobarid).',
+        highlight: 'Kanin 2.202 m · Soča-Singletrack · Boka-Wasserfall · Napoleon-Brücke · Kobarid',
+        waypoints: [
+          {name:'Bovec',lat:46.3364,lng:13.5516},
+          {name:'Kanin-Seilbahn (2.202 m)',lat:46.3580,lng:13.4745},
+          {name:'Boka-Wasserfall (106 m)',lat:46.3149,lng:13.5601},
+          {name:'Velika Korita-Schlucht',lat:46.2810,lng:13.5650},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Kobarid',lat:46.2451,lng:13.5798}
+        ]
+      }
+    ],
+    nights: [
+      {
+        title: 'Nacht 1 — Trenta-Tal (618 m), Triglav-NP',
+        lat: 46.3805, lng: 13.7525,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Berghütte / Lodge · Trenta-Tal',
+            name: 'Dom Trenta — Trenta Lodge Na Logu',
+            website: 'https://kraji.eu/slovenija/dom_trenta_na_logu/eng',
+            booking: 'https://www.tnp.si/en/visiting-park/information-for-visitors/accommodation/mountain-huts/',
+            price: '~€30–50 p.P.',
+            desc: 'Berghaus im stillen Trenta-Tal, TNP-Informationszentrum. Direkt auf der Route. Authentisch, Nationalpark-Atmosphäre pur. Buchen per Telefon.',
+            contact: 'Na Logu v Trenti · +386 5 388 93 30'
+          },
+          {
+            primary: false,
+            type: 'Wanderhütte · Soča-Quelle',
+            name: 'Koča pri izviru Soče',
+            website: 'https://www.tnp.si/en/visiting-park/information-for-visitors/accommodation/',
+            booking: null,
+            price: '~€20–30 p.P.',
+            desc: 'Sehr einfache Schutzhütte an der Soča-Quelle (1.388 m) für Puristen. Begrenzte Kapazität, telefonische Voranmeldung.',
+            contact: 'TNP-Büro: +386 4 578 02 00'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 2 — Tamar-Tal (1.108 m)',
+        lat: 46.4461, lng: 13.7134,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Berghütte · Tamar-Tal',
+            name: 'Dom v Tamarju (Planinski dom Tamar)',
+            website: 'https://mountainsforeverybody.com/tamar-hut-planinski-dom-tamar',
+            booking: 'https://kraji.eu/slovenija/dom_v_tamarju/eng',
+            price: '~€25–40 p.P. · Halbpension',
+            desc: 'Ganzjährig geöffnete Berghütte am Ende des Tamar-Tals unter der Nordwand von Jalovec (2.645 m). 12 Zimmerplätze + 50 Matratzenlager. Hüttenküche (Jota, Žlikrofi, Strudel). Duschen vorhanden. Frühzeitig buchen.',
+            contact: 'Rateče 168 · info@tamar.si · +386 41 378 077'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 3 — Bovec (430 m)',
+        lat: 46.3364, lng: 13.5516,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Boutique Hotel · MTB-freundlich ✓',
+            name: 'Boutique Hotel Dobra Vila Bovec',
+            website: 'https://dobra-vila.slovenia-hotel.com/en/',
+            booking: 'https://www.booking.com/hotel/si/vila-dobra-vila.html',
+            price: '~€120–180 DZ · inkl. Frühstück',
+            desc: '#1 Hotel Bovec (TripAdvisor). Historisches Telefonamt, Bike-Lagerraum, Weinkeller, Restaurant. E-Mail: welcome@dobra-vila-bovec.si.',
+            contact: 'Mala vas 112, 5320 Bovec · welcome@dobra-vila-bovec.si · +386 5 389 64 00'
+          },
+          {
+            primary: false,
+            type: 'Gästehaus · Bovec-Zentrum',
+            name: 'Gostišče Sovdat',
+            website: 'https://www.bovec.org/en/apartments-rooms',
+            booking: 'https://www.booking.com/city/si/bovec.en-gb.html',
+            price: '~€50–80 DZ',
+            desc: '3-Sterne B&B im Zentrum Bovec mit Restaurant. Direktbuchung auf bovec.org.',
+            contact: 'Bovec · www.bovec.org/en/apartments-rooms'
+          }
+        ]
+      }
+    ]
+  },
+
+  v8: {
+    id: 'v8',
+    label: 'MTB Bohinj–Soča',
+    tagline: 'Bohinj, Komna-Plateau, Tolmin, Soča-Tal, Kobarid — Traverse Bled bis Bovec',
+    heroTag: '4 Tage · ~113 km · ~2.580 Hm · 🚵 Traverse Bled → Bovec',
+    breadcrumb: 'Bled → Bohinj → Savica → Dom na Komni (1.520 m) → Tolmin → Soča → Kobarid → 🚵 Bovec',
+    days: 4, km: 113, hm: '2.580',
+    introText: 'Start Bled, Ende Bovec — vier Tage Querung vom Triglav-NP bis ans Soča-Tal. Tag 2 über das Komna-Plateau (1.520 m): Karstwiesen, Bergseen, kein Motorenlärm. Finale in Kobarid mit Hiša Franko (Chef Ana Roš, World\'s 50 Best). Logistik: Auto in Bovec lassen, Postbus Bovec → Bled (ap-ljubljana.si).',
+    stages: [
+      {
+        day: 1, title: 'Bled → Bohinj-See → Stara Fužina',
+        km: 32, hm: 580,
+        desc: 'Ab Bled auf MTB-Trails ins Bohinj-Tal: Bohinjska Bistrica, Bohinj-See Südseite (ruhiger als Nordseite). Stara Fužina: kleines Bauerndorf am Ostende des Sees. Savica-Wasserfall (1,5 km Fußweg) optional. Entspannter Auftakt — Energieaufbau für Komna morgen.',
+        highlight: 'Bohinj-See Südseite · Stara Fužina · Savica-Wasserfall (optional)',
+        waypoints: [
+          {name:'Bled',lat:46.3683,lng:14.1146},
+          {name:'Bohinjska Bistrica',lat:46.2713,lng:13.9549},
+          {name:'Bohinj-See (Ukanc)',lat:46.2710,lng:13.8468},
+          {name:'Stara Fužina',lat:46.2878,lng:13.8961},
+          {name:'Savica-Wasserfall (optional)',lat:46.2903,lng:13.7837}
+        ]
+      },
+      {
+        day: 2, title: 'Savica → Dom na Komni (1.520 m) → Tolmin',
+        km: 28, hm: 1100,
+        desc: 'Schlüsseltag: Savica-Wasserfall (537 m) auf das Komna-Plateau (1.520 m) — 1.000 Hm Aufstieg auf Forststraße und Fußweg, teils schieben. Oben: Karstwiesen, Dom na Komni (Berghütte, ganzjährig). Abstieg via Bogatinsko sedlo Richtung Westen, optional via Krnsko jezero (Feldsee, 1.385 m) nach Tolmin. Anspruchsvoll.',
+        highlight: 'Savica (537 m) · Komna-Plateau (1.520 m) · Dom na Komni · Krnsko jezero optional',
+        waypoints: [
+          {name:'Savica-Wasserfall (537 m)',lat:46.2903,lng:13.7837},
+          {name:'Dom na Komni (1.520 m)',lat:46.2844,lng:13.7733},
+          {name:'Bogatinsko sedlo',lat:46.2772,lng:13.7447},
+          {name:'Krnsko jezero (optional, 1.385 m)',lat:46.2456,lng:13.7076},
+          {name:'Tolmin',lat:46.1845,lng:13.7309}
+        ]
+      },
+      {
+        day: 3, title: 'Tolmin → Soča-Tal → Kobarid',
+        km: 25, hm: 380,
+        desc: 'Soška pot und R-203 flussabwärts nach Kobarid. Tolminska Korita (Klamm, 30 min Fußweg optional). Napoleon-Brücke, Most na Soči-Stausee. Kobarid: WWI-Museum (Hemingway war hier), Restavracija Kotlar. Nacht in Kobarid oder 4 km außerhalb bei Hiša Franko.',
+        highlight: 'Soška pot · Tolminska Korita · Napoleon-Brücke · WWI-Museum Kobarid',
+        waypoints: [
+          {name:'Tolmin',lat:46.1845,lng:13.7309},
+          {name:'Tolminska Korita (Klamm)',lat:46.1862,lng:13.7313},
+          {name:'Most na Soči',lat:46.1556,lng:13.7249},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Kobarid',lat:46.2451,lng:13.5798},
+          {name:'Hiša Franko (4 km)',lat:46.2540,lng:13.5490}
+        ]
+      },
+      {
+        day: 4, title: 'Kobarid → Pot ob Soči → Bovec',
+        km: 28, hm: 520,
+        desc: 'Soča flussaufwärts — umgekehrt zu V6 Tag 4, gleich spektakulär: Singletrack, Boka-Wasserfall (von unten), Srpenica. In Bovec: Auto steht. Wer noch Energie hat: Kanin-Seilbahn nachmittags (Jul–Aug). Bus zurück nach Bled: ap-ljubljana.si (~2 Std., mit Fahrrad).',
+        highlight: 'Soča-Singletrack aufwärts · Boka-Wasserfall · Srpenica · Bovec (Ziel)',
+        waypoints: [
+          {name:'Kobarid',lat:46.2451,lng:13.5798},
+          {name:'Napoleon-Brücke',lat:46.2431,lng:13.5819},
+          {name:'Boka-Wasserfall (106 m)',lat:46.3149,lng:13.5601},
+          {name:'Srpenica',lat:46.3210,lng:13.6052},
+          {name:'Bovec',lat:46.3364,lng:13.5516}
+        ]
+      }
+    ],
+    nights: [
+      {
+        title: 'Nacht 1 — Stara Fužina, Bohinj-Tal',
+        lat: 46.2878, lng: 13.8961,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Kmetija · Bohinj-Tal',
+            name: "Turistična kmetija Gartner – Pr' Odolneku",
+            website: 'https://bohinjgartner.com/',
+            booking: 'https://www.booking.com/hotel/si/turisticna-kmetija-gartner.html',
+            price: '~€120–160 gesamt · 5 Pers. · Apartment 4+1',
+            desc: 'Arbeitender Milchbauernhof im Bohinj-Tal, 1,5 km vom See. Dorf Studor mit traditionellen Heuaufzügen. 10 km von Stara Fužina.',
+            contact: 'Studor v Bohinju 3A · info@bohinjgartner.com · +386 41 205 182'
+          },
+          {
+            primary: false,
+            type: 'Pension · Stara Fužina',
+            name: 'Pension / Apartments Bohinj',
+            website: 'https://www.booking.com/city/si/bohinj.en-gb.html',
+            booking: 'https://www.booking.com/city/si/bohinj.en-gb.html',
+            price: '~€40–70 p.P.',
+            desc: 'Mehrere Pensionen und Apartments in Stara Fužina. Buchung über booking.com Suchbegriff "Stara Fužina" oder "Bohinj".',
+            contact: 'Tourismusinfo Bohinj: www.bohinj.si'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 2 — Tolmin (180 m)',
+        lat: 46.1845, lng: 13.7309,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Apartment · Tolmin-Zentrum',
+            name: 'Apartmaji Tmaynka Tolmin',
+            website: 'https://apartmaji-tmaynka.slovenia-hotel.com/en/',
+            booking: 'https://www.booking.com/city/si/tolmin.html',
+            price: '~€64/Nacht · Apartment',
+            desc: '1,1 km vom Museum, 10 min Fußweg ins Zentrum. Gute Basis für Soča-Abschnitt. Buchung direkt oder booking.com.',
+            contact: 'Tolmin · apartmaji-tmaynka.slovenia-hotel.com'
+          },
+          {
+            primary: false,
+            type: 'Unterkunft · Soča-Tal',
+            name: 'Accommodation Soča Valley',
+            website: 'https://www.soca-valley.com/en/accommodation/',
+            booking: 'https://www.booking.com/city/si/tolmin.html',
+            price: '~€50–90/Nacht',
+            desc: 'Offizielle Unterkunftsliste Soča-Tal mit Pensionen, Apartments und Kmetije in und um Tolmin.',
+            contact: 'www.soca-valley.com/en/accommodation/'
+          }
+        ]
+      },
+      {
+        title: 'Nacht 3 — Kobarid (230 m)',
+        lat: 46.2451, lng: 13.5798,
+        accommodations: [
+          {
+            primary: true,
+            type: 'Weltklasse-Restaurant & Zimmer',
+            name: 'Hiša Franko (5 Zimmer)',
+            website: 'https://www.hisafranko.com/en/stay-with-us',
+            booking: 'https://www.hisafranko.com/en/stay-with-us',
+            price: '~€200–350 DZ · nur mit Restaurantreservierung',
+            desc: 'Das berühmteste Restaurant Sloweniens (Chef Ana Roš, World\'s 50 Best). 5 Zimmer exklusiv für Restaurantgäste. 4 km von Kobarid. Einmal im Leben — Monate im Voraus buchen.',
+            contact: 'Staro selo 1, 5222 Kobarid · info@hisafranko.com · +386 5 389 41 20'
+          },
+          {
+            primary: false,
+            type: 'Gästehaus · Kobarid-Zentrum',
+            name: 'Hotel / Gästehaus Kobarid',
+            website: 'https://www.booking.com/city/si/kobarid.html',
+            booking: 'https://www.booking.com/city/si/kobarid.html',
+            price: '~€60–120 DZ',
+            desc: 'Kobarid bietet gute Unterkünfte: Guest House Kotlar, Hotel Hvala (direkt am Platz). Buchung über booking.com.',
+            contact: 'Tourismusinfo: www.soca-valley.com/en/kobarid/'
           }
         ]
       }
