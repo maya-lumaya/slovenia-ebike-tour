@@ -1,0 +1,6516 @@
+<?xml version="1.0" ?>
+<gpx xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/main/gpx/v2/ors-gpx.xsd" version="1.1" creator="openrouteservice">
+  <metadata>
+    <name>openrouteservice directions</name>
+    <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+    <author>
+      <name>openrouteservice</name>
+      <email id="support" domain="openrouteservice.heigit.org"/>
+      <link href="https://openrouteservice.org/">
+        <text>https://openrouteservice.org/</text>
+        <type>text/html</type>
+      </link>
+    </author>
+    <copyright author="openrouteservice.org | OpenStreetMap contributors">
+      <year>2026</year>
+      <license>LGPL 3.0</license>
+    </copyright>
+    <time>2026-05-13T14:52:37.340Z</time>
+    <bounds maxlat="46.38067" maxlon="13.752401" minlat="46.330603" minlon="13.551577"/>
+    <extensions>
+      <system-message/>
+    </extensions>
+  </metadata>
+  <rte>
+    <rtept lat="46.380454" lon="13.752401">
+      <name/>
+      <desc>Head northwest</desc>
+      <extensions>
+        <distance>50.5</distance>
+        <duration>30.3</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380457" lon="13.752399">
+      <name/>
+      <desc>Head northwest</desc>
+      <extensions>
+        <distance>50.5</distance>
+        <duration>30.3</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380509" lon="13.75226">
+      <name/>
+      <desc>Head northwest</desc>
+      <extensions>
+        <distance>50.5</distance>
+        <duration>30.3</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.38067" lon="13.751824">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>41.0</distance>
+        <duration>8.2</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.38061" lon="13.751565">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>41.0</distance>
+        <duration>8.2</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380587" lon="13.751306">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380531" lon="13.751283">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380277" lon="13.75118">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.380222" lon="13.751159">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37974" lon="13.750997">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.378972" lon="13.750613">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.378212" lon="13.750187">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37778" lon="13.749885">
+      <name>Trenta, 206</name>
+      <desc>Turn left onto Trenta, 206</desc>
+      <extensions>
+        <distance>385.8</distance>
+        <duration>77.2</duration>
+        <type>0</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.377375" lon="13.749489">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.377317" lon="13.749537">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.377234" lon="13.749542">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.377182" lon="13.749482">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.377094" lon="13.749324">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.376748" lon="13.748918">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.376432" lon="13.748334">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.376306" lon="13.748192">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.376103" lon="13.748046">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>214.3</distance>
+        <duration>48.2</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.375888" lon="13.747937">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>136.9</distance>
+        <duration>30.8</duration>
+        <type>12</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.375769" lon="13.747873">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>136.9</distance>
+        <duration>30.8</duration>
+        <type>12</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.375396" lon="13.747596">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>136.9</distance>
+        <duration>30.8</duration>
+        <type>12</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.375212" lon="13.747433">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>136.9</distance>
+        <duration>30.8</duration>
+        <type>12</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.375132" lon="13.747339">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>136.9</distance>
+        <duration>30.8</duration>
+        <type>12</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.374806" lon="13.747095">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>82.7</distance>
+        <duration>18.6</duration>
+        <type>12</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37452" lon="13.746996">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>82.7</distance>
+        <duration>18.6</duration>
+        <type>12</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.374282" lon="13.746867">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>82.7</distance>
+        <duration>18.6</duration>
+        <type>12</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.374093" lon="13.746798">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>73.7</distance>
+        <duration>16.6</duration>
+        <type>12</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373997" lon="13.74671">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>73.7</distance>
+        <duration>16.6</duration>
+        <type>12</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373882" lon="13.746464">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>73.7</distance>
+        <duration>16.6</duration>
+        <type>12</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373824" lon="13.746376">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>73.7</distance>
+        <duration>16.6</duration>
+        <type>12</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373697" lon="13.746297">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>73.7</distance>
+        <duration>16.6</duration>
+        <type>12</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373576" lon="13.746272">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373423" lon="13.746095">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373249" lon="13.745935">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373052" lon="13.745701">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372824" lon="13.745493">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372756" lon="13.745363">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372499" lon="13.745173">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372251" lon="13.744821">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372124" lon="13.744319">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371884" lon="13.743882">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371655" lon="13.743583">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371603" lon="13.743467">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371584" lon="13.74336">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371788" lon="13.742508">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371863" lon="13.742039">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371925" lon="13.741856">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372251" lon="13.741532">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372389" lon="13.741443">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>510.0</distance>
+        <duration>118.5</duration>
+        <type>13</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372403" lon="13.741393">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372384" lon="13.741347">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372334" lon="13.741322">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372198" lon="13.741325">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372152" lon="13.741301">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372134" lon="13.741246">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372141" lon="13.741196">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372436" lon="13.741022">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372512" lon="13.740958">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372662" lon="13.740814">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372912" lon="13.740301">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372988" lon="13.740181">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373134" lon="13.740017">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373233" lon="13.739934">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373526" lon="13.739692">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373636" lon="13.739652">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373745" lon="13.739716">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373918" lon="13.739982">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37405" lon="13.740154">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>327.1</distance>
+        <duration>78.8</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37419" lon="13.740268">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.374012" lon="13.739921">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373929" lon="13.739717">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373907" lon="13.739664">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373527" lon="13.738718">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373483" lon="13.738608">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373376" lon="13.738329">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373297" lon="13.738057">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373252" lon="13.737816">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373238" lon="13.737402">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373306" lon="13.736817">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373309" lon="13.736623">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373279" lon="13.736333">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373201" lon="13.736009">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.373066" lon="13.735706">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372701" lon="13.735033">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.372334" lon="13.734471">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37192" lon="13.73393">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371723" lon="13.73364">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371601" lon="13.733467">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371574" lon="13.73343">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.371233" lon="13.733006">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370969" lon="13.732592">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370739" lon="13.732015">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370672" lon="13.731646">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370648" lon="13.731321">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370662" lon="13.731011">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370698" lon="13.730807">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370831" lon="13.730322">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37092" lon="13.729846">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370905" lon="13.729454">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370882" lon="13.729267">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370844" lon="13.729133">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370444" lon="13.72845">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370347" lon="13.728098">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.37027" lon="13.727712">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370184" lon="13.727468">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.370017" lon="13.727191">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.3698" lon="13.726981">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.369542" lon="13.726782">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.369222" lon="13.726568">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.368693" lon="13.726304">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.368554" lon="13.726153">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.36839" lon="13.725776">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.36824" lon="13.725515">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.368137" lon="13.725298">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367905" lon="13.724191">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367873" lon="13.723928">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367828" lon="13.723113">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367741" lon="13.722757">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367201" lon="13.721864">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.367055" lon="13.721689">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.366593" lon="13.721347">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.366093" lon="13.720899">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.365882" lon="13.720666">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.365692" lon="13.720402">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.365594" lon="13.720174">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.365287" lon="13.719065">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.365107" lon="13.718694">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.364531" lon="13.717727">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.364291" lon="13.717261">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.364129" lon="13.71673">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363897" lon="13.715587">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363791" lon="13.715237">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363623" lon="13.714912">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363466" lon="13.714716">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363327" lon="13.714601">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.363053" lon="13.714455">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362862" lon="13.714404">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.36261" lon="13.714344">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362428" lon="13.714226">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362349" lon="13.714124">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362264" lon="13.713929">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362247" lon="13.713746">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362263" lon="13.713563">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362375" lon="13.713046">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362466" lon="13.712484">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362477" lon="13.712276">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362473" lon="13.711957">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362426" lon="13.711601">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362362" lon="13.711375">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.362247" lon="13.711138">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.361104" lon="13.709438">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.360653" lon="13.708952">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.36038" lon="13.708449">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.360072" lon="13.707896">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.35998" lon="13.707586">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.359857" lon="13.707086">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.359721" lon="13.706521">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.359604" lon="13.706219">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.359408" lon="13.705899">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.359091" lon="13.705601">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.358965" lon="13.705447">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.358876" lon="13.705209">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.35876" lon="13.704646">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.358697" lon="13.704463">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.358359" lon="13.703966">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.358225" lon="13.703853">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357905" lon="13.703743">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357807" lon="13.703652">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357744" lon="13.703517">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357657" lon="13.703248">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357616" lon="13.702982">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357569" lon="13.701253">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357508" lon="13.700813">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357376" lon="13.700083">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357294" lon="13.699847">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.357169" lon="13.699658">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356991" lon="13.699385">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.3569" lon="13.699216">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356755" lon="13.698827">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356695" lon="13.698719">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356623" lon="13.698644">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356472" lon="13.698579">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.356266" lon="13.698458">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.355829" lon="13.698021">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.355475" lon="13.697754">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.355365" lon="13.69762">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.35504" lon="13.697319">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.354769" lon="13.697237">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.35468" lon="13.697158">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.354596" lon="13.697005">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.35442" lon="13.696789">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.354223" lon="13.696654">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.353968" lon="13.696541">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.353878" lon="13.696453">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.353717" lon="13.696249">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.353045" lon="13.695246">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.352558" lon="13.694596">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.352046" lon="13.693998">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.351804" lon="13.693755">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.351463" lon="13.693475">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.350995" lon="13.693148">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.350778" lon="13.692955">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.350443" lon="13.692606">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.350051" lon="13.692149">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.349101" lon="13.690929">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.348756" lon="13.690477">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.348272" lon="13.689776">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34799" lon="13.689455">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.347777" lon="13.689291">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34687" lon="13.688823">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.346511" lon="13.688585">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34644" lon="13.688534">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.346278" lon="13.688328">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.345954" lon="13.687811">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.345209" lon="13.686528">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.344945" lon="13.686113">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34474" lon="13.685853">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.344543" lon="13.68565">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.344358" lon="13.6855">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.344159" lon="13.685386">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.343504" lon="13.685149">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.343264" lon="13.685072">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342795" lon="13.685065">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342627" lon="13.685008">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342231" lon="13.684542">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341572" lon="13.683956">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341466" lon="13.683823">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34138" lon="13.683682">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34126" lon="13.683421">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34103" lon="13.682692">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340908" lon="13.682446">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340619" lon="13.682006">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340563" lon="13.681844">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340481" lon="13.681074">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340472" lon="13.680504">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34049" lon="13.680346">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340625" lon="13.67971">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340698" lon="13.678783">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340859" lon="13.677939">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341008" lon="13.677284">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341071" lon="13.677136">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34142" lon="13.676517">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341477" lon="13.67637">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341645" lon="13.67565">
+      <name>Trenta, 206</name>
+      <desc>Turn sharp left onto Trenta, 206</desc>
+      <extensions>
+        <distance>6837.2</distance>
+        <duration>1367.4</duration>
+        <type>2</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341756" lon="13.675035">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341708" lon="13.675057">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341637" lon="13.675351">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341564" lon="13.675386">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341367" lon="13.675311">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341226" lon="13.675317">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>86.5</distance>
+        <duration>19.5</duration>
+        <type>2</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341148" lon="13.675385">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341277" lon="13.675056">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341358" lon="13.674674">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341322" lon="13.674448">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341321" lon="13.674214">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341271" lon="13.673888">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341268" lon="13.673569">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341382" lon="13.672854">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341522" lon="13.672438">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34161" lon="13.671969">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34164" lon="13.671071">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341626" lon="13.670829">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341645" lon="13.670601">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341626" lon="13.67039">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341708" lon="13.670137">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341876" lon="13.669398">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341908" lon="13.669085">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>522.8</distance>
+        <duration>117.6</duration>
+        <type>3</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341897" lon="13.668815">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341949" lon="13.668792">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342207" lon="13.668681">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34227" lon="13.668666">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342305" lon="13.66868">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342357" lon="13.668748">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342403" lon="13.668947">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>80.5</distance>
+        <duration>20.9</duration>
+        <type>1</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342489" lon="13.668956">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342465" lon="13.668834">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342313" lon="13.668404">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342275" lon="13.66822">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.342194" lon="13.667724">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34202" lon="13.667112">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341855" lon="13.666257">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341785" lon="13.665616">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341583" lon="13.664213">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341525" lon="13.663904">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341369" lon="13.663253">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341263" lon="13.662639">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341215" lon="13.662109">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341215" lon="13.661584">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341233" lon="13.661302">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341538" lon="13.660036">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341543" lon="13.659718">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341471" lon="13.659486">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.341356" lon="13.659334">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340828" lon="13.658807">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340729" lon="13.658634">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340686" lon="13.658493">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340677" lon="13.658288">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340692" lon="13.657505">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340649" lon="13.656875">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340665" lon="13.656606">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340728" lon="13.656351">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340814" lon="13.6559">
+      <name>206</name>
+      <desc>Turn sharp left onto 206</desc>
+      <extensions>
+        <distance>1100.1</distance>
+        <duration>220.0</duration>
+        <type>2</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340857" lon="13.655612">
+      <name/>
+      <desc>Arrive at 206, on the left</desc>
+      <extensions>
+        <distance>0.0</distance>
+        <duration>0.0</duration>
+        <type>10</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340857" lon="13.655612">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340952" lon="13.654979">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340958" lon="13.654776">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340947" lon="13.654573">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340852" lon="13.654163">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340756" lon="13.653597">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340742" lon="13.653119">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34075" lon="13.652584">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340779" lon="13.652158">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340853" lon="13.651679">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340874" lon="13.651325">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340881" lon="13.650946">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340851" lon="13.650374">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340816" lon="13.650195">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340616" lon="13.649555">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.340501" lon="13.649031">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.34035" lon="13.648583">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.339791" lon="13.647519">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.339455" lon="13.646981">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.339089" lon="13.646513">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338889" lon="13.646216">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338744" lon="13.646086">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338505" lon="13.645947">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338354" lon="13.645845">
+      <name>206</name>
+      <desc>Head west on 206</desc>
+      <extensions>
+        <distance>882.6</distance>
+        <duration>176.5</duration>
+        <type>11</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33823" lon="13.645761">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>66.2</distance>
+        <duration>13.2</duration>
+        <type>0</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338201" lon="13.6458">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>66.2</distance>
+        <duration>13.2</duration>
+        <type>0</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338125" lon="13.645842">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>66.2</distance>
+        <duration>13.2</duration>
+        <type>0</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338004" lon="13.645843">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>66.2</distance>
+        <duration>13.2</duration>
+        <type>0</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337669" lon="13.645679">
+      <name/>
+      <desc>Turn sharp right</desc>
+      <extensions>
+        <distance>37.2</distance>
+        <duration>7.4</duration>
+        <type>3</type>
+        <step>17</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337762" lon="13.645612">
+      <name/>
+      <desc>Turn sharp right</desc>
+      <extensions>
+        <distance>37.2</distance>
+        <duration>7.4</duration>
+        <type>3</type>
+        <step>17</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337821" lon="13.645459">
+      <name/>
+      <desc>Turn sharp right</desc>
+      <extensions>
+        <distance>37.2</distance>
+        <duration>7.4</duration>
+        <type>3</type>
+        <step>17</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337836" lon="13.645301">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337739" lon="13.644904">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337649" lon="13.644707">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336932" lon="13.643424">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336714" lon="13.642886">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33652" lon="13.642588">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335823" lon="13.641478">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335696" lon="13.641312">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335581" lon="13.641188">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334743" lon="13.640494">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334632" lon="13.640362">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334605" lon="13.64043">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334567" lon="13.640693">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334531" lon="13.640757">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334492" lon="13.640771">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334464" lon="13.64075">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334451" lon="13.640693">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33446" lon="13.640386">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334411" lon="13.640184">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334374" lon="13.640105">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334291" lon="13.640048">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334195" lon="13.640028">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334111" lon="13.640038">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334041" lon="13.640007">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334016" lon="13.639933">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334041" lon="13.639798">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334183" lon="13.639293">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334216" lon="13.639204">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334344" lon="13.638969">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334449" lon="13.63882">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334589" lon="13.638679">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334848" lon="13.638363">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334899" lon="13.638329">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334924" lon="13.638244">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335284" lon="13.637375">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335353" lon="13.637241">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335435" lon="13.637142">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33565" lon="13.636928">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335766" lon="13.636785">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335828" lon="13.636668">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336065" lon="13.63588">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>1154.4</distance>
+        <duration>230.9</duration>
+        <type>4</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336307" lon="13.634744">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>49.9</distance>
+        <duration>15.0</duration>
+        <type>0</type>
+        <step>19</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335955" lon="13.63434">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335974" lon="13.633935">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336" lon="13.633703">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336059" lon="13.63364">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336148" lon="13.633593">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336203" lon="13.633515">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336323" lon="13.633082">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336719" lon="13.632265">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336773" lon="13.63184">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336865" lon="13.631506">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>262.5</distance>
+        <duration>78.7</duration>
+        <type>1</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336952" lon="13.631396">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336948" lon="13.631149">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337033" lon="13.630528">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337081" lon="13.630295">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337175" lon="13.630002">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337293" lon="13.629717">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337366" lon="13.629494">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337468" lon="13.628945">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337512" lon="13.628583">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337514" lon="13.628247">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337455" lon="13.626735">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337473" lon="13.62629">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337578" lon="13.625649">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337741" lon="13.625041">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337755" lon="13.624907">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337744" lon="13.624373">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337717" lon="13.624092">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33768" lon="13.623813">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337592" lon="13.623391">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33753" lon="13.62327">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337506" lon="13.62295">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337536" lon="13.622804">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337443" lon="13.621635">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337421" lon="13.621055">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337455" lon="13.620757">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337567" lon="13.620085">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337666" lon="13.619717">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337785" lon="13.61945">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337964" lon="13.619114">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338075" lon="13.618849">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338153" lon="13.618599">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338187" lon="13.618377">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338195" lon="13.618218">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338186" lon="13.618115">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338161" lon="13.61803">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338077" lon="13.617866">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337989" lon="13.617733">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337779" lon="13.617471">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337378" lon="13.617079">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337246" lon="13.616857">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337202" lon="13.616711">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337129" lon="13.61625">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33709" lon="13.615514">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337094" lon="13.615075">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337133" lon="13.614714">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337372" lon="13.613594">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337399" lon="13.613404">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337411" lon="13.613222">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337401" lon="13.613059">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337307" lon="13.612258">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337313" lon="13.612141">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337401" lon="13.611751">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337421" lon="13.611583">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337409" lon="13.61141">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337368" lon="13.611219">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33701" lon="13.609974">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336991" lon="13.60962">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337005" lon="13.609472">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337247" lon="13.608267">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337434" lon="13.607486">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33752" lon="13.607046">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337666" lon="13.605612">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337807" lon="13.604863">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337874" lon="13.604328">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337989" lon="13.603705">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338136" lon="13.602497">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338294" lon="13.601233">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338297" lon="13.600812">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338278" lon="13.600551">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.338206" lon="13.600112">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337953" lon="13.599332">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337829" lon="13.599121">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337648" lon="13.598903">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337533" lon="13.598797">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.337056" lon="13.598483">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336148" lon="13.597786">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335069" lon="13.596996">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334884" lon="13.596824">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334753" lon="13.596618">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334562" lon="13.596206">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334342" lon="13.595782">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334119" lon="13.595289">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334022" lon="13.595018">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333888" lon="13.594492">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333535" lon="13.592863">
+      <name>206</name>
+      <desc>Turn left onto 206</desc>
+      <extensions>
+        <distance>3391.3</distance>
+        <duration>683.0</duration>
+        <type>0</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333416" lon="13.592107">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>2.9</distance>
+        <duration>0.6</duration>
+        <type>0</type>
+        <step>22</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333392" lon="13.592121">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333327" lon="13.59171">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333315" lon="13.591524">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333357" lon="13.591336">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333394" lon="13.591248">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333648" lon="13.590937">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333756" lon="13.590722">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>132.0</distance>
+        <duration>26.4</duration>
+        <type>1</type>
+        <step>23</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333797" lon="13.590701">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333874" lon="13.590555">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333953" lon="13.590455">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334637" lon="13.589814">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334761" lon="13.589742">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335088" lon="13.589633">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335272" lon="13.589551">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335398" lon="13.58941">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335458" lon="13.589244">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335473" lon="13.589145">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33548" lon="13.588744">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335456" lon="13.587869">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335388" lon="13.587105">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335422" lon="13.586762">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335492" lon="13.586394">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335599" lon="13.586038">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33568" lon="13.585803">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33587" lon="13.585468">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335925" lon="13.585251">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335956" lon="13.584982">
+      <name>206</name>
+      <desc>Turn slight left onto 206</desc>
+      <extensions>
+        <distance>606.2</distance>
+        <duration>121.2</duration>
+        <type>4</type>
+        <step>24</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335986" lon="13.584445">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336037" lon="13.584405">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336064" lon="13.584334">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336073" lon="13.584067">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336097" lon="13.583977">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336235" lon="13.58384">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336364" lon="13.583648">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336438" lon="13.583507">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336548" lon="13.583221">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336705" lon="13.582558">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336713" lon="13.582435">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336738" lon="13.582364">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336765" lon="13.582161">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336747" lon="13.581486">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336546" lon="13.580483">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336505" lon="13.580081">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336509" lon="13.579857">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33654" lon="13.579584">
+      <name>Kal-Koritnica</name>
+      <desc>Turn right onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>426.8</distance>
+        <duration>85.4</duration>
+        <type>1</type>
+        <step>25</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336592" lon="13.579317">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>78.8</distance>
+        <duration>15.8</duration>
+        <type>12</type>
+        <step>26</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336599" lon="13.57905">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>78.8</distance>
+        <duration>15.8</duration>
+        <type>12</type>
+        <step>26</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336665" lon="13.578297">
+      <name>Kal-Koritnica</name>
+      <desc>Turn left onto Kal-Koritnica</desc>
+      <extensions>
+        <distance>5.8</distance>
+        <duration>1.2</duration>
+        <type>0</type>
+        <step>27</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336614" lon="13.578279">
+      <name>206</name>
+      <desc>Turn right onto 206</desc>
+      <extensions>
+        <distance>27.5</distance>
+        <duration>5.5</duration>
+        <type>1</type>
+        <step>28</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336627" lon="13.57792">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>314.1</distance>
+        <duration>80.8</duration>
+        <type>0</type>
+        <step>29</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335487" lon="13.577818">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>314.1</distance>
+        <duration>80.8</duration>
+        <type>0</type>
+        <step>29</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334223" lon="13.577816">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>314.1</distance>
+        <duration>80.8</duration>
+        <type>0</type>
+        <step>29</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333804" lon="13.577838">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>89.7</distance>
+        <duration>20.2</duration>
+        <type>13</type>
+        <step>30</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333642" lon="13.577742">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>89.7</distance>
+        <duration>20.2</duration>
+        <type>13</type>
+        <step>30</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333427" lon="13.577534">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>89.7</distance>
+        <duration>20.2</duration>
+        <type>13</type>
+        <step>30</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333261" lon="13.577465">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>89.7</distance>
+        <duration>20.2</duration>
+        <type>13</type>
+        <step>30</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333063" lon="13.577432">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33273" lon="13.577336">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332622" lon="13.57741">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332011" lon="13.577396">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331777" lon="13.577274">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331389" lon="13.577197">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331057" lon="13.5768">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331028" lon="13.576706">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330968" lon="13.576629">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330963" lon="13.576678">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33089" lon="13.576724">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330787" lon="13.57676">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330743" lon="13.576709">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330697" lon="13.5766">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.3307" lon="13.576387">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330664" lon="13.576303">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330684" lon="13.576252">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>336.3</distance>
+        <duration>75.7</duration>
+        <type>13</type>
+        <step>31</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330603" lon="13.576138">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330694" lon="13.576107">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.330974" lon="13.576105">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331239" lon="13.576059">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331493" lon="13.576112">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331635" lon="13.576257">
+      <name>Soška pot</name>
+      <desc>Turn sharp right onto Soška pot</desc>
+      <extensions>
+        <distance>144.5</distance>
+        <duration>32.5</duration>
+        <type>3</type>
+        <step>32</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33185" lon="13.576366">
+      <name>Soška pot</name>
+      <desc>Turn left onto Soška pot</desc>
+      <extensions>
+        <distance>42.8</distance>
+        <duration>13.8</duration>
+        <type>0</type>
+        <step>33</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331869" lon="13.576331">
+      <name>Soška pot</name>
+      <desc>Turn left onto Soška pot</desc>
+      <extensions>
+        <distance>42.8</distance>
+        <duration>13.8</duration>
+        <type>0</type>
+        <step>33</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331902" lon="13.575934">
+      <name>Soška pot</name>
+      <desc>Turn left onto Soška pot</desc>
+      <extensions>
+        <distance>42.8</distance>
+        <duration>13.8</duration>
+        <type>0</type>
+        <step>33</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.331921" lon="13.575823">
+      <name>Soška pot</name>
+      <desc>Keep right onto Soška pot</desc>
+      <extensions>
+        <distance>83.6</distance>
+        <duration>18.8</duration>
+        <type>13</type>
+        <step>34</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332028" lon="13.575726">
+      <name>Soška pot</name>
+      <desc>Keep right onto Soška pot</desc>
+      <extensions>
+        <distance>83.6</distance>
+        <duration>18.8</duration>
+        <type>13</type>
+        <step>34</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33214" lon="13.575704">
+      <name>Soška pot</name>
+      <desc>Keep right onto Soška pot</desc>
+      <extensions>
+        <distance>83.6</distance>
+        <duration>18.8</duration>
+        <type>13</type>
+        <step>34</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332237" lon="13.57563">
+      <name>Soška pot</name>
+      <desc>Keep right onto Soška pot</desc>
+      <extensions>
+        <distance>83.6</distance>
+        <duration>18.8</duration>
+        <type>13</type>
+        <step>34</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332352" lon="13.575506">
+      <name>Soška pot</name>
+      <desc>Keep right onto Soška pot</desc>
+      <extensions>
+        <distance>83.6</distance>
+        <duration>18.8</duration>
+        <type>13</type>
+        <step>34</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332496" lon="13.575192">
+      <name>Soška pot</name>
+      <desc>Turn left onto Soška pot</desc>
+      <extensions>
+        <distance>13.7</distance>
+        <duration>3.3</duration>
+        <type>0</type>
+        <step>35</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332474" lon="13.575106">
+      <name>Soška pot</name>
+      <desc>Turn left onto Soška pot</desc>
+      <extensions>
+        <distance>13.7</distance>
+        <duration>3.3</duration>
+        <type>0</type>
+        <step>35</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332453" lon="13.575025">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>74.8</distance>
+        <duration>15.8</duration>
+        <type>0</type>
+        <step>36</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332379" lon="13.574991">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>74.8</distance>
+        <duration>15.8</duration>
+        <type>0</type>
+        <step>36</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332365" lon="13.574905">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>74.8</distance>
+        <duration>15.8</duration>
+        <type>0</type>
+        <step>36</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332552" lon="13.574179">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>85.1</distance>
+        <duration>17.0</duration>
+        <type>0</type>
+        <step>37</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332416" lon="13.574">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>85.1</distance>
+        <duration>17.0</duration>
+        <type>0</type>
+        <step>37</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332392" lon="13.573873">
+      <name>Camp Liza</name>
+      <desc>Turn left onto Camp Liza</desc>
+      <extensions>
+        <distance>85.1</distance>
+        <duration>17.0</duration>
+        <type>0</type>
+        <step>37</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332158" lon="13.573249">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>109.8</distance>
+        <duration>22.0</duration>
+        <type>1</type>
+        <step>38</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332554" lon="13.5728">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>109.8</distance>
+        <duration>22.0</duration>
+        <type>1</type>
+        <step>38</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332814" lon="13.572469">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>109.8</distance>
+        <duration>22.0</duration>
+        <type>1</type>
+        <step>38</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332848" lon="13.572404">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>109.8</distance>
+        <duration>22.0</duration>
+        <type>1</type>
+        <step>38</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332843" lon="13.572285">
+      <name>Camp Liza</name>
+      <desc>Turn right onto Camp Liza</desc>
+      <extensions>
+        <distance>10.5</distance>
+        <duration>2.7</duration>
+        <type>1</type>
+        <step>39</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332938" lon="13.572274">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333017" lon="13.572256">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333065" lon="13.572112">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33303" lon="13.571926">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332965" lon="13.571929">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332869" lon="13.571873">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33285" lon="13.571681">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332737" lon="13.57154">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332697" lon="13.571416">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332599" lon="13.571387">
+      <name/>
+      <desc>Continue straight</desc>
+      <extensions>
+        <distance>126.6</distance>
+        <duration>25.3</duration>
+        <type>6</type>
+        <step>40</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332459" lon="13.571247">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332471" lon="13.57093">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332493" lon="13.570793">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332526" lon="13.570683">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332643" lon="13.570455">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332706" lon="13.570179">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332845" lon="13.569691">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332879" lon="13.569496">
+      <name>Vodenca</name>
+      <desc>Turn right onto Vodenca</desc>
+      <extensions>
+        <distance>167.6</distance>
+        <duration>33.5</duration>
+        <type>1</type>
+        <step>41</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332892" lon="13.569196">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332884" lon="13.569074">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332706" lon="13.568155">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332421" lon="13.567224">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332354" lon="13.56696">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332218" lon="13.56608">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332223" lon="13.565027">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332207" lon="13.564658">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332226" lon="13.564206">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332343" lon="13.562653">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332362" lon="13.562231">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332359" lon="13.561891">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332332" lon="13.561535">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332268" lon="13.560869">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332277" lon="13.560028">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332252" lon="13.559016">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332245" lon="13.557965">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332269" lon="13.557451">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332312" lon="13.557261">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>956.2</distance>
+        <duration>191.2</duration>
+        <type>12</type>
+        <step>42</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332419" lon="13.556975">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>83.9</distance>
+        <duration>16.8</duration>
+        <type>1</type>
+        <step>43</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332895" lon="13.556985">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>83.9</distance>
+        <duration>16.8</duration>
+        <type>1</type>
+        <step>43</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33317" lon="13.557054">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>69.2</distance>
+        <duration>13.8</duration>
+        <type>13</type>
+        <step>44</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333245" lon="13.557073">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>69.2</distance>
+        <duration>13.8</duration>
+        <type>13</type>
+        <step>44</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333466" lon="13.557114">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>69.2</distance>
+        <duration>13.8</duration>
+        <type>13</type>
+        <step>44</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33362" lon="13.557117">
+      <name/>
+      <desc>Keep right</desc>
+      <extensions>
+        <distance>69.2</distance>
+        <duration>13.8</duration>
+        <type>13</type>
+        <step>44</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333772" lon="13.557009">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>24.8</distance>
+        <duration>5.0</duration>
+        <type>1</type>
+        <step>45</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333786" lon="13.557034">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>24.8</distance>
+        <duration>5.0</duration>
+        <type>1</type>
+        <step>45</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333793" lon="13.557045">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>24.8</distance>
+        <duration>5.0</duration>
+        <type>1</type>
+        <step>45</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333868" lon="13.557009">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>24.8</distance>
+        <duration>5.0</duration>
+        <type>1</type>
+        <step>45</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333902" lon="13.556949">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>24.8</distance>
+        <duration>5.0</duration>
+        <type>1</type>
+        <step>45</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333939" lon="13.556885">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333781" lon="13.556633">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.33371" lon="13.556483">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333624" lon="13.556185">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333587" lon="13.555866">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333587" lon="13.555532">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333633" lon="13.554882">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333697" lon="13.554398">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333732" lon="13.554311">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>228.3</distance>
+        <duration>45.7</duration>
+        <type>0</type>
+        <step>46</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333862" lon="13.554189">
+      <name/>
+      <desc>Keep left</desc>
+      <extensions>
+        <distance>17.2</distance>
+        <duration>3.4</duration>
+        <type>12</type>
+        <step>47</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.333959" lon="13.554015">
+      <name>Rupa</name>
+      <desc>Turn slight right onto Rupa</desc>
+      <extensions>
+        <distance>139.5</distance>
+        <duration>27.9</duration>
+        <type>5</type>
+        <step>48</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334085" lon="13.553865">
+      <name>Rupa</name>
+      <desc>Turn slight right onto Rupa</desc>
+      <extensions>
+        <distance>139.5</distance>
+        <duration>27.9</duration>
+        <type>5</type>
+        <step>48</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334241" lon="13.553687">
+      <name>Rupa</name>
+      <desc>Turn slight right onto Rupa</desc>
+      <extensions>
+        <distance>139.5</distance>
+        <duration>27.9</duration>
+        <type>5</type>
+        <step>48</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334261" lon="13.553664">
+      <name>Rupa</name>
+      <desc>Turn slight right onto Rupa</desc>
+      <extensions>
+        <distance>139.5</distance>
+        <duration>27.9</duration>
+        <type>5</type>
+        <step>48</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334361" lon="13.553546">
+      <name>Rupa</name>
+      <desc>Turn slight right onto Rupa</desc>
+      <extensions>
+        <distance>139.5</distance>
+        <duration>27.9</duration>
+        <type>5</type>
+        <step>48</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.334922" lon="13.55285">
+      <name>Rupa</name>
+      <desc>Keep right onto Rupa</desc>
+      <extensions>
+        <distance>153.7</distance>
+        <duration>30.7</duration>
+        <type>13</type>
+        <step>49</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335038" lon="13.552767">
+      <name>Rupa</name>
+      <desc>Keep right onto Rupa</desc>
+      <extensions>
+        <distance>153.7</distance>
+        <duration>30.7</duration>
+        <type>13</type>
+        <step>49</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.335316" lon="13.552613">
+      <name>Rupa</name>
+      <desc>Keep right onto Rupa</desc>
+      <extensions>
+        <distance>153.7</distance>
+        <duration>30.7</duration>
+        <type>13</type>
+        <step>49</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336219" lon="13.552163">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>75.7</distance>
+        <duration>45.4</duration>
+        <type>0</type>
+        <step>50</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336127" lon="13.551718">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>75.7</distance>
+        <duration>45.4</duration>
+        <type>0</type>
+        <step>50</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336141" lon="13.551633">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>75.7</distance>
+        <duration>45.4</duration>
+        <type>0</type>
+        <step>50</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336215" lon="13.551598">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>75.7</distance>
+        <duration>45.4</duration>
+        <type>0</type>
+        <step>50</step>
+      </extensions>
+    </rtept>
+    <rtept lat="46.336436" lon="13.551577">
+      <name/>
+      <desc>Arrive at your destination, on the right</desc>
+      <extensions>
+        <distance>0.0</distance>
+        <duration>0.0</duration>
+        <type>10</type>
+        <step>51</step>
+      </extensions>
+    </rtept>
+    <extensions>
+      <distance>20921.0</distance>
+      <duration>4374.799999999999</duration>
+      <ascent>0.0</ascent>
+      <descent>0.0</descent>
+      <avgspeed>17.2</avgspeed>
+      <bounds maxlat="46.38067" maxlon="13.752401" minlat="46.330603" minlon="13.551577"/>
+    </extensions>
+  </rte>
+  <extensions>
+    <attribution>openrouteservice.org | OpenStreetMap contributors</attribution>
+    <engine>9.8.0</engine>
+    <build_date>2026-03-30T12:24:04Z</build_date>
+    <graph_date>2026-04-28T05:37:06Z</graph_date>
+    <osm_date>2026-04-20T00:00:00Z</osm_date>
+    <profile>cycling-mountain</profile>
+    <language>en</language>
+    <distance-units>m</distance-units>
+    <instructions>true</instructions>
+    <elevation>false</elevation>
+  </extensions>
+</gpx>
