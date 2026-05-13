@@ -635,8 +635,23 @@ footer {
   .saisons { grid-template-columns: 1fr; }
   section { padding: 56px 0; }
   .tag-card { padding: 24px 20px; }
-  .global-tabs { flex-direction: column; gap: 4px; }
-  .gtab { text-align: center; }
+  .global-tabs {
+    flex-direction: row;
+    gap: 6px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+  .gtab {
+    flex-shrink: 0;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
   .variant-banner .vc { flex-direction: column; text-align: center; }
 }
 
