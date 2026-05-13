@@ -639,3 +639,16 @@ footer {
   .gtab { text-align: center; }
   .variant-banner .vc { flex-direction: column; text-align: center; }
 }
+
+/* Tag 6 (for 6-day routes) */
+.tag6 { border-left-color: #16a34a; }
+
+/* Parking cards */
+.parking-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px; }
+.parking-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); position: relative; }
+.parking-badge { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; background: var(--emerald); color: white; border-radius: 4px; padding: 2px 8px; margin-bottom: 8px; }
+.parking-badge-alt { background: #64748b; }
+.parking-addr { font-size: 0.85rem; color: #64748b; margin: 4px 0; }
+.parking-cost { font-size: 0.9rem; font-weight: 600; color: var(--emerald); margin-bottom: 8px; }
+.parking-card p { font-size: 0.85rem; color: #64748b; }
+@media (max-width: 640px) { .parking-grid { grid-template-columns: 1fr; } }

@@ -3,20 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>5-Tage E-Bike Rundtour — Westslowenien</title>
+  <title>E-Bike Rundtour — Westslowenien 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Version Switcher (sticky) -->
+  <div class="global-tabs-wrapper">
+    <div class="container">
+      <div class="global-tabs">
+        <button class="gtab active" data-version="v1">V1 – Triglav Nord</button>
+        <button class="gtab" data-version="v2">V2 – Kürzere Etappen</button>
+        <button class="gtab" data-version="v3">V3 – Triglav Bohinj</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Hero -->
   <header class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-tag">5 Tage · ~385 km · ~6.700 Hm</p>
+      <p class="hero-tag" id="hero-tag">6 Tage · ~385 km · ~5.700 Hm</p>
       <h1>E-Bike Rundtour<br>Westslowenien</h1>
-      <p class="hero-sub">Bled → Vršič → Soča-Tal → Vipava → Cerknica → Ljubljana → Bled</p>
+      <p class="hero-sub" id="hero-sub">Bled → Vršič → Trenta → Soča → Goriška Brda → Vipava → Cerknica → Bled</p>
       <div class="hero-nav">
         <a href="#etappen" class="cta">Etappen ansehen ↓</a>
         <a href="#unterkuenfte" class="cta" style="background:rgba(255,255,255,0.15);color:white;border:2px solid rgba(255,255,255,0.4);">Unterkünfte ↓</a>
@@ -24,26 +35,39 @@
     </div>
   </header>
 
+  <!-- Version tagline banner -->
+  <div class="variant-banner">
+    <div class="container">
+      <div class="vb-icon">🏔</div>
+      <div>
+        <strong id="vb-label">V1 – Triglav Nord</strong>
+        <span style="color:#94a3b8;margin:0 8px;">·</span>
+        <span id="vb-tagline">Mehr Zeit im Nationalpark — Vršič genießen, nicht hetzen</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Intro -->
   <section class="intro">
     <div class="container">
-      <h2>Die kompakte Route</h2>
-      <p>~385 km und ~6.700 Höhenmeter, aufgeteilt auf 5 Tage. Mit E-Bikes sind die täglichen Distanzen von 65–110 km gut machbar — die Soča-Variante umgeht die zwei brutalsten Anstiege des Original-Loops. Alle Unterkünfte: echte Betten, echte Natur, Lagerfeuer möglich.</p>
-      <div class="stats">
-        <div class="stat"><span class="stat-num">385</span><span class="stat-label">Kilometer</span></div>
-        <div class="stat"><span class="stat-num">6.700</span><span class="stat-label">Höhenmeter</span></div>
-        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Tage</span></div>
-        <div class="stat"><span class="stat-num">6</span><span class="stat-label">E-Bikes</span></div>
-        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Verrückte</span></div>
+      <h2>Die Route</h2>
+      <p id="intro-text">~385 km und ~5.700 Höhenmeter auf 6 Tage. Tag 1 endet im Triglav-Nationalpark — zwei volle Tage im NP. Kein Tag über 75 km.</p>
+      <div class="stats" id="stats-box">
+        <div class="stat"><span class="stat-num" id="stat-km">385</span><span class="stat-label">Kilometer</span></div>
+        <div class="stat"><span class="stat-num" id="stat-hm">5.700</span><span class="stat-label">Höhenmeter</span></div>
+        <div class="stat"><span class="stat-num" id="stat-days">6</span><span class="stat-label">Tage</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">E-Bikes</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Verrückte</span></div>
       </div>
     </div>
   </section>
 
-  <!-- Why Bled -->
+  <!-- Why Bled + Parking -->
   <section class="bled">
     <div class="container">
-      <h2>Warum Start &amp; Ziel Bled?</h2>
-      <p>Bled hat reichlich Parkplätze, gute Infrastruktur und liegt direkt an der Route. Von Berlin aus sind es ca. 8–9 h Fahrt über Österreich.</p>
+      <h2>Start &amp; Ziel: Bled</h2>
+      <p>Bled hat reichlich Parkplätze und liegt direkt an der Route. Von Berlin ca. 8–9 h Fahrt über Österreich.</p>
+      <div class="parking-grid" id="parking-box"></div>
     </div>
   </section>
 
@@ -51,46 +75,7 @@
   <section id="etappen" class="etappen">
     <div class="container">
       <h2>Tagesübersicht</h2>
-
-      <div class="tag-card tag1">
-        <div class="tag-badge">Tag 1</div>
-        <h3>Bled → Vršič-Pass → Bovec</h3>
-        <div class="tag-meta">~80 km · ~1.600 Hm</div>
-        <p>Der königliche Auftakt. Radweg nach Kranjska Gora, dann der Vršič-Pass (1.611 m) — mit E-Bikes anspruchsvoll aber machbar. Belohnung: epische Abfahrt ins Soča-Tal. Boka-Wasserfall kurz vor Bovec nicht verpassen.</p>
-        <div class="tag-highlight">Highlight: Vršič-Pass (1.611 m) — höchste Passstraße Sloweniens · Boka-Wasserfall</div>
-      </div>
-
-      <div class="tag-card tag2">
-        <div class="tag-badge">Tag 2</div>
-        <h3>Bovec → Kobarid → Tolmin</h3>
-        <div class="tag-meta">~45 km · ~500 Hm</div>
-        <p>Entspannter Tag entlang der smaragdgrünen Soča. WW1-Museum in Kobarid (eines der besten Europas), Napoleon-Brücke, Schwimmen im Fluss. Sotočje-Badestelle bei Tolmin. Akkus schonen.</p>
-        <div class="tag-highlight">Highlight: Smaragdgrüne Soča · WW1-Museum Kobarid · Napoleon-Brücke · Sotočje-Badestelle</div>
-      </div>
-
-      <div class="tag-card tag3">
-        <div class="tag-badge">Tag 3</div>
-        <h3>Tolmin → Goriška Brda → Ajdovščina</h3>
-        <div class="tag-meta">~75 km · ~800 Hm</div>
-        <p>Weinregion Goriška Brda — Zeit lassen! Šmartno (mittelalterliches Weindorf) und Weinverkostung einplanen. Nova Gorica an der italienischen Grenze, dann ins Vipava-Tal. Den Most na Soči-Stausee nicht verpassen.</p>
-        <div class="tag-highlight">Highlight: Šmartno, Goriška Brda — Sloweniens Toskana · Vipava-Tal</div>
-      </div>
-
-      <div class="tag-card tag4">
-        <div class="tag-badge">Tag 4</div>
-        <h3>Ajdovščina → Predjama → Cerknica</h3>
-        <div class="tag-meta">~75 km · ~1.400 Hm</div>
-        <p>Härtester Tag. Anstieg auf die Karst-Hochebene, Predjama Castle (Burg direkt in einer Felshöhle — absurd beeindruckend), Abend am Cerknitzer See — der größte intermittierende See Europas, der manchmal komplett verschwindet.</p>
-        <div class="tag-highlight">Highlight: Predjama Castle · Cerknisko jezero — der verschwindende See</div>
-      </div>
-
-      <div class="tag-card tag5">
-        <div class="tag-badge">Tag 5</div>
-        <h3>Cerknica → Ljubljana → Bled</h3>
-        <div class="tag-meta">~110 km · ~1.000 Hm</div>
-        <p>Längster Tag, aber viel Asphalt und Radwege. Kurzer Stopp in Ljubljana (Altstadt, Kaffee, Brücken) — dann zurück nach Bled zu den Autos. 5 Tage, ~385 km, ~6.700 Hm. Feier-Bier am Bleder See verdient.</p>
-        <div class="tag-highlight">Highlight: Ljubljana Altstadt · Rakitna-Plateau · Heimkehr nach Bled</div>
-      </div>
+      <div id="etappen-content"></div>
     </div>
   </section>
 
@@ -102,95 +87,12 @@
     </div>
   </section>
 
-  <!-- Übernachtung Details -->
+  <!-- Unterkünfte -->
   <section id="unterkuenfte" class="unterkuenfte">
     <div class="container">
       <h2>Übernachtung im Detail</h2>
-      <p class="section-intro">Echte Betten, echte Natur — kein Zelt, kein Boden. Alle 4 Unterkünfte wurden speziell für diese Route recherchiert. Budget: ~€25–40/Person/Nacht. Lagerfeuer oder Grillplatz an jeder Station.</p>
-
-      <div class="uk-stage">
-        <h3>Nacht 1 — Dorf Soča (Soča-Tal)</h3>
-        <div class="uk-grid">
-          <div class="uk-card">
-            <div class="uk-type">Turistična kmetija</div>
-            <h4><a href="https://kmetijakampjelincic.si" target="_blank">Kmetija Jelinčič</a></h4>
-            <div class="uk-price">€174 gesamt / 6 Pers. · €29/P. · Kamra-Raum (6 Betten)</div>
-            <p>Arbeitender Bauernhof mit Schafen, Ziegen und Kühen direkt an der Soča im Dorf Soča — auf der Route zwischen Trenta-Tal und Bovec. Buchbar als Gruppe: 6-Bett-Schlafraum (Kamra) oder 3 Doppelzimmer (€234 gesamt). <strong>4 überdachte Lagerfeuerstellen</strong> auf dem Gelände. Hausgemachte Mahlzeiten auf Anfrage — Forelle mit Schafskäse ist die Spezialität des Hauses.</p>
-            <p><em>Soča 50, 5232 Soča · <strong>Nur Direktbuchung</strong> (kein Booking.com): <a href="mailto:kmetija.kamp.jelincic@gmail.com">kmetija.kamp.jelincic@gmail.com</a> · +386 31 753 162</em></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="uk-stage">
-        <h3>Nacht 2 — Kobarid / Tolmin (Soča-Tal)</h3>
-        <div class="uk-grid">
-          <div class="uk-card">
-            <div class="uk-type">Biokmetija · Auf der Route</div>
-            <h4><a href="https://www.booking.com/hotel/si/turistiana-kmetija-pri-kafolu.html" target="_blank">Turistična kmetija Pri Kafolu</a></h4>
-            <div class="uk-price">€125–250 gesamt (Preis anfragen) · €21–42/P. · 6-Personen-Apartment</div>
-            <p>Arbeitender Biohof in Prapetno — direkt auf dem Talboden, 2 km von Tolmin, keine Umwege. 6-Personen-Apartment mit Küche, Terrasse mit Blick auf die Soča. Hausgemachter Käse, Gemüse aus dem Garten, Familienfreundlich. Grill anfragen bei Buchung.</p>
-            <p><em>Prapetno, 5220 Tolmin · <a href="mailto:info@prikafolu.com">info@prikafolu.com</a> · +386 5 388 37 53 · auch auf Booking.com</em></p>
-          </div>
-          <div class="uk-card" style="opacity:0.8;">
-            <div class="uk-type">Öko-Bauernhof · Fallback (7km Umweg)</div>
-            <h4><a href="https://www.ekokmetija-zvanc.si/" target="_blank">Ekološka kmetija Žvanč</a></h4>
-            <div class="uk-price">~€247–270 gesamt (inkl. 1-Nacht-Zuschlag +15%) · ~€41–45/P.</div>
-            <p>Außergewöhnlicher Biohof mit Kühen, Ziegen, Schafen und eigener Käseherstellung. Apartment für bis zu 8 Personen (2+4 Betten, kein Sofa nötig für 6). Überdachter Grillplatz. Liegt 7,8 km und 294 Hm über Kobarid — auf E-Bikes machbar, aber deutlicher Umweg nach 45 km.</p>
-            <p><em>Drežniške Ravne 30a, Kobarid · <a href="mailto:kmetija.zvanc@gmail.com">kmetija.zvanc@gmail.com</a> · +386 5 384 86 56</em></p>
-          </div>
-          <div class="uk-card" style="opacity:0.7;">
-            <div class="uk-type">Öko-Kmetija · Fallback (500 Hm Anstieg)</div>
-            <h4><a href="http://www.prilovrcu.si/" target="_blank">Ekološka kmetija Pri Lovrču</a></h4>
-            <div class="uk-price">~€200 gesamt (2 Apartments) · ~€33/P. · evtl. Aufschlag für 1 Nacht</div>
-            <p>Zertifizierter 29-Hektar-Biohof (Milchwirtschaft, Tolminc-Käse) in Čadrg bei Tolmin. 2 Apartments für je 4 Personen — für 6 beide buchen. Sehr authentisch. Aber: 700 m Höhe bedeutet ~500 Hm Anstieg vom Tal — nur mit gutem Akku.</p>
-            <p><em>Čadrg 8, 5220 Tolmin · <a href="mailto:prilovrcu@gmail.com">prilovrcu@gmail.com</a> · +386 31 548 383</em></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="uk-stage">
-        <h3>Nacht 3 — Vipava-Tal</h3>
-        <div class="uk-grid">
-          <div class="uk-card">
-            <div class="uk-type">Weingut · Agritourismus</div>
-            <h4><a href="https://arkade-cigoj.com" target="_blank">Turistična kmetija Arkade Cigoj</a></h4>
-            <div class="uk-price">€168–189 gesamt (3 DZ) · €28–32/P. · 30% Rabatt aktuell</div>
-            <p>Weingut-Agriturismus-Atmosphäre mit großer Terrasse und Weinbergblick. Bestätigte Kapazität für 6 (3 Doppelzimmer). Traditionelle Vipava-Küche, Hauswein. 3 km flach von Ajdovščina in Črniče auf dem Talboden — kein Anstieg, kein Umweg.</p>
-            <p><em>Črniče 91, 5262 Črniče · <a href="mailto:arkade.cigoj@siol.net">arkade.cigoj@siol.net</a> · +386 31 300 400 · auch auf Booking.com</em></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="uk-stage">
-        <h3>Nacht 4 — Cerknisko jezero</h3>
-        <div class="uk-grid">
-          <div class="uk-card">
-            <div class="uk-type">Turistična kmetija · Am-See</div>
-            <h4><a href="https://tekavca-ograda.com" target="_blank">Tekavča Ograda</a></h4>
-            <div class="uk-price">~€120–180 gesamt (Preis anfragen) · ~€20–30/P. · kein Mindestaufenthalt</div>
-            <p>Arbeitender Bauernhof (Kühe, Hühner, Katzen) direkt am Ufer des Cerknisko jezero in Lipsenj — ihr schaut morgens auf den See. 5-Bett-Zimmer + Doppelzimmer = 7 Betten für 6 Personen. Grillplatz auf dem Hof. Frische Eier und Hausschinken kaufbar. 4.8/5 auf TripAdvisor. ~3 km von Dolenje Jezero.</p>
-            <p><em>Lipsenj 32, 1384 Grahovo · <a href="mailto:tekavca.ograda@gmail.com">tekavca.ograda@gmail.com</a> · +386 51 660 892</em></p>
-          </div>
-          <div class="uk-card" style="opacity:0.7;">
-            <div class="uk-type">Fallback</div>
-            <h4><a href="https://notranjska.com/en/accommodations/logar-farm-stay-zerovnica/" target="_blank">Turistična kmetija Logar</a></h4>
-            <div class="uk-price">~€250–295 gesamt · ~€42–49/P.</div>
-            <p>Ebenfalls direkt am See in Žerovnica, 9 Zimmer. Teurer, aber als Fallback buchbar falls Tekavča belegt.</p>
-            <p><em>Žerovnica 16 · +386 31 784 232</em></p>
-          </div>
-        </div>
-
-        <div class="bp-infobox">
-          <h3>Buchungs-Tipps</h3>
-          <div class="bp-rules">
-            <div class="bp-rule"><strong>Früh buchen</strong><p>Alle Unterkünfte sind kleine Familienbetriebe. Sommer 2026 füllt sich schnell — Jelinčič und Pri Kafolu zuerst sichern.</p></div>
-            <div class="bp-rule"><strong>Lagerfeuer bestätigen</strong><p>Bei Buchung kurz fragen: "Haben ihr einen Grillplatz/Lagerfeuer?" — bei ländlichen Kmetijas fast immer vorhanden.</p></div>
-            <div class="bp-rule"><strong>Bargeld dabei</strong><p>€50–100 Notfallbargeld mitführen — manche ländliche Bauernhöfe akzeptieren keine Karte.</p></div>
-            <div class="bp-rule"><strong>Akkus laden anfragen</strong><p>Bei Buchung kurz fragen: "Können wir 6 E-Bike-Akkus laden?" — kleine Bauernhöfe haben manchmal nur eine Steckdose. 2 Mehrfachsteckdosen mitbringen.</p></div>
-          </div>
-        </div>
-      </div>
-
+      <p class="section-intro">Echte Betten, echte Natur — kein Zelt. Alle Unterkünfte sind kleine Familienbetriebe (Turistična kmetija) in der Natur. Budget: ~€25–50/Person/Nacht. Lagerfeuer oder Grillplatz an fast jeder Station möglich.</p>
+      <div id="unterkuenfte-content"></div>
     </div>
   </section>
 
@@ -202,22 +104,22 @@
         <div class="laden-item">
           <div class="laden-icon">🔌</div>
           <h3>Jede Nacht laden</h3>
-          <p>Alle Unterkünfte haben Strom. Bei Buchung bestätigen: "Können wir 6 E-Bike-Akkus laden?" Slowenien nutzt EU-Standardstecker (Typ F/Schuko).</p>
+          <p>Alle Unterkünfte haben Strom. Bei Buchung bestätigen: "Können wir 5 E-Bike-Akkus laden?" Slowenien nutzt EU-Stecker (Typ F/Schuko).</p>
         </div>
         <div class="laden-item">
           <div class="laden-icon">🔋</div>
-          <h3>Zweit-Akkus für Tag 1 &amp; 4</h3>
-          <p>Tag 1 (Vršič, 1.600 Hm) und Tag 4 (Karst, 1.400 Hm) sind die Batterie-Killer. Zweit-Akku oder Powerbank für die kritischen Pässe empfohlen.</p>
+          <h3>Vršič-Tag vorbereiten</h3>
+          <p>Der Vršič-Pass (900 Hm, 12 km) ist der Akkukiller. Vollgeladen starten, Zweit-Akku oder Powerbank für das obere Drittel empfohlen.</p>
         </div>
         <div class="laden-item">
           <div class="laden-icon">🔌</div>
           <h3>2 Mehrfachsteckdosen</h3>
-          <p>6 Ladegeräte beschriften! 2 Mehrfachsteckdosen mitbringen — abends am Bauernhof anstecken, morgens voll und ready.</p>
+          <p>5 Ladegeräte beschriften! 2 Mehrfachsteckdosen mitbringen — abends am Bauernhof anstecken, morgens voll und ready.</p>
         </div>
         <div class="laden-item">
           <div class="laden-icon">🏪</div>
           <h3>Unterwegs</h3>
-          <p>Ladestation am Spar-Parkplatz in Bovec. Eco Kamp Koren in Kobarid hat eine EV-Ladestation — gut für einen Mittagsstopp an Tag 2.</p>
+          <p>Ladestation am Spar-Parkplatz in Bovec. Eco Kamp Koren in Kobarid hat eine EV-Ladestation — gut für einen Mittagsstopp.</p>
         </div>
       </div>
     </div>
@@ -231,12 +133,12 @@
       <div class="pack-grid">
         <div class="pack-category"><h3>🔧 E-Bike</h3>
           <ul>
-            <li>6x Ladegerät (beschriften!)</li>
+            <li>5x Ladegerät (beschriften!)</li>
             <li>2x Mehrfachsteckdosen (EU Typ F)</li>
-            <li>Zweit-Akku für Pass-Etappen (Tag 1 &amp; 4)</li>
+            <li>Zweit-Akku für Vršič-Tag</li>
             <li>Multi-Tool mit Kettennieter</li>
             <li>3x Kettenschloss-Glieder</li>
-            <li>12x Ersatzschläuche (2 pro Bike)</li>
+            <li>10x Ersatzschläuche (2 pro Bike)</li>
             <li>Reifenheber, Flickzeug</li>
             <li>Mini-Pumpe pro Bike + CO2-Patronen</li>
             <li>Kabelbinder, Panzertape, Einweghandschuhe</li>
@@ -244,12 +146,12 @@
         </div>
         <div class="pack-category"><h3>🔥 Lagerfeuer-Abend</h3>
           <ul>
-            <li>Taschenmesser (zum Schneiden!)</li>
+            <li>Taschenmesser</li>
             <li>Grillzange (kompakt, faltbar)</li>
             <li>Feuerzeug / Zündhölzer</li>
-            <li>Stirnlampe für Abende (alle 6!)</li>
-            <li>Wolldecke oder Fleece-Layer (kühle Nächte)</li>
-            <li>Vipava-Wein kaufen an Tag 3 (Mitnahme für Nacht 4!)</li>
+            <li>Stirnlampe für Abende (alle 5!)</li>
+            <li>Wolldecke oder Fleece-Layer</li>
+            <li>Wein kaufen in Goriška Brda für Nacht danach!</li>
           </ul>
         </div>
         <div class="pack-category"><h3>👕 Kleidung</h3>
@@ -280,7 +182,7 @@
         <div class="pack-category"><h3>⛑️ Sicherheit</h3>
           <ul>
             <li>Helm</li>
-            <li>Front-Licht 600+ Lumen (Tunnel!)</li>
+            <li>Front-Licht 600+ Lumen</li>
             <li>Rücklicht rot (Blinkfunktion)</li>
             <li>Warnweste / Reflektoren</li>
             <li>Erste-Hilfe-Set (1x für Gruppe)</li>
@@ -291,24 +193,13 @@
         <div class="pack-category"><h3>🧴 Persönliches</h3>
           <ul>
             <li>Ausweis / Reisepass</li>
-            <li>Bargeld € (€50–100 Reserve — manche Kmetijas nur bar)</li>
-            <li>Sitzcreme (5 Tage = Pflicht)</li>
+            <li>Bargeld € (€50–100 — manche Kmetijas nur bar)</li>
+            <li>Sitzcreme (5–6 Tage = Pflicht)</li>
             <li>Sonnencreme SPF 50+</li>
             <li>Radbrille (Wechselgläser)</li>
             <li>Mikrofaser-Handtuch</li>
             <li>Waschmittel-Sachets</li>
             <li>Faltschloss</li>
-          </ul>
-        </div>
-        <div class="pack-category"><h3>🍌 Verpflegung</h3>
-          <ul>
-            <li>2x 750 ml Flaschen pro Bike</li>
-            <li>Trinksystem 1,5 L für Pässe</li>
-            <li>Elektrolyt-Tabletten</li>
-            <li>2–3x Energieriegel pro Tag</li>
-            <li>Nüsse &amp; Trockenfrüchte</li>
-            <li>Pekarna (Bäckerei) in jedem Dorf!</li>
-            <li>Vipava-Wein an Tag 3 kaufen</li>
           </ul>
         </div>
       </div>
@@ -319,23 +210,132 @@
   <section class="reisezeit">
     <div class="container">
       <h2>Beste Reisezeit</h2>
-      <p class="reisezeit-text">Ende Mai bis September. Spätes Frühjahr hat Wildblumen, der Sommer ist wärmer aber touristischer, der Herbst bringt kühlere Temperaturen und goldene Landschaft.</p>
+      <p class="reisezeit-text">Ende Mai bis September. Spätes Frühjahr hat Wildblumen und volle Soča, der Sommer ist wärmer aber touristischer, der Herbst bringt kühlere Temperaturen und goldene Weinberge.</p>
       <div class="saisons">
-        <div class="saison"><strong>Mai–Juni</strong><br>Wildblumen, ruhig</div>
+        <div class="saison"><strong>Mai–Juni</strong><br>Wildblumen, volle Soča</div>
         <div class="saison"><strong>Juli–Aug</strong><br>Warm, touristisch</div>
-        <div class="saison"><strong>Sept</strong><br>Goldener Herbst</div>
+        <div class="saison"><strong>Sept</strong><br>Goldener Herbst, Wein</div>
       </div>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>Alex · Erik · Chris · Flo · Till · Freddy — Westslowenien 2026</p>
+      <p>Alex · Erik · Chris · Flo · Till — Westslowenien 2026</p>
     </div>
   </footer>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="routes.js"></script>
   <script src="map.js"></script>
+  <script>
+    // ── Render helpers ──────────────────────────────────────────────────────────
+
+    function esc(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function renderStageCard(stage, idx) {
+      var cls = 'tag-card tag' + (idx + 1);
+      return '<div class="' + cls + '">' +
+        '<div class="tag-badge">Tag ' + (idx + 1) + '</div>' +
+        '<h3>' + esc(stage.title) + '</h3>' +
+        '<div class="tag-meta">~' + stage.km + ' km · ~' + stage.hm.toLocaleString('de') + ' Hm</div>' +
+        '<p>' + esc(stage.desc) + '</p>' +
+        '<div class="tag-highlight">' + esc(stage.highlight) + '</div>' +
+        '</div>';
+    }
+
+    function renderAccCard(acc) {
+      var opacity = acc.primary ? '' : 'opacity:0.82;';
+      var bookBtn = acc.booking
+        ? ' &nbsp;<a href="' + esc(acc.booking) + '" target="_blank" style="font-size:0.8rem;color:#0ea5e9;">Booking.com ↗</a>'
+        : '<span style="font-size:0.8rem;color:#94a3b8;"> · Nur Direktbuchung</span>';
+      return '<div class="uk-card" style="' + opacity + '">' +
+        '<div class="uk-type">' + esc(acc.type) + '</div>' +
+        '<h4><a href="' + esc(acc.website) + '" target="_blank">' + esc(acc.name) + '</a>' + bookBtn + '</h4>' +
+        '<div class="uk-price">' + esc(acc.price) + '</div>' +
+        '<p>' + esc(acc.desc) + '</p>' +
+        '<p><em>' + esc(acc.contact) + '</em></p>' +
+        '</div>';
+    }
+
+    function renderNightSection(night, idx) {
+      return '<div class="uk-stage">' +
+        '<h3>Nacht ' + (idx + 1) + ' — ' + esc(night.title.replace(/^Nacht \d+ — /, '')) + '</h3>' +
+        '<div class="uk-grid">' +
+        night.accommodations.map(renderAccCard).join('') +
+        '</div></div>';
+    }
+
+    function renderParkingBox() {
+      var p = window.PARKING;
+      return '<div class="parking-card">' +
+          '<div class="parking-badge">Empfohlen</div>' +
+          '<strong><a href="' + p.primary.link + '" target="_blank">' + esc(p.primary.name) + '</a></strong>' +
+          '<div class="parking-addr">' + esc(p.primary.address) + '</div>' +
+          '<div class="parking-cost">' + esc(p.primary.cost) + '</div>' +
+          '<p>' + esc(p.primary.notes) + '</p>' +
+        '</div>' +
+        '<div class="parking-card" style="opacity:0.82;">' +
+          '<div class="parking-badge parking-badge-alt">Sparoption</div>' +
+          '<strong><a href="' + p.alt.link + '" target="_blank">' + esc(p.alt.name) + '</a></strong>' +
+          '<div class="parking-addr">' + esc(p.alt.address) + '</div>' +
+          '<div class="parking-cost">' + esc(p.alt.cost) + '</div>' +
+          '<p>' + esc(p.alt.notes) + '</p>' +
+        '</div>';
+    }
+
+    function renderBookingTips() {
+      return '<div class="bp-infobox">' +
+        '<h3>Buchungs-Tipps</h3>' +
+        '<div class="bp-rules">' +
+          '<div class="bp-rule"><strong>Früh buchen</strong><p>Alle Unterkünfte sind kleine Familienbetriebe. Sommer 2026 füllt sich schnell — erste Nacht zuerst sichern.</p></div>' +
+          '<div class="bp-rule"><strong>Lagerfeuer bestätigen</strong><p>Bei Buchung kurz fragen: "Haben ihr einen Grillplatz?" — bei ländlichen Kmetijas fast immer vorhanden.</p></div>' +
+          '<div class="bp-rule"><strong>Bargeld dabei</strong><p>€50–100 Notfallbargeld — manche Bauernhöfe akzeptieren keine Karte.</p></div>' +
+          '<div class="bp-rule"><strong>Akkus laden anfragen</strong><p>Bei Buchung fragen: "Können wir 5 E-Bike-Akkus laden?" — 2 Mehrfachsteckdosen mitbringen.</p></div>' +
+        '</div></div>';
+    }
+
+    // ── Main render function ────────────────────────────────────────────────────
+
+    window.renderVersion = function (vId) {
+      var r = window.ROUTES[vId];
+      if (!r) { return; }
+
+      // Hero
+      document.getElementById('hero-tag').textContent = r.heroTag;
+      document.getElementById('hero-sub').textContent = r.breadcrumb;
+
+      // Version banner
+      document.getElementById('vb-label').textContent = 'V' + vId.slice(1) + ' – ' + r.label;
+      document.getElementById('vb-tagline').textContent = r.tagline;
+
+      // Stats
+      document.getElementById('stat-km').textContent = r.km;
+      document.getElementById('stat-hm').textContent = r.hm;
+      document.getElementById('stat-days').textContent = r.days;
+      document.getElementById('intro-text').textContent = r.introText;
+
+      // Stages
+      document.getElementById('etappen-content').innerHTML =
+        r.stages.map(renderStageCard).join('');
+
+      // Nights
+      document.getElementById('unterkuenfte-content').innerHTML =
+        r.nights.map(renderNightSection).join('') + renderBookingTips();
+    };
+
+    // ── Init on load ────────────────────────────────────────────────────────────
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Parking (static, same for all versions)
+      document.getElementById('parking-box').innerHTML = renderParkingBox();
+      // Initial version render
+      window.renderVersion(window.ACTIVE_ROUTE || 'v1');
+    });
+  </script>
+  <script src="tabs.js"></script>
 </body>
 </html>

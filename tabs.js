@@ -1,25 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var tabs = document.querySelectorAll('.gtab');
-  var allVC = document.querySelectorAll('.vc');
+  var tabs = document.querySelectorAll('.gtab[data-version]');
 
-  function switchVariant(variant) {
+  function switchVersion(vId) {
     tabs.forEach(function (t) {
-      t.classList.toggle('active', t.getAttribute('data-variant') === variant);
+      t.classList.toggle('active', t.getAttribute('data-version') === vId);
     });
-
-    allVC.forEach(function (el) {
-      el.classList.toggle('hidden', el.getAttribute('data-v') !== variant);
-    });
-
-    // Update map markers
-    if (window.updateMapVariant) {
-      window.updateMapVariant(variant);
-    }
+    window.ACTIVE_ROUTE = vId;
+    if (window.renderVersion) { window.renderVersion(vId); }
+    if (window.updateMapVariant) { window.updateMapVariant(vId); }
   }
 
   tabs.forEach(function (tab) {
     tab.addEventListener('click', function () {
-      switchVariant(tab.getAttribute('data-variant'));
+      switchVersion(tab.getAttribute('data-version'));
     });
   });
 });
